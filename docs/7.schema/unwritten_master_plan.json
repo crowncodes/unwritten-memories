@@ -1,0 +1,249 @@
+{
+  "project_overview": {
+    "name": "Unwritten - Life Simulation Card Game",
+    "architecture": "Flutter + Flame + Riverpod + Firebase + AI",
+    "total_duration_weeks": 52,
+    "estimated_completion": "2026-10-13"
+  },
+  "systems_analysis": {
+    "core_architecture": {
+      "game_engine": "Flame 1.20+ (from day 1, non-negotiable)",
+      "ui_framework": "Flutter 3.27+",
+      "state_management": "Riverpod 3.x (manual Flame integration)",
+      "backend": "Dart Frog + Firebase",
+      "local_storage": "Hive 2.2+",
+      "networking": "Dio 5.4+",
+      "audio": "audioplayers 6.1+",
+      "ai_models": {
+        "cloud": "Gemini 2.5 Pro / Flash 2.5",
+        "local": "Phi-3-mini (quantized)"
+      }
+    },
+    "core_systems": {
+      "card_system": "480 base cards, evolution, fusion mechanisms",
+      "relationship_system": "Levels 0-5, trust 0.0-1.0, capacity tracking",
+      "skill_system": "30 skills with XP progression",
+      "emotional_capacity": "0-10 scale with stressor tracking",
+      "memory_system": "4-tier context (active, recent, compressed, canonical)",
+      "tension_hooks": "Cross-season narrative tracking",
+      "dramatic_irony": "Knowledge gap scoring \u22650.6",
+      "multi_season": "8-10 seasons with continuity"
+    },
+    "performance_targets": {
+      "frame_rate": "60 FPS stable",
+      "memory_usage": "< 200MB",
+      "battery_drain": "< 10% per 30min",
+      "app_size": "< 50MB"
+    }
+  },
+  "implementation_phases": {
+    "phase_1_foundation": {
+      "name": "Core Architecture Setup",
+      "duration": "4-6 weeks",
+      "priority": "Critical",
+      "systems": [
+        "Flutter + Flame project structure",
+        "Basic component hierarchy",
+        "Riverpod 3.x state management setup",
+        "Firebase integration",
+        "Basic card display and physics",
+        "Development environment setup"
+      ],
+      "deliverables": [
+        "Working Flutter + Flame app",
+        "Basic card dragging physics",
+        "Firebase authentication",
+        "Project structure following clean architecture",
+        "Development tools configured"
+      ]
+    },
+    "phase_2_core_gameplay": {
+      "name": "Basic Game Loop",
+      "duration": "6-8 weeks",
+      "priority": "Critical",
+      "dependencies": [
+        "phase_1_foundation"
+      ],
+      "systems": [
+        "Turn-based gameplay loop",
+        "Resource management (energy, time, money)",
+        "Basic success calculation (7 modifiers)",
+        "Meter system (physical, mental, social, emotional)",
+        "Basic card evolution mechanics",
+        "Local storage with Hive"
+      ],
+      "deliverables": [
+        "Playable daily turn system",
+        "Resource tracking and deduction",
+        "Success/failure mechanics",
+        "Basic card evolution",
+        "Save/load functionality"
+      ]
+    },
+    "phase_3_relationships": {
+      "name": "Relationship System",
+      "duration": "4-6 weeks",
+      "priority": "High",
+      "dependencies": [
+        "phase_2_core_gameplay"
+      ],
+      "systems": [
+        "NPC system with personality profiles",
+        "Relationship levels 0-5 progression",
+        "Trust system 0.0-1.0",
+        "Basic conversation system",
+        "Relationship-specific cards"
+      ],
+      "deliverables": [
+        "NPC interaction system",
+        "Relationship progression tracking",
+        "Character-specific dialogue",
+        "Relationship milestone events"
+      ]
+    },
+    "phase_4_narrative": {
+      "name": "Narrative Systems",
+      "duration": "6-8 weeks",
+      "priority": "High",
+      "dependencies": [
+        "phase_3_relationships"
+      ],
+      "systems": [
+        "Season structure (12/24/36 weeks)",
+        "Aspiration system",
+        "3-act narrative arc",
+        "Basic AI integration (cloud)",
+        "Week/season progression"
+      ],
+      "deliverables": [
+        "Complete season gameplay",
+        "Aspiration tracking and completion",
+        "Narrative arc progression",
+        "AI-generated content",
+        "Season transition system"
+      ]
+    },
+    "phase_5_advanced_systems": {
+      "name": "Advanced Features",
+      "duration": "8-10 weeks",
+      "priority": "Medium",
+      "dependencies": [
+        "phase_4_narrative"
+      ],
+      "systems": [
+        "Emotional capacity tracking (0-10 scale)",
+        "Memory resonance system",
+        "Tension hook management",
+        "Dramatic irony detection",
+        "Card fusion mechanics",
+        "Skill progression with OCEAN modifiers"
+      ],
+      "deliverables": [
+        "Emotional capacity calculation",
+        "Memory system with resonance",
+        "Complex card interactions",
+        "Advanced narrative features"
+      ]
+    },
+    "phase_6_multi_season": {
+      "name": "Multi-Season Continuity",
+      "duration": "6-8 weeks",
+      "priority": "Medium",
+      "dependencies": [
+        "phase_5_advanced_systems"
+      ],
+      "systems": [
+        "4-tier memory context system",
+        "Cross-season continuity",
+        "Life bookshelf novel generation",
+        "Character retirement system",
+        "Advanced AI routing (hybrid cloud/local)"
+      ],
+      "deliverables": [
+        "Complete multi-season experience",
+        "Novel generation system",
+        "Character lifecycle management",
+        "Optimized AI cost management"
+      ]
+    },
+    "phase_7_polish": {
+      "name": "Polish & Optimization",
+      "duration": "4-6 weeks",
+      "priority": "Medium",
+      "dependencies": [
+        "phase_6_multi_season"
+      ],
+      "systems": [
+        "Performance optimization (60 FPS)",
+        "Audio and haptic feedback",
+        "Advanced visual effects",
+        "UI/UX refinement",
+        "Testing and bug fixes"
+      ],
+      "deliverables": [
+        "Optimized performance",
+        "Polished user experience",
+        "Complete audio system",
+        "Production-ready app"
+      ]
+    }
+  },
+  "timeline": {
+    "phase_1_foundation": {
+      "start": "2025-10-14",
+      "end": "2025-11-25",
+      "duration_weeks": 6
+    },
+    "phase_2_core_gameplay": {
+      "start": "2025-11-28",
+      "end": "2026-01-23",
+      "duration_weeks": 8
+    },
+    "phase_3_relationships": {
+      "start": "2026-01-26",
+      "end": "2026-03-09",
+      "duration_weeks": 6
+    },
+    "phase_4_narrative": {
+      "start": "2026-03-12",
+      "end": "2026-05-07",
+      "duration_weeks": 8
+    },
+    "phase_5_advanced_systems": {
+      "start": "2026-05-10",
+      "end": "2026-07-19",
+      "duration_weeks": 10
+    },
+    "phase_6_multi_season": {
+      "start": "2026-07-22",
+      "end": "2026-09-16",
+      "duration_weeks": 8
+    },
+    "phase_7_polish": {
+      "start": "2026-09-19",
+      "end": "2026-10-31",
+      "duration_weeks": 6
+    }
+  },
+  "dependencies": {
+    "phase_1_foundation": [],
+    "phase_2_core_gameplay": [
+      "phase_1_foundation"
+    ],
+    "phase_3_relationships": [
+      "phase_2_core_gameplay"
+    ],
+    "phase_4_narrative": [
+      "phase_3_relationships"
+    ],
+    "phase_5_advanced_systems": [
+      "phase_4_narrative"
+    ],
+    "phase_6_multi_season": [
+      "phase_5_advanced_systems"
+    ],
+    "phase_7_polish": [
+      "phase_6_multi_season"
+    ]
+  }
+}

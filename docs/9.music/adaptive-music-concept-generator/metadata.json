@@ -1,0 +1,5 @@
+{
+  "name": "Adaptive Music Concept Generator",
+  "description": "A tool to configure parameters for a contextual music generation system based on six mutually exclusive concept groups. It generates a detailed prompt for an AI to describe the resulting music.",
+  "requestFramePermissions": []
+}

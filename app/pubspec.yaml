@@ -40,6 +40,7 @@ dependencies:
   tflite_flutter: ^0.11.0
   # Note: tflite_flutter_helper removed due to dependency conflicts
   # We'll implement helper functions directly as needed
+  google_generative_ai: ^0.4.6  # Direct Google AI SDK (simpler than Firebase Vertex AI)
 
   # Audio & Haptics
   audioplayers: ^6.1.0

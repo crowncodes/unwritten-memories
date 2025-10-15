@@ -1,412 +1,335 @@
-# Music Generation Framework - File Index
-## Directory Overview
+# Music System - Index
 
-This directory contains the complete **6-Group Mutually Exclusive Music Generation Framework** designed for adaptive game music. The framework provides precise control over contextual music generation through 18 parameters organized into 6 conceptual groups.
-
----
-
-## 📊 Quick Reference
-
-| File Type | Count | Purpose |
-|-----------|-------|---------|
-| **Python Scripts** | 3 | Framework definition, scenario generation, technical implementation |
-| **Visualizations** | 2 | Treemap structure, radar chart scenarios |
-| **Data Files** | 2 | Scenario parameters, technical implementation specs |
-| **Documentation** | 1 | This index |
+**Version**: 1.0  
+**Last Updated**: October 15, 2025  
+**Status**: Active
 
 ---
 
-## 📁 File Descriptions
+## 🎯 Start Here
 
-### Python Scripts (Generators)
+**New to the music system?** Begin with the master documentation:
 
-#### `01_framework_definition.py`
-**Purpose:** Core framework definition and structure documentation
-
-**What it does:**
-- Defines all 6 mutually exclusive concept groups
-- Specifies the 18 parameter sliders (3 per group)
-- Documents constraints (sum-to-100 vs. independent)
-- Provides examples of parameter combinations
-- Outputs framework structure to console
-
-**When to use:**
-- Understanding the theoretical foundation
-- Reference for parameter ranges and descriptions
-- Verification of framework completeness
-- Educational purposes for team members
-
-**Output:** Console printout of framework structure and details
-
-**Dependencies:** `pandas`, `numpy`
+📖 **[00-MUSIC-SYSTEM-MASTER.md](./00-MUSIC-SYSTEM-MASTER.md)** - Complete system architecture, MSV conversion formulas, stem library schema, and workflow documentation.
 
 ---
 
-#### `02_scenario_generation.py`
-**Purpose:** Generate real-world game scenario configurations
+## 📁 Directory Structure
 
-**What it does:**
-- Creates 5 example game scenarios with complete parameter settings:
-  - Tense Boss Battle
-  - Peaceful Village
-  - Mysterious Exploration
-  - Romantic Dialogue
-  - High-Speed Chase
-- Visualizes parameter values as ASCII bar charts
-- Exports scenario data to CSV for use in other tools
-
-**When to use:**
-- Creating test scenarios for implementation
-- Understanding how parameters combine for specific moods
-- Generating reference configurations
-- Training data for ML models
-
-**Output:** `scenario_parameters_data.csv`
-
-**Dependencies:** `pandas`
-
----
-
-#### `03_technical_implementation.py`
-**Purpose:** Technical specifications for system implementation
-
-**What it does:**
-- Defines system architecture requirements
-- Specifies update timing strategies (immediate/phrase/structural)
-- Documents constraint handling for each group
-- Outlines audio processing pipeline (6 steps)
-- Calculates system statistics and performance metrics
-- Exports technical specifications to CSV
-
-**When to use:**
-- Planning system implementation
-- Performance optimization
-- Architecture design decisions
-- Resource allocation planning
-
-**Output:** `technical_implementation_data.csv`
-
-**Dependencies:** `pandas`
-
----
-
-### Visualizations
-
-#### `framework_visualization_treemap.png`
-**Type:** Treemap Visualization
-
-**What it shows:**
-- All 6 concept groups color-coded:
-  - **Cyan:** Emotional Arousal & Valence
-  - **Red:** Temporal & Rhythmic Character
-  - **Green:** Harmonic & Tonal Architecture
-  - **Teal:** Textural Density & Space
-  - **Yellow:** Cultural & Stylistic Identity
-  - **Brown:** Narrative & Contextual Function
-- 18 parameter sliders arranged hierarchically
-- Visual proportions showing equal weight per group
-
-**When to use:**
-- Presentations and documentation
-- Team education on framework structure
-- Visual reference during development
-- UI/UX inspiration for parameter control interfaces
-
-**Dimensions:** 1600×900px
-
----
-
-#### `scenario_fingerprints_radar.png`
-**Type:** Radar Chart Visualization
-
-**What it shows:**
-- 5 game scenarios plotted on 8 key dimensions:
-  - Tension
-  - Valence
-  - Energy
-  - Narrative
-  - Presence
-  - Density
-  - Consonance
-  - Tempo
-- Color-coded scenario "fingerprints":
-  - **Cyan:** Tense Boss Battle
-  - **Coral:** Peaceful Village
-  - **Green:** Mysterious Exploration
-  - **Gray:** Romantic Dialogue
-  - **Yellow:** High-Speed Chase
-
-**When to use:**
-- Comparing scenarios at a glance
-- Understanding musical "shape" of different contexts
-- Presentations showing framework capabilities
-- Identifying parameter patterns
-
-**Dimensions:** 1600×1200px
-
----
-
-### Data Files
-
-#### `scenario_parameters_data.csv`
-**Type:** Structured Data (CSV)
-
-**Contents:**
-- 5 rows (scenarios) × 18 columns (parameters)
-- Complete parameter configurations for:
-  - Tense Boss Battle
-  - Peaceful Village
-  - Mysterious Exploration
-  - Romantic Dialogue
-  - High-Speed Chase
-- All values in 0-100 range
-
-**When to use:**
-- Loading test scenarios into music generation system
-- Training machine learning models
-- Creating additional scenarios by interpolation
-- Unit testing parameter handling
-- Data analysis and visualization
-
-**Format:** CSV with headers
-
-**Generated by:** `02_scenario_generation.py`
-
----
-
-#### `technical_implementation_data.csv`
-**Type:** Structured Data (CSV)
-
-**Contents:**
-- 6 rows (parameter groups) × 4 columns:
-  - Parameter Group name
-  - Implementation Type (continuous/weighted blend/etc.)
-  - Update Timing (immediate/phrase/structural)
-  - Constraint Type (independent/sum-to-100)
-
-**When to use:**
-- Implementation planning
-- Architecture documentation
-- Performance optimization strategies
-- Team onboarding materials
-
-**Format:** CSV with headers
-
-**Generated by:** `03_technical_implementation.py`
-
----
-
-## 🔄 Workflow: Regenerating Assets
-
-If you need to regenerate the data files and update visualizations:
-
-### Step 1: Review Framework
-```bash
-python 01_framework_definition.py
 ```
-Verify framework structure is correct
-
-### Step 2: Generate Scenarios
-```bash
-python 02_scenario_generation.py
+docs/9.music/
+├── 00-INDEX.md (this file)
+├── 00-MUSIC-SYSTEM-MASTER.md          ⭐ START HERE
+├── MSV_CONVERSION_PROMPT.md            (Reference: conversion formulas)
+├── MUSIC_SYSTEM_IMPLEMENTATION.md      (Reference: Flutter implementation)
+├── LYRIA_STEM_GENERATOR_GEM_PROMPT.md (Reference: Lyria generation)
+├── adaptive-music-concept-generator/   (Cloud Run app source)
+│   ├── services/
+│   │   ├── msvConverter.ts
+│   │   ├── lyriaPromptGenerator.ts
+│   │   └── stemProfileGenerator.ts
+│   └── ...
+└── _archive/                           (Old documentation)
 ```
-Creates/updates: `scenario_parameters_data.csv`
-
-### Step 3: Export Technical Specs
-```bash
-python 03_technical_implementation.py
-```
-Creates/updates: `technical_implementation_data.csv`
-
-### Step 4: Update Visualizations
-- Treemap and radar chart were generated using the data
-- To recreate, use visualization tools (Plotly, Matplotlib, etc.)
-- Or use the existing images as reference templates
 
 ---
 
-## 🎯 Usage Scenarios
+## 🏗️ System Architecture Overview
+
+The music system uses a **3-layer architecture**:
+
+### Layer 1: Design Tool (Cloud Run)
+- **Location**: `adaptive-music-concept-generator/`
+- **URL**: https://adaptive-music-concept-generator-649888100218.us-west1.run.app
+- **Purpose**: Offline stem design and parameter exploration
+- **Output**: MSV JSON + Lyria prompts + stem metadata
+
+### Layer 2: Generation Pipeline (Lyria)
+- **Purpose**: Batch generation of high-quality music stems
+- **Process**: Design tool → Lyria API → Convert to Opus → Add to library
+- **Output**: `app/assets/music/stems/library.json`
+
+### Layer 3: Runtime System (Flutter + Flame)
+- **Location**: `app/lib/features/music/`
+- **Purpose**: Real-time stem selection and mixing
+- **Process**: Game state → MSV → Library query → Flame mixer
+
+---
+
+## 📚 Documentation Map
+
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| **00-MUSIC-SYSTEM-MASTER.md** | Complete system architecture | Everyone |
+| **01-QUICK-REFERENCE.md** | Cheat sheet and common workflows | Everyone |
+| **02-msv-conversion-formulas.md** | 6-Group → MSV conversion formulas | Engineers |
+| **03-lyria-generation-guide.md** | Lyria prompt creation and Gemini Gem setup | Audio designers |
+| **04-flutter-implementation.md** | Flutter/Dart implementation details | Flutter devs |
+| **05-generation-workflow.md** | End-to-end stem generation workflow | Audio designers |
+| library-schema.md | Stem library JSON schema | Backend devs |
+
+## 🛠️ Scripts & Tools (Layer 2: Generation Pipeline)
+
+| Script | Purpose | Layer | Status |
+|--------|---------|-------|--------|
+| `scripts/convert_to_opus.ps1` | Convert WAV stems to Opus @ 48kHz | Layer 2 | ✅ Active |
+| `scripts/validate_stems.ps1` | Validate stem duration, format, loop points | Layer 2 | ✅ Active |
+| `scripts/generate_silence_stems.ps1` | Generate silent test stems for architecture validation | Layer 2 | ✅ Active |
+| `scripts/generate_lyria_stems.py` | Lyria API integration template (no public API yet) | Layer 2 | ⚠️ Template |
+
+📖 **See**: `scripts/README.md` for detailed usage instructions
+
+---
+
+## 🚀 Quick Start Workflows
 
 ### For Game Developers
-**Files to reference:**
-1. `scenario_fingerprints_radar.png` - Visual understanding
-2. `scenario_parameters_data.csv` - Implementation examples
-3. `technical_implementation_data.csv` - System requirements
 
-**Workflow:**
-- Use CSV data to test music system
-- Reference radar chart for expected outputs
-- Follow technical specs for performance
+**Goal**: Understand how music adapts to gameplay
 
----
+1. Read: `00-MUSIC-SYSTEM-MASTER.md` → "Game State Integration" section
+2. Review: `app/lib/features/music/data/models/music_state_vector.dart`
+3. Test: Run game and observe music changes with life meter adjustments
 
 ### For Audio Designers
-**Files to reference:**
-1. `framework_visualization_treemap.png` - Parameter structure
-2. `02_scenario_generation.py` - Creating new scenarios
-3. `scenario_parameters_data.csv` - Reference configurations
 
-**Workflow:**
-- Understand parameter relationships via treemap
-- Modify scenario generation script for new contexts
-- Export custom scenarios to CSV
+**Goal**: Create new stem packages
 
----
+1. Open: https://adaptive-music-concept-generator-649888100218.us-west1.run.app
+2. Adjust: 6-Group Framework sliders to desired musical character
+3. Generate: Click "Generate Stem Package" → Download MSV + Lyria prompt
+4. Generate stems: Use Lyria API with generated prompt
+5. Package: Convert to Opus @ 48kHz, add to library
+
+### For Flutter Engineers
+
+**Goal**: Implement music system integration
+
+1. Read: `00-MUSIC-SYSTEM-MASTER.md` → "Runtime System" section
+2. Review: `app/lib/features/music/domain/usecases/match_stem_to_msv.dart`
+3. Implement: Flame audio mixer based on FlameAudio or SoLoud examples
+4. Test: Load library, match stems, verify crossfades
 
 ### For System Architects
-**Files to reference:**
-1. `01_framework_definition.py` - Core structure
-2. `03_technical_implementation.py` - Implementation specs
-3. `technical_implementation_data.csv` - Constraint handling
 
-**Workflow:**
-- Use framework definition as specification
-- Follow technical implementation guidelines
-- Reference constraint types for each group
+**Goal**: Understand complete data flow
+
+1. Read: `00-MUSIC-SYSTEM-MASTER.md` → "Architecture Overview"
+2. Review: `adaptive-music-concept-generator/services/` TypeScript services
+3. Review: `app/lib/features/music/data/models/stem_library.dart`
+4. Document: Any new components or integration points
 
 ---
 
-### For ML/AI Engineers
-**Files to reference:**
-1. `scenario_parameters_data.csv` - Training examples
-2. `01_framework_definition.py` - Feature definitions
-3. `technical_implementation_data.csv` - Update strategies
+## 🔗 Key Files by Layer
 
-**Workflow:**
-- Use scenario data as training set
-- Expand with interpolated examples
-- Model parameter dependencies
-- Implement real-time adaptation
+### Layer 1: Design Tool (TypeScript)
 
----
+```
+adaptive-music-concept-generator/
+├── App.tsx                                (Main UI component)
+├── types.ts                               (TypeScript interfaces)
+├── constants.ts                           (6-Group definitions)
+└── services/
+    ├── msvConverter.ts                    (6-Group → MSV conversion)
+    ├── lyriaPromptGenerator.ts            (MSV → Lyria prompt)
+    └── stemProfileGenerator.ts            (Generate metadata)
+```
 
-## 📐 Framework Summary
+### Layer 2: Generation Pipeline (Scripts)
 
-### The 6 Mutually Exclusive Groups
+- Lyria API integration (to be documented)
+- Opus conversion scripts (to be created)
+- Library management scripts (to be created)
 
-| # | Group Name | Constraint | Purpose |
-|---|------------|------------|---------|
-| 1 | **Emotional Arousal & Valence** | Independent | Psychological affect |
-| 2 | **Temporal & Rhythmic Character** | Independent | Time/rhythm flow |
-| 3 | **Harmonic & Tonal Architecture** | Sum-to-100 | Chord structure |
-| 4 | **Textural Density & Space** | Independent | Spatial density |
-| 5 | **Cultural & Stylistic Identity** | Sum-to-100 | Genre identity |
-| 6 | **Narrative & Contextual Function** | Independent | Functional role |
+### Layer 3: Runtime System (Dart/Flutter)
 
-**Total Parameters:** 18 (3 per group)
-
-**Unique Contexts:** ~34 million with 10-point resolution
-
----
-
-## 🔗 Related Documentation
-
-For complete framework documentation, see:
-- `../1.concept/24-music-generation.md` - Complete theoretical framework
-- Framework overview and implementation guide
+```
+app/lib/features/music/
+├── data/models/
+│   ├── music_state_vector.dart           (MSV calculation from game state)
+│   └── stem_library.dart                 (Library loader & parser)
+├── domain/usecases/
+│   └── match_stem_to_msv.dart            (Stem matching algorithm)
+└── presentation/components/
+    └── flame_stem_mixer.dart             (Flame audio mixer - to be created)
+```
 
 ---
 
-## 📝 Maintenance Notes
+## 📊 Priority Tier 1 Stems
 
-### File Version History
-- **Created:** October 14, 2025
-- **Last Updated:** October 14, 2025
-- **Framework Version:** 2.0
+**Target**: 30 stem packages (10 emotional states × 3 variants)
 
-### To Add New Scenarios
-1. Edit `02_scenario_generation.py`
-2. Add new scenario dictionary to `contextual_scenarios`
-3. Run script to regenerate CSV
-4. Update visualizations if needed
+| # | State | Capacity | Valence | Arousal | Variants |
+|---|-------|----------|---------|---------|----------|
+| 1 | calm_positive | 5-7 | 0.6-0.8 | 0.2-0.4 | Morning/Evening/Crisis |
+| 2 | melancholic | 2-4 | 0.2-0.4 | 0.2-0.4 | Morning/Evening/Crisis |
+| 3 | motivated | 6-8 | 0.5-0.7 | 0.6-0.8 | Morning/Evening/Crisis |
+| 4 | exhausted | 1-3 | 0.3-0.5 | 0.1-0.3 | Morning/Evening/Crisis |
+| 5 | anxious | 3-5 | 0.4-0.6 | 0.4-0.6 | Morning/Evening/Crisis |
+| 6 | content | 7-9 | 0.7-0.9 | 0.2-0.4 | Morning/Evening/Crisis |
+| 7 | excited | 6-8 | 0.7-0.9 | 0.7-0.9 | Morning/Evening/Crisis |
+| 8 | worried | 4-6 | 0.4-0.6 | 0.5-0.7 | Morning/Evening/Crisis |
+| 9 | sad | 2-4 | 0.1-0.3 | 0.2-0.4 | Morning/Evening/Crisis |
+| 10 | reflective | 5-7 | 0.4-0.6 | 0.3-0.5 | Morning/Evening/Crisis |
 
-### To Modify Framework
-1. Edit `01_framework_definition.py`
-2. Update all dependent scripts (02, 03)
-3. Regenerate all data files
-4. Update visualizations
-5. Update main documentation (`24-music-generation.md`)
+See `00-MUSIC-SYSTEM-MASTER.md` for complete specifications.
 
 ---
 
-## 🎵 Quick Start Guide
+## 🎵 Music State Vector (MSV) Parameters
 
-**New to this framework?** Start here:
+The MSV consists of 13 parameters organized into 5 groups:
 
-1. **Read:** `../1.concept/24-music-generation.md` (complete theory)
-2. **View:** `framework_visualization_treemap.png` (structure)
-3. **Review:** `scenario_fingerprints_radar.png` (examples)
-4. **Explore:** `scenario_parameters_data.csv` (test data)
-5. **Implement:** `technical_implementation_data.csv` (specs)
+### Affect (Emotional State)
+- `valence` (0.0-1.0): Negative to positive
+- `arousal` (0.0-1.0): Calm to energetic
+- `tension` (0.0-1.0): Relaxed to tense
+- `agency` (0.0-1.0): Passive to active
 
-**Ready to implement?**
+### Harmony (Tonal Character)
+- `brightness` (0.0-1.0): Dark to bright
+- `consonance` (0.0-1.0): Dissonant to consonant
+- `cadentialDrive` (0.0-1.0): Static to resolving
 
-1. Load scenario data from CSV
-2. Follow constraint handling from technical specs
-3. Use update timing strategies per group
-4. Test with provided scenarios
-5. Expand with custom configurations
+### Temporal (Rhythmic Feel)
+- `tempo` (0.0-1.0): Slow to fast (58-100 BPM)
+- `regularity` (0.0-1.0): Irregular to regular
+
+### Orchestration (Instrumentation)
+- `sparsity` (1-5): Dense to sparse (number of stems)
+- `weights`: Relative weights for each stem type
+
+### Texture (Spatial & Intimacy)
+- `intimacy` (0.0-1.0): Expansive to intimate
+- `privacy` (0.0-1.0): Public to private
+
+---
+
+## 🔄 Typical Workflow
+
+### End-to-End: Creating a New Stem Package
+
+1. **Design** (Cloud Run app)
+   - Adjust 6-Group Framework sliders
+   - Preview emotional character
+   - Generate MSV + Lyria prompt + metadata
+
+2. **Generate** (Lyria API)
+   - Use generated prompt
+   - Generate individual stems (pad, piano, rhythm, etc.)
+   - Download audio files
+
+3. **Process** (Command line)
+   - Convert stems to Opus @ 48kHz
+   - Validate loop points
+   - Create directory structure
+
+4. **Integrate** (Flutter app)
+   - Add stem entry to `library.json`
+   - Copy stem files to `assets/music/stems/`
+   - Test in game
+
+5. **Verify** (Runtime)
+   - Check stem matching algorithm
+   - Verify crossfading works
+   - Confirm emotional capacity reflection
+
+---
+
+## 📦 Assets Structure
+
+```
+app/assets/music/stems/
+├── library.json                          (Master index)
+├── library-schema.md                     (Schema documentation)
+└── [stem_package_id]/
+    ├── pad.opus
+    ├── piano.opus
+    ├── light_rhythm.opus (optional)
+    ├── melody.opus (optional)
+    └── texture.opus (optional)
+```
+
+---
+
+## 🛠️ Development Status
+
+### ✅ Completed
+- [x] Master documentation created
+- [x] TypeScript services implemented (MSV converter, Lyria prompt generator, stem profile generator)
+- [x] Dart library loader implemented
+- [x] Stem matching algorithm implemented
+- [x] Library schema documented
+- [x] Old docs archived
+
+### 🚧 In Progress
+- [ ] Flame audio mixer component
+- [ ] UI integration for "Generate Stem Package" button in Cloud Run app
+- [ ] Generation pipeline scripts
+- [ ] Priority Tier 1 stem generation (30 packages)
+
+### 📋 Planned
+- [ ] Lyria API integration documentation
+- [ ] Batch processing scripts for stem generation
+- [ ] Quality validation tools
+- [ ] Training data collection system
+
+---
+
+## 📚 Related Documentation
+
+- **Game Design**: `docs/master_truths_canonical_spec_v_1_2.md` (Section 16: Emotional Authenticity, Section 17: Tension Injection)
+- **Flame Engine**: `docs/master_flutter_flame_spec_v_1_0.md` (Section III: Audio System)
+- **Flutter MSV**: `app/lib/features/music/data/models/music_state_vector.dart`
+- **Cloud Run Repo**: https://github.com/crowncodes/unwritten-adaptive-music
+
+---
+
+## 🔐 Archived Documentation
+
+Old conflicting documentation has been moved to `_archive/`:
+- Python framework definition scripts
+- Old scenario generation
+- Technical implementation specs
+- Various conversion prompts
+- Old visualization files
+
+**Note**: Archived files are kept for historical reference but should not be used for new development. Always refer to `00-MUSIC-SYSTEM-MASTER.md` for current system architecture.
 
 ---
 
 ## 💡 Tips & Best Practices
 
-### Working with Parameters
-- **Independent groups** (1, 2, 4, 6): Can set any value 0-100
-- **Sum-to-100 groups** (3, 5): Must normalize to 100%
-- Always validate constraints before processing
+### For Audio Design
+- Start with existing emotional states, create variants
+- Use morning/evening/crisis variants for day phase differentiation
+- Keep intimacy high (>0.7) for low capacity states (≤4)
+- Test stems at different volume combinations
 
-### Creating New Scenarios
-- Start with existing scenarios as templates
-- Adjust 1-2 groups at a time to understand impact
-- Use interpolation between known scenarios
-- Test edge cases (all 0s, all 100s, mixed)
+### For Implementation
+- Always use `StemLibrary.findBestMatch()` for stem selection
+- Implement crossfading over 2 seconds minimum
+- Use Flame's built-in audio system (FlameAudio or SoLoud)
+- Cache loaded stems to reduce file I/O
 
-### Performance Optimization
-- Cache computed musical fragments
-- Update groups at different rates (see technical specs)
-- Batch parameter changes when possible
-- Use streaming for sample playback
-
-### Common Pitfalls
-- ❌ Forgetting to normalize sum-to-100 groups
-- ❌ Updating all parameters simultaneously
-- ❌ Ignoring update timing strategies
-- ❌ Mixing cultural styles without clear intent
+### For Performance
+- Pre-load library.json at app startup
+- Lazy-load individual stem files
+- Keep active stems in memory, unload unused ones
+- Target <16ms frame time for 60 FPS
 
 ---
 
-## 🛠️ Development Roadmap
+## 📧 Support
 
-### Phase 1: Foundation ✓
-- [x] Framework definition
-- [x] Example scenarios
-- [x] Technical specifications
-- [x] Visualizations
-
-### Phase 2: Implementation (Next)
-- [ ] Parameter validation system
-- [ ] Constraint enforcement
-- [ ] Basic audio generation
-- [ ] Scenario loading system
-
-### Phase 3: Enhancement (Future)
-- [ ] ML-based parameter suggestion
-- [ ] Real-time adaptation
-- [ ] Player preference learning
-- [ ] Advanced transition smoothing
+- **System architecture questions**: See `00-MUSIC-SYSTEM-MASTER.md`
+- **Conversion formulas**: See `MSV_CONVERSION_PROMPT.md`
+- **Flutter implementation**: See `MUSIC_SYSTEM_IMPLEMENTATION.md`
+- **Cloud Run app**: https://github.com/crowncodes/unwritten-adaptive-music
 
 ---
 
-## 📧 Contact & Support
-
-For questions about this framework:
-- Framework Design: See `24-music-generation.md`
-- Implementation: Reference technical specs
-- Custom Scenarios: Modify generation scripts
-
----
-
-*This index is part of the Unwritten adaptive music generation system.*  
-*Framework Version 2.0 - October 2025*
-
+*This index is part of the Lifebond adaptive music system.*  
+*Version 1.0 - October 2025*

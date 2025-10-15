@@ -1,0 +1,1409 @@
+{
+  "title": "Unwritten Data Contract Specification",
+  "version": "1.2.0",
+  "date": "2025-10-14",
+  "description": "Comprehensive data structure specification for tracking player progress, character development, NPC relationships, and all game systems in Unwritten.",
+  "core_principles": {
+    "emotional_authenticity": "All data structures must support authentic emotional experiences with capacity tracking (0-10 scale)",
+    "numerical_grounding": "Every numerical assignment must have: anchor (qualitative tier), calculate (explicit formula), validate (narrative matches number)",
+    "multi_season_continuity": "Characters persist across 8-10 seasons with full memory and relationship history",
+    "novel_quality_narratives": "All interactions aim for literary-quality storytelling with 150-200 word responses"
+  },
+  "player_character_schema": {
+    "PlayerCharacter": {
+      "description": "Core player character data structure",
+      "required_fields": [
+        "characterId",
+        "name",
+        "age",
+        "currentSeason",
+        "totalWeeksLived",
+        "unwrittenshelf"
+      ],
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "Unique identifier for character",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "description": "Character display name"
+        },
+        "age": {
+          "type": "integer",
+          "description": "Current character age (starts at 28)",
+          "minimum": 28,
+          "maximum": 65
+        },
+        "currentSeason": {
+          "type": "integer",
+          "description": "Current season number (1-10)",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "totalWeeksLived": {
+          "type": "integer",
+          "description": "Total weeks lived across all seasons"
+        },
+        "personality": {
+          "$ref": "#/definitions/OCEANPersonality"
+        },
+        "emotionalCapacity": {
+          "$ref": "#/definitions/EmotionalCapacity"
+        },
+        "lifeDirection": {
+          "type": "string",
+          "enum": [
+            "Creative Fulfillment",
+            "Financial Security",
+            "Deep Relationships",
+            "Personal Freedom",
+            "Family Legacy",
+            "Master a Craft",
+            "Social Impact",
+            "Discover Who You Are",
+            "Balance Everything"
+          ]
+        },
+        "currentAspiration": {
+          "$ref": "#/definitions/Aspiration"
+        },
+        "meters": {
+          "$ref": "#/definitions/PlayerMeters"
+        },
+        "skills": {
+          "$ref": "#/definitions/SkillSet"
+        },
+        "resources": {
+          "$ref": "#/definitions/PlayerResources"
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Relationship"
+          }
+        },
+        "unwrittenshelf": {
+          "$ref": "#/definitions/Unwrittenshelf"
+        },
+        "memoryDatabase": {
+          "$ref": "#/definitions/MultiTierMemorySystem"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "OCEANPersonality": {
+      "description": "Big Five personality model with evolution tracking",
+      "type": "object",
+      "required_fields": [
+        "openness",
+        "conscientiousness",
+        "extraversion",
+        "agreeableness",
+        "neuroticism"
+      ],
+      "properties": {
+        "openness": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Curiosity, creativity, willingness to experience new things"
+        },
+        "conscientiousness": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Organization, discipline, reliability"
+        },
+        "extraversion": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Social energy, assertiveness, comfort in groups"
+        },
+        "agreeableness": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Cooperation, empathy, concern for others"
+        },
+        "neuroticism": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Emotional volatility, tendency toward negative emotions"
+        },
+        "evolutionHistory": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/PersonalitySnapshot"
+          },
+          "description": "History of personality changes over time"
+        }
+      }
+    },
+    "EmotionalCapacity": {
+      "description": "Master Truths v1.2 emotional capacity tracking (0-10 scale)",
+      "type": "object",
+      "required_fields": [
+        "currentCapacity",
+        "baselineCapacity",
+        "activeStressors"
+      ],
+      "properties": {
+        "currentCapacity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "description": "Current emotional capacity"
+        },
+        "baselineCapacity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "description": "Character's typical stable capacity"
+        },
+        "activeStressors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Stressor"
+          },
+          "description": "Current stressors affecting capacity"
+        },
+        "capacityTier": {
+          "type": "string",
+          "enum": [
+            "CRISIS",
+            "VERY_LOW",
+            "LOW",
+            "MODERATE",
+            "HIGH"
+          ],
+          "description": "Calculated tier based on current capacity"
+        },
+        "capacityHistory": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CapacitySnapshot"
+          },
+          "description": "Historical capacity tracking for pattern recognition"
+        },
+        "supportAvailability": {
+          "type": "object",
+          "properties": {
+            "maxSupportLevel": {
+              "type": "number",
+              "description": "Maximum support level can provide (capacity + 2 rule)"
+            },
+            "canProvideEmotionalSupport": {
+              "type": "boolean"
+            },
+            "canHandleCrisis": {
+              "type": "boolean"
+            },
+            "needsSupport": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "Stressor": {
+      "type": "object",
+      "required_fields": [
+        "type",
+        "severity",
+        "penalty"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "workOverload",
+            "relationshipTension",
+            "financialPressure",
+            "healthConcerns",
+            "deadlinePressure"
+          ]
+        },
+        "severity": {
+          "type": "number"
+        },
+        "penalty": {
+          "type": "number"
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Weeks active"
+        }
+      }
+    },
+    "PlayerMeters": {
+      "description": "Four core meters affecting capacity calculation",
+      "type": "object",
+      "required_fields": [
+        "physical",
+        "mental",
+        "social",
+        "emotional"
+      ],
+      "properties": {
+        "physical": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Physical health and energy"
+        },
+        "mental": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Mental clarity and focus"
+        },
+        "social": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Social connections and support"
+        },
+        "emotional": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Emotional well-being and resilience"
+        }
+      }
+    },
+    "Aspiration": {
+      "description": "Player's current season goal with progress tracking",
+      "type": "object",
+      "required_fields": [
+        "id",
+        "name",
+        "progress",
+        "season",
+        "seasonLength"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "progress": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Completion percentage"
+        },
+        "season": {
+          "type": "integer"
+        },
+        "seasonLength": {
+          "type": "integer",
+          "enum": [
+            12,
+            24,
+            36
+          ],
+          "description": "Weeks in season (player choice)"
+        },
+        "currentWeek": {
+          "type": "integer"
+        },
+        "currentAct": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3
+          ],
+          "description": "Three-act narrative structure"
+        },
+        "skillRequirements": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "description": "Required skill level for aspiration"
+          }
+        },
+        "tensionHooks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TensionHook"
+          }
+        }
+      }
+    },
+    "SkillSet": {
+      "description": "All 30 skills with XP and level tracking",
+      "type": "object",
+      "properties": {
+        "creative": {
+          "type": "object",
+          "properties": {
+            "photography": {
+              "$ref": "#/definitions/Skill"
+            },
+            "writing": {
+              "$ref": "#/definitions/Skill"
+            },
+            "painting": {
+              "$ref": "#/definitions/Skill"
+            },
+            "musicPerformance": {
+              "$ref": "#/definitions/Skill"
+            },
+            "musicComposition": {
+              "$ref": "#/definitions/Skill"
+            },
+            "design": {
+              "$ref": "#/definitions/Skill"
+            },
+            "videoProduction": {
+              "$ref": "#/definitions/Skill"
+            },
+            "acting": {
+              "$ref": "#/definitions/Skill"
+            }
+          }
+        },
+        "professional": {
+          "type": "object",
+          "properties": {
+            "businessManagement": {
+              "$ref": "#/definitions/Skill"
+            },
+            "marketing": {
+              "$ref": "#/definitions/Skill"
+            },
+            "sales": {
+              "$ref": "#/definitions/Skill"
+            },
+            "projectManagement": {
+              "$ref": "#/definitions/Skill"
+            },
+            "leadership": {
+              "$ref": "#/definitions/Skill"
+            },
+            "publicSpeaking": {
+              "$ref": "#/definitions/Skill"
+            },
+            "programming": {
+              "$ref": "#/definitions/Skill"
+            },
+            "dataAnalysis": {
+              "$ref": "#/definitions/Skill"
+            },
+            "accounting": {
+              "$ref": "#/definitions/Skill"
+            },
+            "teaching": {
+              "$ref": "#/definitions/Skill"
+            }
+          }
+        },
+        "physical": {
+          "type": "object",
+          "properties": {
+            "running": {
+              "$ref": "#/definitions/Skill"
+            },
+            "strength": {
+              "$ref": "#/definitions/Skill"
+            },
+            "yoga": {
+              "$ref": "#/definitions/Skill"
+            },
+            "martialArts": {
+              "$ref": "#/definitions/Skill"
+            },
+            "swimming": {
+              "$ref": "#/definitions/Skill"
+            },
+            "teamSports": {
+              "$ref": "#/definitions/Skill"
+            }
+          }
+        },
+        "practical": {
+          "type": "object",
+          "properties": {
+            "cooking": {
+              "$ref": "#/definitions/Skill"
+            },
+            "homeRepair": {
+              "$ref": "#/definitions/Skill"
+            },
+            "gardening": {
+              "$ref": "#/definitions/Skill"
+            },
+            "advancedDriving": {
+              "$ref": "#/definitions/Skill"
+            },
+            "financialPlanning": {
+              "$ref": "#/definitions/Skill"
+            }
+          }
+        },
+        "languages": {
+          "type": "object",
+          "properties": {
+            "spanish": {
+              "$ref": "#/definitions/Skill"
+            }
+          }
+        }
+      }
+    },
+    "Skill": {
+      "description": "Individual skill with progression tracking",
+      "type": "object",
+      "required_fields": [
+        "name",
+        "currentLevel",
+        "currentXP"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "currentLevel": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "description": "Continuous level with decimals"
+        },
+        "displayLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Integer level shown to player"
+        },
+        "currentXP": {
+          "type": "integer"
+        },
+        "xpToNext": {
+          "type": "integer"
+        },
+        "successModifier": {
+          "type": "number",
+          "description": "0.04 per level for success calculations"
+        },
+        "decayRate": {
+          "type": "number",
+          "default": -0.1,
+          "description": "XP loss per 12 weeks without use"
+        },
+        "lastUsed": {
+          "type": "string",
+          "format": "date",
+          "description": "Last time skill was used"
+        },
+        "learningModifiers": {
+          "$ref": "#/definitions/SkillLearningModifiers"
+        }
+      }
+    },
+    "SkillLearningModifiers": {
+      "description": "Master Truths v1.2 capacity and OCEAN effects on learning",
+      "type": "object",
+      "properties": {
+        "capacityMultiplier": {
+          "type": "number",
+          "description": "0.1x-1.2x based on current capacity"
+        },
+        "oceanModifiers": {
+          "type": "object",
+          "properties": {
+            "opennessBonus": {
+              "type": "number"
+            },
+            "conscientiousnessBonus": {
+              "type": "number"
+            },
+            "extraversionBonus": {
+              "type": "number"
+            }
+          }
+        },
+        "finalMultiplier": {
+          "type": "number",
+          "description": "Combined capacity and personality multiplier"
+        }
+      }
+    },
+    "Relationship": {
+      "description": "NPC relationship with progression and capacity tracking",
+      "type": "object",
+      "required_fields": [
+        "npcId",
+        "level",
+        "trust",
+        "interactions",
+        "emotionalCapacity"
+      ],
+      "properties": {
+        "npcId": {
+          "type": "string"
+        },
+        "npcName": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1-Stranger, 2-Acquaintance, 3-Friend, 4-Close Friend, 5-Soulmate"
+        },
+        "trust": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Trust level (continuous)"
+        },
+        "interactionCount": {
+          "type": "integer"
+        },
+        "relationshipAge": {
+          "type": "integer",
+          "description": "Weeks since first meeting"
+        },
+        "firstMet": {
+          "$ref": "#/definitions/GameTime"
+        },
+        "milestones": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RelationshipMilestone"
+          }
+        },
+        "npcCapacity": {
+          "$ref": "#/definitions/NPCCapacity"
+        },
+        "dramaticIrony": {
+          "$ref": "#/definitions/DramaticIronyState"
+        },
+        "progressToNextLevel": {
+          "$ref": "#/definitions/LevelProgress"
+        }
+      }
+    },
+    "NPCCapacity": {
+      "description": "Master Truths v1.2 NPC emotional capacity tracking",
+      "type": "object",
+      "required_fields": [
+        "currentCapacity",
+        "baselineCapacity"
+      ],
+      "properties": {
+        "currentCapacity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0
+        },
+        "baselineCapacity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0
+        },
+        "activeStressors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Stressor"
+          }
+        },
+        "capacityTrend": {
+          "type": "string",
+          "enum": [
+            "INCREASING",
+            "STABLE",
+            "DECREASING"
+          ]
+        },
+        "supportAvailability": {
+          "type": "object",
+          "properties": {
+            "maxSupportLevel": {
+              "type": "number",
+              "description": "capacity + 2 rule"
+            },
+            "emotionalVenting": {
+              "type": "boolean"
+            },
+            "crisisSupport": {
+              "type": "boolean"
+            },
+            "practicalHelp": {
+              "type": "boolean"
+            },
+            "dailyCheckIns": {
+              "type": "boolean"
+            }
+          }
+        },
+        "narrativeSignals": {
+          "type": "object",
+          "properties": {
+            "highCapacity": {
+              "type": "string"
+            },
+            "moderateCapacity": {
+              "type": "string"
+            },
+            "lowCapacity": {
+              "type": "string"
+            },
+            "crisisCapacity": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "DramaticIronyState": {
+      "description": "Master Truths v1.2 knowledge gap tracking",
+      "type": "object",
+      "properties": {
+        "playerKnows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/KnowledgeItem"
+          }
+        },
+        "characterKnows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/KnowledgeItem"
+          }
+        },
+        "knowledgeGaps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/KnowledgeGap"
+          }
+        },
+        "ironyOpportunities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IronyOpportunity"
+          }
+        }
+      }
+    },
+    "KnowledgeGap": {
+      "type": "object",
+      "properties": {
+        "knowledgeId": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "emotionalWeight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "ironyScore": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Calculated dramatic irony effectiveness"
+        },
+        "scoringComponents": {
+          "type": "object",
+          "properties": {
+            "knowledgeClarity": {
+              "type": "number"
+            },
+            "tensionCreated": {
+              "type": "number"
+            },
+            "emotionalWeight": {
+              "type": "number"
+            },
+            "playerInvestment": {
+              "type": "number"
+            },
+            "timingQuality": {
+              "type": "number"
+            }
+          }
+        },
+        "usableNow": {
+          "type": "boolean",
+          "description": "Whether gap can create irony in current context"
+        }
+      }
+    },
+    "MultiTierMemorySystem": {
+      "description": "Four-tier memory system for multi-season continuity",
+      "type": "object",
+      "properties": {
+        "tier1Active": {
+          "$ref": "#/definitions/ActiveMemoryTier",
+          "description": "Last 12 weeks - complete detail"
+        },
+        "tier2Recent": {
+          "$ref": "#/definitions/RecentMemoryTier",
+          "description": "Previous 2-3 seasons - high detail"
+        },
+        "tier3Compressed": {
+          "$ref": "#/definitions/CompressedMemoryTier",
+          "description": "All earlier seasons - 50:1 compression"
+        },
+        "tier4Canonical": {
+          "$ref": "#/definitions/CanonicalState",
+          "description": "Current state snapshot"
+        },
+        "canonicalFacts": {
+          "$ref": "#/definitions/CanonicalFactsDatabase",
+          "description": "Immutable truths that never change"
+        }
+      }
+    },
+    "Memory": {
+      "description": "Individual memory with emotional weighting and resonance",
+      "type": "object",
+      "required_fields": [
+        "id",
+        "tier",
+        "emotionalWeight",
+        "content"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tier": {
+          "type": "string",
+          "enum": [
+            "TRIVIAL",
+            "NOTABLE",
+            "SIGNIFICANT",
+            "DEFINING"
+          ]
+        },
+        "emotionalWeight": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 1.0
+        },
+        "content": {
+          "type": "string"
+        },
+        "season": {
+          "type": "integer"
+        },
+        "week": {
+          "type": "integer"
+        },
+        "activity": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "npcInvolved": {
+          "type": "string"
+        },
+        "resonanceFactors": {
+          "$ref": "#/definitions/MemoryResonance"
+        },
+        "recallCount": {
+          "type": "integer",
+          "description": "How many times memory has been recalled"
+        },
+        "lastRecalled": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "fadeStatus": {
+          "type": "string",
+          "enum": [
+            "fresh",
+            "fading",
+            "faded"
+          ]
+        }
+      }
+    },
+    "MemoryResonance": {
+      "description": "Master Truths v1.2 memory resonance system (0.7-0.95 weights)",
+      "type": "object",
+      "properties": {
+        "resonanceType": {
+          "type": "string",
+          "enum": [
+            "pastTraumaTrigger",
+            "emotionalGrowthCallback",
+            "relationshipMilestoneEcho",
+            "successOriginRecall",
+            "parallelSituationPattern"
+          ]
+        },
+        "resonanceWeight": {
+          "type": "number",
+          "minimum": 0.7,
+          "maximum": 0.95,
+          "description": "0.95=trauma, 0.85=growth, 0.80=relationship, 0.75=success, 0.70=pattern"
+        },
+        "recallProbability": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 10.0,
+          "description": "baseWeight * situationMatch * resonanceFactor"
+        },
+        "shouldSurface": {
+          "type": "boolean",
+          "description": "True if recallProbability >= 3.0"
+        }
+      }
+    },
+    "TensionHook": {
+      "description": "Cross-season narrative tension tracking",
+      "type": "object",
+      "required_fields": [
+        "hookId",
+        "seasonPlanted",
+        "hookType",
+        "status"
+      ],
+      "properties": {
+        "hookId": {
+          "type": "string"
+        },
+        "seasonPlanted": {
+          "type": "integer"
+        },
+        "weekPlanted": {
+          "type": "integer"
+        },
+        "hookType": {
+          "type": "string",
+          "enum": [
+            "mysteryHook",
+            "partialReveal",
+            "contradiction",
+            "stakesEscalation"
+          ]
+        },
+        "content": {
+          "type": "string"
+        },
+        "informationGaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tensionScore": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "playerCuriosity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "planted",
+            "building",
+            "overdue",
+            "resolved",
+            "abandoned"
+          ]
+        },
+        "payoffTimeline": {
+          "type": "object",
+          "properties": {
+            "expected": {
+              "type": "string"
+            },
+            "actual": {
+              "type": "string"
+            },
+            "overdue": {
+              "type": "boolean"
+            }
+          }
+        },
+        "qualityScoring": {
+          "type": "object",
+          "properties": {
+            "tensionBuilding": {
+              "type": "number"
+            },
+            "payoffQuality": {
+              "type": "number"
+            },
+            "narrativeCoherence": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "Unwrittenshelf": {
+      "description": "Collection of novels generated from completed seasons",
+      "type": "object",
+      "properties": {
+        "characterName": {
+          "type": "string"
+        },
+        "totalSeasons": {
+          "type": "integer"
+        },
+        "maxSeasons": {
+          "type": "integer",
+          "default": 8,
+          "description": "8 base, +2 with premium"
+        },
+        "novels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Novel"
+          }
+        },
+        "totalWordCount": {
+          "type": "integer"
+        },
+        "averageWordsPerSeason": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "retired",
+            "completed"
+          ]
+        }
+      }
+    },
+    "Novel": {
+      "description": "Generated novel from completed season",
+      "type": "object",
+      "properties": {
+        "seasonNumber": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "seasonLength": {
+          "type": "integer"
+        },
+        "wordCount": {
+          "type": "integer"
+        },
+        "aspiration": {
+          "type": "string"
+        },
+        "result": {
+          "type": "string",
+          "enum": [
+            "SUCCESS",
+            "PARTIAL_SUCCESS",
+            "FAILURE"
+          ]
+        },
+        "generationDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "qualityScoring": {
+          "$ref": "#/definitions/NovelQualityScore"
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    },
+    "NovelQualityScore": {
+      "description": "Master Truths v1.2 novel quality validation",
+      "type": "object",
+      "properties": {
+        "emotionalAuthenticity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Threshold: 0.70 for archival"
+        },
+        "tensionBuilding": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Threshold: 0.65"
+        },
+        "dramaticIrony": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Threshold: 0.55 when applicable"
+        },
+        "hookEffectiveness": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Threshold: 0.70"
+        },
+        "overallQuality": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Weighted average, threshold: 0.70"
+        },
+        "suitableForArchive": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PlayerResources": {
+      "description": "Player's current resources",
+      "type": "object",
+      "properties": {
+        "money": {
+          "type": "integer"
+        },
+        "energy": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "Daily energy for actions"
+        },
+        "timeThisWeek": {
+          "type": "integer",
+          "description": "Hours remaining this week"
+        },
+        "socialCapital": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        },
+        "comfortZone": {
+          "type": "integer"
+        },
+        "momentum": {
+          "type": "integer"
+        }
+      }
+    },
+    "GameTime": {
+      "description": "Game time tracking",
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "integer"
+        },
+        "week": {
+          "type": "integer"
+        },
+        "day": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "turn": {
+          "type": "string",
+          "enum": [
+            "morning",
+            "afternoon",
+            "evening"
+          ]
+        }
+      }
+    }
+  },
+  "ai_context_system": {
+    "description": "Data structures for AI prompt generation and context management",
+    "ContextLayer": {
+      "description": "Seven-layer context model for AI generations",
+      "properties": {
+        "layer1CharacterState": {
+          "$ref": "#/definitions/CharacterContextLayer",
+          "priority": "CRITICAL",
+          "tokenBudget": "300-500"
+        },
+        "layer2RelationshipHistory": {
+          "$ref": "#/definitions/RelationshipContextLayer",
+          "priority": "CRITICAL",
+          "tokenBudget": "200-400"
+        },
+        "layer3CurrentInteraction": {
+          "$ref": "#/definitions/InteractionContextLayer",
+          "priority": "CRITICAL",
+          "tokenBudget": "150-300"
+        },
+        "layer4PlayerState": {
+          "$ref": "#/definitions/PlayerContextLayer",
+          "priority": "IMPORTANT",
+          "tokenBudget": "100-200"
+        },
+        "layer5WorldContext": {
+          "$ref": "#/definitions/WorldContextLayer",
+          "priority": "OPTIONAL",
+          "tokenBudget": "50-100"
+        },
+        "layer6DramaticIrony": {
+          "$ref": "#/definitions/DramaticIronyContextLayer",
+          "priority": "IMPORTANT",
+          "tokenBudget": "150-250"
+        },
+        "layer7MetaContext": {
+          "$ref": "#/definitions/MetaContextLayer",
+          "priority": "IMPORTANT",
+          "tokenBudget": "100-200"
+        }
+      }
+    },
+    "PromptTemplate": {
+      "description": "Template structure for AI prompt generation",
+      "type": "object",
+      "properties": {
+        "templateId": {
+          "type": "string"
+        },
+        "templateName": {
+          "type": "string"
+        },
+        "contextRequirements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "outputFormat": {
+          "type": "string"
+        },
+        "qualityThresholds": {
+          "type": "object",
+          "properties": {
+            "emotionalAuthenticity": {
+              "type": "number"
+            },
+            "wordCountMin": {
+              "type": "integer"
+            },
+            "wordCountMax": {
+              "type": "integer"
+            },
+            "behavioralCuesRequired": {
+              "type": "integer"
+            }
+          }
+        },
+        "numericalGrounding": {
+          "type": "object",
+          "properties": {
+            "anchorRequired": {
+              "type": "boolean"
+            },
+            "formulaRequired": {
+              "type": "boolean"
+            },
+            "validationRequired": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  },
+  "firebase_schema": {
+    "description": "Firebase Firestore document structure for data persistence",
+    "collections": {
+      "/players/{playerId}": {
+        "description": "Top-level player document",
+        "fields": {
+          "playerId": "string",
+          "accountCreated": "timestamp",
+          "subscription": {
+            "tier": "string",
+            "essenceBalance": "integer",
+            "essencePurchaseHistory": "array",
+            "subscriptionExpiry": "timestamp"
+          },
+          "gameSettings": "map",
+          "activeCharacters": "array"
+        }
+      },
+      "/players/{playerId}/characters/{characterId}": {
+        "description": "Individual character document",
+        "fields": {
+          "characterId": "string",
+          "name": "string",
+          "age": "integer",
+          "currentSeason": "integer",
+          "totalWeeksLived": "integer",
+          "personality": "map",
+          "emotionalCapacity": "map",
+          "lifeDirection": "string",
+          "currentAspiration": "map",
+          "meters": "map",
+          "skills": "map",
+          "resources": "map",
+          "unwrittenshelf": "map",
+          "lastPlayed": "timestamp",
+          "characterStatus": "string"
+        }
+      },
+      "/players/{playerId}/characters/{characterId}/relationships/{npcId}": {
+        "description": "Individual NPC relationship",
+        "fields": {
+          "npcId": "string",
+          "npcName": "string",
+          "level": "integer",
+          "trust": "number",
+          "interactionCount": "integer",
+          "relationshipAge": "integer",
+          "firstMet": "map",
+          "milestones": "array",
+          "npcCapacity": "map",
+          "dramaticIrony": "map",
+          "progressToNextLevel": "map"
+        }
+      },
+      "/players/{playerId}/characters/{characterId}/memories/{memoryTier}": {
+        "description": "Memory storage by tier",
+        "fields": {
+          "tier": "string",
+          "memories": "array",
+          "lastConsolidation": "timestamp",
+          "compressionRatio": "number"
+        }
+      },
+      "/players/{playerId}/characters/{characterId}/seasons/{seasonNumber}": {
+        "description": "Season-specific data",
+        "fields": {
+          "seasonNumber": "integer",
+          "title": "string",
+          "aspiration": "map",
+          "seasonLength": "integer",
+          "currentWeek": "integer",
+          "currentAct": "integer",
+          "tensionHooks": "array",
+          "qualityScores": "map",
+          "seasonStatus": "string",
+          "novel": "map"
+        }
+      },
+      "/players/{playerId}/characters/{characterId}/aiGenerations/{generationId}": {
+        "description": "AI generation history and context",
+        "fields": {
+          "generationId": "string",
+          "timestamp": "timestamp",
+          "contextUsed": "map",
+          "promptTemplate": "string",
+          "modelUsed": "string",
+          "outputGenerated": "string",
+          "qualityScores": "map",
+          "tokenCount": "integer",
+          "cost": "number",
+          "essenceCharged": "integer"
+        }
+      }
+    },
+    "security_rules": {
+      "description": "Firebase security rules for data access",
+      "rules": {
+        "players": "User can only access their own player data",
+        "characters": "User can only access characters they own",
+        "relationships": "User can only access relationships for their characters",
+        "memories": "User can only access memories for their characters",
+        "aiGenerations": "User can read their own generations, write restricted to server functions"
+      }
+    },
+    "data_optimization": {
+      "indexing": {
+        "characters": [
+          "playerId",
+          "characterStatus",
+          "lastPlayed"
+        ],
+        "relationships": [
+          "characterId",
+          "level",
+          "lastInteraction"
+        ],
+        "memories": [
+          "characterId",
+          "tier",
+          "emotionalWeight"
+        ],
+        "seasons": [
+          "characterId",
+          "seasonStatus",
+          "currentWeek"
+        ]
+      },
+      "caching_strategy": {
+        "tier1_memories": "Always cached in client",
+        "current_season": "Cached during active play",
+        "relationships": "Cached for active NPCs",
+        "compressed_memories": "Loaded on demand"
+      },
+      "compression": {
+        "tier3_memories": "50:1 compression ratio",
+        "old_ai_generations": "Compressed after 30 days",
+        "inactive_characters": "Deep storage compression"
+      }
+    }
+  },
+  "validation_rules": {
+    "numerical_grounding": {
+      "description": "Master Truths v1.2 requirement: All numerical assignments must be grounded",
+      "required_for_all_numbers": [
+        "qualitative_anchor",
+        "calculation_formula",
+        "narrative_validation"
+      ],
+      "example": {
+        "trust_impact": -1.9,
+        "anchor": "MAJOR_HARM (-1.5 to -2.0 range)",
+        "formula": "base(-0.5) * personality(0.7) * urgency(5.0) * trust(1.2) * capacity(0.9) = -1.89",
+        "validation": "Dialogue shows hurt without melodrama, matches MAJOR_HARM tier expectations"
+      }
+    },
+    "capacity_constraints": {
+      "description": "Characters cannot provide support beyond their capacity + 2",
+      "validation_checks": [
+        "NPC capacity >= 0 and <= 10",
+        "Support level needed <= NPC capacity + 2",
+        "Authentic limitations shown when capacity insufficient",
+        "No magical unlimited support"
+      ]
+    },
+    "memory_resonance": {
+      "description": "Memory recall must follow resonance weights",
+      "resonance_types": {
+        "past_trauma_trigger": 0.95,
+        "emotional_growth_callback": 0.85,
+        "relationship_milestone_echo": 0.8,
+        "success_origin_recall": 0.75,
+        "parallel_situation_pattern": 0.7
+      },
+      "threshold": "Final score >= 3.0 for memory to surface"
+    },
+    "dramatic_irony": {
+      "description": "Knowledge gaps must score >= 0.6 for dramatic irony use",
+      "scoring_components": {
+        "knowledge_clarity": 0.25,
+        "tension_created": 0.25,
+        "emotional_weight": 0.25,
+        "player_investment": 0.15,
+        "timing_quality": 0.1
+      }
+    }
+  }
+}
