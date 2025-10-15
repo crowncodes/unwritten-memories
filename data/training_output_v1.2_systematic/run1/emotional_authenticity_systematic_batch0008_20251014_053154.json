@@ -1,0 +1,109 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 8,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 8.2,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -3.1
+          }
+        ],
+        "effective_capacity": 5.1
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 9.8,
+        "description": "A grieving friend insists on helping with funeral arrangements, but the character is physically and emotionally drained."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I cant do this. My hands are shaking, and my head feels like its splitting open. I tried to smile when you asked, but its just a tired grin. Im sorry, but I cant handle another call or email. Youre supposed to be the one taking care of me, not the other way around. Ive been surviving on coffee and guilt for weeks. My chest aches when I breathe, and every step feels like climbing a mountain. Im not uselessI just cant be the rock you need right now. Please, let me collapse without being the one who breaks.",
+        "behavioral_cues": [
+          "shaking hands",
+          "slumped posture",
+          "frequent pauses",
+          "gazes at floor"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "(effective_capacity - support_needed) * 0.05",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.82,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "baseline",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 2.8,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -1.2
+          }
+        ],
+        "effective_capacity": 1.6
+      },
+      "ocean_personality": {
+        "openness": 0.4,
+        "agreeableness": 0.95,
+        "neuroticism": 0.3
+      },
+      "situation": {
+        "support_needed": 2.7,
+        "description": "A coworker asks for help organizing a team event, but the character is overwhelmed by social demands and self-doubt."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I Im not sure I can do this. My voice cracks when I try to speak, and my palms are sweaty even though its just a small task. I keep thinking, What if I mess up? But Im not even sure Im capable of showing up. Youre asking me to be the team player, but Im barely holding myself together. Ill help, but I need you to promise me youll take the lead. Ill do the spreadsheets and coffee runs, but I cant pretend to be excited. Im exhausted, and Im terrified of letting you down. Let me be the one whos honest instead of the one whos always okay.",
+        "behavioral_cues": [
+          "fidgeting with sleeves",
+          "avoiding eye contact",
+          "stiff shoulders",
+          "voice trembles"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": 0.02,
+        "trust_calculation": {
+          "formula": "((support_needed - effective_capacity) * 0.1) + 0.05",
+          "tier": "MINOR GAIN"
+        }
+      },
+      "authenticity_score": 0.91,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "excellent",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

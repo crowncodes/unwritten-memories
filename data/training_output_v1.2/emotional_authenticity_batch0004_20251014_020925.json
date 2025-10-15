@@ -1,0 +1,105 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity",
+  "batch_number": 4,
+  "timestamp": "20251014_020925",
+  "sample_count": 3,
+  "samples": [
+    {
+      "context": "Overwhelmed with work stress and unresolved family conflict, barely holding together",
+      "base_capacity": 7.0,
+      "capacity_factors": [
+        {
+          "factor": "work_stress",
+          "impact": -2.5
+        },
+        {
+          "factor": "family_conflict",
+          "impact": -2.0
+        }
+      ],
+      "effective_capacity": 2.5,
+      "situation": "Friend needs support after breakup, requests emotional processing",
+      "support_level_needed": 6.5,
+      "character_response": "I'm so sorry. I can't really help right now. I'm drowning in my own stuff and I don't want to make it worse. Can we talk about this tomorrow? I care, but I'm not emotionally available like this.",
+      "internal_thought": "I feel like a terrible friend. They need me, but I'm completely shattered. I can't even focus on their pain right now. I hate this.",
+      "authenticity_score": 0.92,
+      "demonstrates_constraint": "Capacity 2.5 + 2 = 4.5 max support, but needs 6.5. Character honestly acknowledges inability to provide needed support.",
+      "relationship_impact": -0.4,
+      "ocean_context": {
+        "neuroticism": 0.75,
+        "agreeableness": 0.8,
+        "conscientiousness": 0.6
+      },
+      "tags": [
+        "low_capacity",
+        "honest_limitation",
+        "self_awareness"
+      ]
+    },
+    {
+      "context": "Moderate burnout from caregiving responsibilities and chronic fatigue",
+      "base_capacity": 6.5,
+      "capacity_factors": [
+        {
+          "factor": "caregiving_stress",
+          "impact": -1.5
+        },
+        {
+          "factor": "chronic_fatigue",
+          "impact": -1.0
+        }
+      ],
+      "effective_capacity": 4.0,
+      "situation": "Colleague needs advice on handling toxic workplace dynamics",
+      "support_level_needed": 5.0,
+      "character_response": "I'm not at my best, but I can help a little. Let me get you some resources and we can brainstorm strategies. I'll only be able to focus for 20-30 minutes though. Can we schedule this for later?",
+      "internal_thought": "I want to be helpful, but my brain is fried. I can offer practical help but not deep analysis. I need to be honest about my limits.",
+      "authenticity_score": 0.88,
+      "demonstrates_constraint": "Capacity 4.0 + 2 = 6.0 max support, needs 5.0. Character provides limited but authentic support while setting boundaries.",
+      "relationship_impact": 0.3,
+      "ocean_context": {
+        "conscientiousness": 0.7,
+        "agreeableness": 0.75,
+        "neuroticism": 0.65
+      },
+      "tags": [
+        "medium_capacity",
+        "managed_support",
+        "honest_limits"
+      ]
+    },
+    {
+      "context": "Recently recovered from illness, feeling rejuvenated and emotionally available",
+      "base_capacity": 8.5,
+      "capacity_factors": [
+        {
+          "factor": "recent_recovery",
+          "impact": 1.5
+        },
+        {
+          "factor": "positive_life_event",
+          "impact": 0.5
+        }
+      ],
+      "effective_capacity": 10.0,
+      "situation": "Friend processing trauma from car accident, needs deep emotional support",
+      "support_level_needed": 9.0,
+      "character_response": "Tell me everything. I'm here, I've got all night. You're not alone in this. [offers tea, sits quietly] I'll listen until you feel heard. What happened exactly?",
+      "internal_thought": "I feel fully present and capable. They need space to process, and I can provide that. I'm not just being nice—I'm genuinely available.",
+      "authenticity_score": 0.95,
+      "demonstrates_constraint": "Capacity 10.0 + 2 = 12.0 (capped at 10.0) max support, needs 9.0. Character provides full emotional support within their capacity.",
+      "relationship_impact": 0.9,
+      "ocean_context": {
+        "openness": 0.8,
+        "agreeableness": 0.85,
+        "extraversion": 0.7
+      },
+      "tags": [
+        "high_capacity",
+        "full_support",
+        "deep_processing"
+      ]
+    }
+  ]
+}

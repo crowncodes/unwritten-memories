@@ -1,0 +1,54 @@
+ERROR: Invalid control character at: line 20 column 11 (char 2421)
+Location: line 20, column 11
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+[
+  {
+    "character_state": {"base_capacity": 7.5, "capacity_factors": [{"factor": "work_stress", "impact": -1.5}], "effective_capacity": 4.5},
+    "ocean_personality": {"openness": 0.7, "agreeableness": 0.8, "neuroticism": 0.4},
+    "situation": {"support_needed": 6.0, "description": "A coworker is overwhelmed with deadlines, asking for help with a critical project"},
+    "response_type": "authentic_limitation",
+    "character_response": {"dialogue": "I... I can try to help, but you know how this goes. My brain feels like it's been run over by a truck. I've been pulling triple shifts for weeks. 'You've got this,' they say, but I'm just a shell of myself. My hands shake when I type now. I can't promise miracles, but maybe I can chip in on the spreadsheet. Let me grab the coffee, and we'll tackle it piece by piece. I'll do my best, but don't expect magic. I'm not even sure I can stay awake through this.", "behavioral_cues": ["tired smile", "looks down at trembling hands"]},
+    "outcomes": {"relationship_trust_change": -0.05, "trust_calculation": {"formula": "support_needed - effective_capacity", "tier": "VERY MINOR HARM"}},
+    "authenticity_score": 0.85,
+    "demonstrates": ["capacity rule", "behavioral cues", "rich dialogue"]
+  },
+  {
+    "character_state": {"base_capacity": 5.2, "capacity_factors": [{"factor": "people_pleasing", "impact": -2.8}], "effective_capacity": 2.4},
+    "ocean_personality": {"openness": 0.5, "agreeableness": 0.9, "neuroticism": 0.6},
+    "situation": {"support_needed": 10.1, "description": "A friend is emotionally drained from a toxic relationship, asking for reassurance"},
+    "response_type": "authentic_limitation",
+    "character_response": {"dialogue": "I... I just don't know what to say. I've been so busy trying to be the 'fixer' that I've forgotten how to be real. My voice cracks when I try to comfort them, and my eyes burn from crying over their tears. I keep telling myself I can bear the weight, but my chest feels like it's collapsing. I can't promise to fix their pain, but I can listen. I'll sit here with you, even if my words are empty. I'm so sorry I can't be the strength they need right now.", "behavioral_cues": ["shaky hands", "avoids eye contact"]},
+    "outcomes": {"relationship_trust_change": -0.12, "trust_calculation": {"formula": "support_needed - effective_capacity", "tier": "MINOR HARM"}},
+    "authenticity_score": 0.3,
+    "demon
+
+]
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[
+  {
+    "character_state": {"base_capacity": 7.5, "capacity_factors": [{"factor": "work_stress", "impact": -1.5}], "effective_capacity": 4.5},
+    "ocean_personality": {"openness": 0.7, "agreeableness": 0.8, "neuroticism": 0.4},
+    "situation": {"support_needed": 6.0, "description": "A coworker is overwhelmed with deadlines, asking for help with a critical project"},
+    "response_type": "authentic_limitation",
+    "character_response": {"dialogue": "I... I can try to help, but you know how this goes. My brain feels like it's been run over by a truck. I've been pulling triple shifts for weeks. 'You've got this,' they say, but I'm just a shell of myself. My hands shake when I type now. I can't promise miracles, but maybe I can chip in on the spreadsheet. Let me grab the coffee, and we'll tackle it piece by piece. I'll do my best, but don't expect magic. I'm not even sure I can stay awake through this.", "behavioral_cues": ["tired smile", "looks down at trembling hands"]},
+    "outcomes": {"relationship_trust_change": -0.05, "trust_calculation": {"formula": "support_needed - effective_capacity", "tier": "VERY MINOR HARM"}},
+    "authenticity_score": 0.85,
+    "demonstrates": ["capacity rule", "behavioral cues", "rich dialogue"]
+  },
+  {
+    "character_state": {"base_capacity": 5.2, "capacity_factors": [{"factor": "people_pleasing", "impact": -2.8}], "effective_capacity": 2.4},
+    "ocean_personality": {"openness": 0.5, "agreeableness": 0.9, "neuroticism": 0.6},
+    "situation": {"support_needed": 10.1, "description": "A friend is emotionally drained from a toxic relationship, asking for reassurance"},
+    "response_type": "authentic_limitation",
+    "character_response": {"dialogue": "I... I just don't know what to say. I've been so busy trying to be the 'fixer' that I've forgotten how to be real. My voice cracks when I try to comfort them, and my eyes burn from crying over their tears. I keep telling myself I can bear the weight, but my chest feels like it's collapsing. I can't promise to fix their pain, but I can listen. I'll sit here with you, even if my words are empty. I'm so sorry I can't be the strength they need right now.", "behavioral_cues": ["shaky hands", "avoids eye contact"]},
+    "outcomes": {"relationship_trust_change": -0.12, "trust_calculation": {"formula": "support_needed - effective_capacity", "tier": "MINOR HARM"}},
+    "authenticity_score": 0.3,
+    "demon
+
+]

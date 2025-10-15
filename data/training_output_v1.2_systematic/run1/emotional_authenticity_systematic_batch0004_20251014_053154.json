@@ -1,0 +1,107 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 4,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0,
+        "agreeableness": 0.6,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 2.9,
+        "description": "A parent juggling multiple sick children and a missed work deadline"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I can't do this anymore. (Shakes hands, voice cracking) The kids are feverish, the work is piling up, and I'm just... (Looks down at a crumpled schedule) I'm not even sure I can keep my eyes open. (Pauses, laughing bitterly) Maybe if I pretend to be okay, they'll stop asking. But honestly? (Voice softens) I'm drowning. I can't hold this together much longer. (Tired smile) I'm sorry. I just... I don't know how to fix this.",
+        "behavioral_cues": [
+          "shaking hands",
+          "crumpled schedule",
+          "laughing bitterly"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.58,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "struggling",
+        "complexity_type": "baseline",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 6.2,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -0.8
+          }
+        ],
+        "effective_capacity": 5.4
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.9,
+        "neuroticism": 0.3
+      },
+      "situation": {
+        "support_needed": 5.9,
+        "description": "A friend promising to help with a wedding but overwhelmed by last-minute details"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I know I said I'd handle everything, but... (Fidgets with a torn invitation) I'm not even halfway through the to-do list. (Looks around nervously) I keep thinking maybe if I work harder, it'll all fall into place. But... (Sighs, rubbing temples) I'm so tired of being the one who 'has it all together'. (Voice breaks) I can't do this alone. I need you to take over the catering. (Wipes eyes) I'll handle the invitations. Just... just don't make me do the favors anymore. (Soft smile) I'm not the person you think I am.",
+        "behavioral_cues": [
+          "torn invitation",
+          "rubbing temples",
+          "wiping eyes"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.12,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.79,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

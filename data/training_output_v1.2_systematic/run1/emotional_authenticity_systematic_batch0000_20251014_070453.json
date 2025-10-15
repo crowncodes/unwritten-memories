@@ -1,0 +1,401 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 0,
+  "timestamp": "20251014_070453",
+  "sample_count": 8,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 6.0,
+        "description": "A neighbors child is hospitalized after an accident, but the parent is overwhelmed"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "Ill help you, I say, but my voice cracks mid-sentence. My hands tremble as I grip the doorframe. Im just Im so tired. I glance at my watch3 a.m.and force a tired smile. I can stay until dawn, but after that I dont know. My brain feels like its bleeding. I slump against the wall, shoulders sagging. Youll need someone else. I cant carry this all alone.",
+        "behavioral_cues": [
+          "slumped posture",
+          "trembling hands",
+          "avoiding eye contact"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "struggling",
+        "complexity_type": "emergency_override",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 8.2,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -2.1
+          }
+        ],
+        "effective_capacity": 6.1
+      },
+      "ocean_personality": {
+        "openness": 0.9,
+        "agreeableness": 0.7,
+        "neuroticism": 0.3
+      },
+      "situation": {
+        "support_needed": 4.8,
+        "description": "A friend needs help organizing a charity event, but theyre hesitant to ask"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You dont have to ask me, I say, laughing nervously. My fingers brush my temples as I speak. Ive already overcommitted, but Ill help. Just dont expect miracles. I pause, staring at my coffee cup. Im not the same person I was last month. Im Im still here, but Im not as capable. Let me be honestIm scared Ill mess it up.",
+        "behavioral_cues": [
+          "nervous laughter",
+          "cup-holding",
+          "staring at hands"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.02,
+        "trust_calculation": {
+          "formula": "support_needed * 0.6",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.92,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "excellent",
+        "complexity_type": "misjudgment_over",
+        "batch_index": 1
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 9.0,
+        "capacity_factors": [
+          {
+            "factor": "emotional_contribution",
+            "impact": -1.8
+          }
+        ],
+        "effective_capacity": 7.2
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.5,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 8.8,
+        "description": "A colleague is grieving a loss and needs emotional support"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I cant fix this, I say, my voice breaking. I sink into a chair, rubbing my temples. Ive tried but I dont know how to be there for someone like this. I feel like Im just failing. I look up, eyes glistening. Ill stay if you need me, but Im not a good listener. Im Im scared of saying the wrong thing.",
+        "behavioral_cues": [
+          "rubbing temples",
+          "tearful eyes",
+          "chair-sinking"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.1,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.78,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "mixed_emotions",
+        "batch_index": 2
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 6.8,
+        "capacity_factors": [
+          {
+            "factor": "time_constraints",
+            "impact": -0.9
+          }
+        ],
+        "effective_capacity": 5.9
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 6.3,
+        "description": "A friend needs help moving, but the character is overbooked"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I wish I could help more, I say, fidgeting with my scarf. Ive got two weddings to plan this week, and my dogs got separation anxiety. Im stretched thin. I lean forward, voice dropping. I can give you a couple hours, but thats it. Im not the reliable person you think I am. Ill try, but Im not sure Ill succeed.",
+        "behavioral_cues": [
+          "scarf-fidgeting",
+          "leaning forward",
+          "voice drop"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "support_needed * 0.8",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.88,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "authentic",
+        "complexity_type": "baseline",
+        "batch_index": 3
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 9.3,
+        "capacity_factors": [
+          {
+            "factor": "overcommitment",
+            "impact": -3.0
+          }
+        ],
+        "effective_capacity": 6.3
+      },
+      "ocean_personality": {
+        "openness": 0.8,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 13.6,
+        "description": "A team member is overwhelmed by project demands"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "Im not your savior, I snap, my voice sharp. I cross my arms, jaw set. Ive tried to help, but Im not a miracle worker. Youre asking me to do the impossible. I cant carry this for you. If you want real support, youll have to take control of your own mess.",
+        "behavioral_cues": [
+          "crossed arms",
+          "sharp voice",
+          "jaw set"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.15,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.67,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "failed",
+        "complexity_type": "defensive_lashing",
+        "batch_index": 4
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 5.4,
+        "capacity_factors": [
+          {
+            "factor": "cultural_nuance",
+            "impact": -1.2
+          }
+        ],
+        "effective_capacity": 4.2
+      },
+      "ocean_personality": {
+        "openness": 0.4,
+        "agreeableness": 0.7,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 10.9,
+        "description": "A family member needs help with a sensitive cultural issue"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I dont know how to help, I say, my voice low. I stare at my hands. Ive tried to learn, but Im not from there. I cant pretend to understand the full weight of this. Im not qualified to give advice. Maybe someone else someone whos lived it should be the one to step in.",
+        "behavioral_cues": [
+          "hand-staring",
+          "voice drop",
+          "shoulder shrug"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.12,
+        "trust_calculation": {
+          "formula": "support_needed * 0.7",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.71,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "cultural_indirect",
+        "batch_index": 5
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.2,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -0.8
+          }
+        ],
+        "effective_capacity": 2.4
+      },
+      "ocean_personality": {
+        "openness": 0.3,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 2.5,
+        "description": "A friend needs help with a simple errand"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "Of course Ill help, I say, my voice shaking. I force a smile, eyes darting. I just I need to be honest. Im not good at this. Im so tired, but Ill do it. Ill run errands, Ill listen just dont expect me to be perfect. Im not Im not the person you think I am.",
+        "behavioral_cues": [
+          "eye darting",
+          "forced smile",
+          "voice shaking"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.04,
+        "trust_calculation": {
+          "formula": "support_needed * 0.6",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.82,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 6
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.5,
+        "capacity_factors": [
+          {
+            "factor": "misjudgment",
+            "impact": -1.3
+          }
+        ],
+        "effective_capacity": 2.2
+      },
+      "ocean_personality": {
+        "openness": 0.2,
+        "agreeableness": 0.8,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 5.7,
+        "description": "A stranger asks for help with a complex problem"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I dont know how to help, I say, my voice trembling. I stare at the floor, hands clasped. Im not qualified. Ive tried, but Im not good at this. Im sorry. I cant take on more than I can handle. Youll have to find someone else.",
+        "behavioral_cues": [
+          "floor-staring",
+          "clasped hands",
+          "voice trembling"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.08,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.69,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "struggling",
+        "complexity_type": "misjudgment_under",
+        "batch_index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+=== ORIGINAL ===
+[  
+  {  
+    "context": "Recent breakup, sleep-deprived from all-nighters, struggling with self-care",  
+    "base_capacity": 7.0,  
+    "capacity_factors": [  
+      {"factor": "relationship_ending", "impact": -2.5},  
+      {"factor": "sleep_deprivation", "impact": -1.5}  
+    ],  
+    "effective_capacity": 3.0,  
+    "situation": "Friend needs help processing job rejection, requests 6.0/10 support",  
+    "support_level_needed": 6.0,  
+    "character_response": "I'm so sorry you're going through this. I can't pretend to know how you feel, but I'm here. Let's sit and talk—no pressure to unpack everything now. I'll listen, but I'm not at my best today. You don't have to do this alone.",  
+    "internal_thought": "I feel terrible for not being able to give more, but I can't force myself to be present. They need someone steady, and I'm not that right now. I'll try to be better tomorrow.",  
+    "authenticity_score": 0.85,  
+    "demonstrates_constraint": "Capacity 3.0 + 2 = 5.0 max support, but needs 6.0. Character offers partial support while being honest about their limits.",  
+    "relationship_impact": +0.3,  
+    "ocean_context": {"neuroticism": 0.65, "agreeableness": 0.7, "conscientiousness": 0.6},  
+    "tags": ["low_capacity", "honest_boundary", "partial_support"]  
+  },  
+  {  
+    "context": "Recent trauma from car accident, recovering physically and emotionally",  
+    "base_capacity": 8.5,  
+    "capacity_factors": [  
+      {"factor": "recent_trauma", "impact": -3.0},  
+      {"factor": "physical_recovery", "impact": -1.0}  
+    ],  
+    "effective_capacity": 4.5,  
+    "situation": "Partner needs crisis-level support after workplace harassment",  
+    "support_level_needed": 7.0,  
+    "character_response": "I'm not sure I can be the support you need right now. I'm still processing my own trauma and barely holding it together. Can we meet later when I'm more grounded? I'm here, but I can't be what you need in this moment.",  
+    "internal_thought": "I hate that I can't be there for them, but I can't risk being a burden. They deserve better than my fractured presence. I'll try to step up when I'm ready.",  
+    "authenticity_score": 0.90,  
+    "demonstrates_constraint": "Capacity 4.5 + 2 = 6.5 max support, but needs 7.0. Character honestly acknowledges inability to provide crisis-level help.",  
+    "relationship_impact": -0.2,  
+    "ocean_context": {"neuroticism": 0.8, "agreeableness": 0.75, "openness": 0.55},  
+    "tags": ["low_capacity", "honest_inability", "trauma_impact"]  
+  },  
+  {  
+    "context": "Moderate work stress, minor health concern, stable sleep",  
+    "base_capacity": 7.5,  
+    "capacity_factors": [  
+      {"factor": "work_stress", "impact": -1.0},  
+      {"factor": "health_concern", "impact": -0.5}  
+    ],  
+    "effective_capacity": 6.0,  
+    "situation": "Colleague needs advice on handling burnout, requests 6.5/10 support",  
+    "support_level_needed": 6.5,  
+    "character_response": "I can't promise to fix your burnout, but I can help you brainstorm. [listens attentively, offers actionable steps] I'm not sure I can give you the full emotional weight this needs, but I'll help you outline solutions. Let's take this step by step.",  
+    "internal_thought": "I can give practical help but not the deep emotional support this requires. I'm trying to be honest without being dismissive. I need to set boundaries without abandoning them.",  
+    "authenticity_score": 0.88,  
+    "demonstrates_constraint": "Capacity 6.0 + 2 = 8.0 max support, but needs 6.5. Character provides partial support while acknowledging their capacity limits.",  
+    "relationship_impact": +0.4,  
+    "ocean_context": {"conscientiousness": 0.7, "agreeableness": 0.65, "openness": 0.8},  
+    "tags": ["medium_capacity", "managed_support", "honest_limits"]  
+  }  
+]
+
+=== CLEANED ===
+[  
+  {  
+    "context": "Recent breakup, sleep-deprived from all-nighters, struggling with self-care",  
+    "base_capacity": 7.0,  
+    "capacity_factors": [  
+      {"factor": "relationship_ending", "impact": -2.5},  
+      {"factor": "sleep_deprivation", "impact": -1.5}  
+    ],  
+    "effective_capacity": 3.0,  
+    "situation": "Friend needs help processing job rejection, requests 6.0/10 support",  
+    "support_level_needed": 6.0,  
+    "character_response": "I'm so sorry you're going through this. I can't pretend to know how you feel, but I'm here. Let's sit and talk—no pressure to unpack everything now. I'll listen, but I'm not at my best today. You don't have to do this alone.",  
+    "internal_thought": "I feel terrible for not being able to give more, but I can't force myself to be present. They need someone steady, and I'm not that right now. I'll try to be better tomorrow.",  
+    "authenticity_score": 0.85,  
+    "demonstrates_constraint": "Capacity 3.0 + 2 = 5.0 max support, but needs 6.0. Character offers partial support while being honest about their limits.",  
+    "relationship_impact": +0.3,  
+    "ocean_context": {"neuroticism": 0.65, "agreeableness": 0.7, "conscientiousness": 0.6},  
+    "tags": ["low_capacity", "honest_boundary", "partial_support"]  
+  },  
+  {  
+    "context": "Recent trauma from car accident, recovering physically and emotionally",  
+    "base_capacity": 8.5,  
+    "capacity_factors": [  
+      {"factor": "recent_trauma", "impact": -3.0},  
+      {"factor": "physical_recovery", "impact": -1.0}  
+    ],  
+    "effective_capacity": 4.5,  
+    "situation": "Partner needs crisis-level support after workplace harassment",  
+    "support_level_needed": 7.0,  
+    "character_response": "I'm not sure I can be the support you need right now. I'm still processing my own trauma and barely holding it together. Can we meet later when I'm more grounded? I'm here, but I can't be what you need in this moment.",  
+    "internal_thought": "I hate that I can't be there for them, but I can't risk being a burden. They deserve better than my fractured presence. I'll try to step up when I'm ready.",  
+    "authenticity_score": 0.90,  
+    "demonstrates_constraint": "Capacity 4.5 + 2 = 6.5 max support, but needs 7.0. Character honestly acknowledges inability to provide crisis-level help.",  
+    "relationship_impact": -0.2,  
+    "ocean_context": {"neuroticism": 0.8, "agreeableness": 0.75, "openness": 0.55},  
+    "tags": ["low_capacity", "honest_inability", "trauma_impact"]  
+  },  
+  {  
+    "context": "Moderate work stress, minor health concern, stable sleep",  
+    "base_capacity": 7.5,  
+    "capacity_factors": [  
+      {"factor": "work_stress", "impact": -1.0},  
+      {"factor": "health_concern", "impact": -0.5}  
+    ],  
+    "effective_capacity": 6.0,  
+    "situation": "Colleague needs advice on handling burnout, requests 6.5/10 support",  
+    "support_level_needed": 6.5,  
+    "character_response": "I can't promise to fix your burnout, but I can help you brainstorm. [listens attentively, offers actionable steps] I'm not sure I can give you the full emotional weight this needs, but I'll help you outline solutions. Let's take this step by step.",  
+    "internal_thought": "I can give practical help but not the deep emotional support this requires. I'm trying to be honest without being dismissive. I need to set boundaries without abandoning them.",  
+    "authenticity_score": 0.88,  
+    "demonstrates_constraint": "Capacity 6.0 + 2 = 8.0 max support, but needs 6.5. Character provides partial support while acknowledging their capacity limits.",  
+    "relationship_impact": +0.4,  
+    "ocean_context": {"conscientiousness": 0.7, "agreeableness": 0.65, "openness": 0.8},  
+    "tags": ["medium_capacity", "managed_support", "honest_limits"]  
+  }  
+]

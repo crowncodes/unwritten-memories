@@ -1,0 +1,43 @@
+{
+  "timestamp": "20251014_053154",
+  "database_coverage": {
+    "total_combinations_tracked": 20,
+    "total_examples_generated": 50,
+    "avg_per_combination": 2.5,
+    "authenticity_coverage": {
+      "authentic": 17,
+      "struggling": 15,
+      "excellent": 12,
+      "failed": 6
+    },
+    "complexity_coverage": {
+      "people_pleasing": 32,
+      "baseline": 18
+    },
+    "gaps_to_fill": []
+  },
+  "current_batch_coverage": {
+    "total_examples": 50,
+    "authenticity_distribution": {
+      "authentic (0.6-0.8)": 8,
+      "failed (0.2-0.4)": 4,
+      "excellent (0.8-1.0)": 32,
+      "struggling (0.4-0.6)": 6
+    },
+    "capacity_distribution": {},
+    "complexity_coverage": {
+      "baseline": 18,
+      "people_pleasing": 32
+    },
+    "gaps": [
+      "Missing complexity type: misjudgment_over",
+      "Missing complexity type: emergency_override",
+      "Missing complexity type: mixed_emotions"
+    ]
+  },
+  "quality_assessment": {
+    "meets_spectrum_requirements": false,
+    "authenticity_balance": "needs_improvement",
+    "complexity_coverage": "incomplete"
+  }
+}

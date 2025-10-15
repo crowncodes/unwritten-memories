@@ -1,0 +1,109 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 1,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 0.9,
+        "description": "A colleague asks for help with a last-minute spreadsheet, but the character is already burned out from a 14-hour shift."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... Im sorry, but Im not sure I can help right now. My hands are shaking, and my brain feels like its been hit by a truck. I tried to finish that report yesterday, but its still half-done. I keep telling myself I can do this, but my eyes burn and my fingers cant stop twitching. Im not being dramaticthis isnt just fatigue. Its like my bodys rejecting the idea of working anymore. If you need something, maybe ask someone else? Im not sure I can even open a spreadsheet without crying.",
+        "behavioral_cues": [
+          "tired smile",
+          "shaking hands",
+          "frequent pauses",
+          "looks down at coffee cup"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "authentic",
+        "complexity_type": "baseline",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -2.0
+          }
+        ],
+        "effective_capacity": 3.5
+      },
+      "ocean_personality": {
+        "openness": 0.3,
+        "agreeableness": 0.9,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 7.3,
+        "description": "A friend asks for emotional support during a breakup, but the character is emotionally drained and forced to overcompensate."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "Oh no, honey, Im so sorry. You dont have to go through this alone. Ive been through something similar, and its... its not easy. I mean, I remember feeling like the world was ending, but I pushed through because I couldnt let anyone down. Youre not alone here, really. Ill stay as long as you need. Im here, Im here, Im hereno, dont cry. I know it hurts, but youll feel better soon. I promise. I just... I need to make sure you know Im here for you, even if Im not sure I can be the support you need.",
+        "behavioral_cues": [
+          "fidgeting with scarf",
+          "avoiding eye contact",
+          "forced smile",
+          "voice cracks mid-sentence"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.2,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.3,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "failed",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

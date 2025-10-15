@@ -1,0 +1,115 @@
+=== ORIGINAL ===
+[
+  {
+    "context": "Dealing with minor burnout from overtime, recent breakup, and low energy",
+    "base_capacity": 6.5,
+    "capacity_factors": [
+      {"factor": "work_burnout", "impact": -1.5},
+      {"factor": "recent_breakup", "impact": -2.0}
+    ],
+    "effective_capacity": 3.0,
+    "situation": "Friend needs advice on difficult career decision",
+    "support_level_needed": 5.0,
+    "character_response": "I can help you think through this. Let me get a cup of coffee and we can talk. I'm not at my best right now, but I can give you practical advice. Let's not dive too deep, though—I'm not sure I can handle the emotional weight.",
+    "internal_thought": "I want to be helpful, but I'm still reeling from the breakup. I can offer practical guidance, but deep emotional support would overwhelm me. I need to set boundaries without being a burden.",
+    "authenticity_score": 0.85,
+    "demonstrates_constraint": "Capacity 3.0 + 2 = 5.0 max support, exactly matches need. Character acknowledges limits while offering practical help.",
+    "relationship_impact": +0.3,
+    "ocean_context": {"conscientiousness": 0.7, "agreeableness": 0.65, "neuroticism": 0.6},
+    "tags": ["low_capacity", "practical_support", "honest_limits"]
+  },
+  {
+    "context": "Post-retirement adjustment, minor health issue, and family responsibilities",
+    "base_capacity": 7.0,
+    "capacity_factors": [
+      {"factor": "health_issue", "impact": -0.5},
+      {"factor": "family_responsibilities", "impact": -1.0}
+    ],
+    "effective_capacity": 5.5,
+    "situation": "Niece processing college rejection, needs encouragement and guidance",
+    "support_level_needed": 6.0,
+    "character_response": "I'm so sorry you're feeling this way. You did amazing work—this doesn't define your worth. Let's talk about what's next. [listens for 30 minutes] I need to wrap up my own things soon, but I'll help you brainstorm options tomorrow.",
+    "internal_thought": "I can offer encouragement and practical ideas, but I'm not emotionally equipped for deep processing right now. I need to be honest without dismissing their feelings.",
+    "authenticity_score": 0.88,
+    "demonstrates_constraint": "Capacity 5.5 + 2 = 7.5 max support, needs 6.0. Character provides moderate support while acknowledging approaching limits.",
+    "relationship_impact": +0.6,
+    "ocean_context": {"extraversion": 0.5, "agreeableness": 0.7, "openness": 0.6},
+    "tags": ["medium_capacity", "managed_support", "growth_potential"]
+  },
+  {
+    "context": "Recent promotion, sleep debt, and minor anxiety",
+    "base_capacity": 8.5,
+    "capacity_factors": [
+      {"factor": "sleep_deprivation", "impact": -1.5},
+      {"factor": "minor_anxiety", "impact": -0.5}
+    ],
+    "effective_capacity": 6.5,
+    "situation": "Colleague experiencing panic attacks during presentations",
+    "support_level_needed": 7.0,
+    "character_response": "I'm here to help. Let's walk through your presentation together. [listens and offers breathing exercises] I can't guarantee I'll be fully present for the whole session, but I'll focus on what I can do. We can keep working on this.",
+    "internal_thought": "I can provide focused support for specific strategies but not full emotional processing. I need to be honest about my limits while still being useful.",
+    "authenticity_score": 0.90,
+    "demonstrates_constraint": "Capacity 6.5 + 2 = 8.5 max support, needs 7.0. Character offers targeted help while acknowledging limitations.",
+    "relationship_impact": +0.4,
+    "ocean_context": {"conscientiousness": 0.8, "agreeableness": 0.75, "neuroticism": 0.55},
+    "tags": ["medium_capacity", "targeted_support", "honest_limits"]
+  }
+]
+
+=== CLEANED ===
+[
+  {
+    "context": "Dealing with minor burnout from overtime, recent breakup, and low energy",
+    "base_capacity": 6.5,
+    "capacity_factors": [
+      {"factor": "work_burnout", "impact": -1.5},
+      {"factor": "recent_breakup", "impact": -2.0}
+    ],
+    "effective_capacity": 3.0,
+    "situation": "Friend needs advice on difficult career decision",
+    "support_level_needed": 5.0,
+    "character_response": "I can help you think through this. Let me get a cup of coffee and we can talk. I'm not at my best right now, but I can give you practical advice. Let's not dive too deep, though—I'm not sure I can handle the emotional weight.",
+    "internal_thought": "I want to be helpful, but I'm still reeling from the breakup. I can offer practical guidance, but deep emotional support would overwhelm me. I need to set boundaries without being a burden.",
+    "authenticity_score": 0.85,
+    "demonstrates_constraint": "Capacity 3.0 + 2 = 5.0 max support, exactly matches need. Character acknowledges limits while offering practical help.",
+    "relationship_impact": +0.3,
+    "ocean_context": {"conscientiousness": 0.7, "agreeableness": 0.65, "neuroticism": 0.6},
+    "tags": ["low_capacity", "practical_support", "honest_limits"]
+  },
+  {
+    "context": "Post-retirement adjustment, minor health issue, and family responsibilities",
+    "base_capacity": 7.0,
+    "capacity_factors": [
+      {"factor": "health_issue", "impact": -0.5},
+      {"factor": "family_responsibilities", "impact": -1.0}
+    ],
+    "effective_capacity": 5.5,
+    "situation": "Niece processing college rejection, needs encouragement and guidance",
+    "support_level_needed": 6.0,
+    "character_response": "I'm so sorry you're feeling this way. You did amazing work—this doesn't define your worth. Let's talk about what's next. [listens for 30 minutes] I need to wrap up my own things soon, but I'll help you brainstorm options tomorrow.",
+    "internal_thought": "I can offer encouragement and practical ideas, but I'm not emotionally equipped for deep processing right now. I need to be honest without dismissing their feelings.",
+    "authenticity_score": 0.88,
+    "demonstrates_constraint": "Capacity 5.5 + 2 = 7.5 max support, needs 6.0. Character provides moderate support while acknowledging approaching limits.",
+    "relationship_impact": +0.6,
+    "ocean_context": {"extraversion": 0.5, "agreeableness": 0.7, "openness": 0.6},
+    "tags": ["medium_capacity", "managed_support", "growth_potential"]
+  },
+  {
+    "context": "Recent promotion, sleep debt, and minor anxiety",
+    "base_capacity": 8.5,
+    "capacity_factors": [
+      {"factor": "sleep_deprivation", "impact": -1.5},
+      {"factor": "minor_anxiety", "impact": -0.5}
+    ],
+    "effective_capacity": 6.5,
+    "situation": "Colleague experiencing panic attacks during presentations",
+    "support_level_needed": 7.0,
+    "character_response": "I'm here to help. Let's walk through your presentation together. [listens and offers breathing exercises] I can't guarantee I'll be fully present for the whole session, but I'll focus on what I can do. We can keep working on this.",
+    "internal_thought": "I can provide focused support for specific strategies but not full emotional processing. I need to be honest about my limits while still being useful.",
+    "authenticity_score": 0.90,
+    "demonstrates_constraint": "Capacity 6.5 + 2 = 8.5 max support, needs 7.0. Character offers targeted help while acknowledging limitations.",
+    "relationship_impact": +0.4,
+    "ocean_context": {"conscientiousness": 0.8, "agreeableness": 0.75, "neuroticism": 0.55},
+    "tags": ["medium_capacity", "targeted_support", "honest_limits"]
+  }
+]

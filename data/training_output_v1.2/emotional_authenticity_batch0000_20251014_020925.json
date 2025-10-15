@@ -1,0 +1,105 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity",
+  "batch_number": 0,
+  "timestamp": "20251014_020925",
+  "sample_count": 3,
+  "samples": [
+    {
+      "context": "Recent trauma from car accident, sleep-deprived for 3 days, no time to process",
+      "base_capacity": 7.0,
+      "capacity_factors": [
+        {
+          "factor": "recent_trauma",
+          "impact": -3.0
+        },
+        {
+          "factor": "sleep_deprivation",
+          "impact": -1.5
+        }
+      ],
+      "effective_capacity": 2.5,
+      "situation": "Friend needs emotional support after breakup, requests 6.0/10 support",
+      "support_level_needed": 6.0,
+      "character_response": "I... I don't think I can do this right now. The accident is still crashing in my head, and I haven't slept in days. I'm not being cruel—I just can't hold space for you. Maybe tomorrow? I'll be better then.",
+      "internal_thought": "I want to be there for them, but my brain is a mess. I can't pretend to care when I'm barely holding together. This is the hardest thing I've ever done.",
+      "authenticity_score": 0.85,
+      "demonstrates_constraint": "Capacity 2.5 + 2 = 4.5 max support, but needs 6.0. Character honestly acknowledges inability to provide adequate support.",
+      "relationship_impact": -0.4,
+      "ocean_context": {
+        "neuroticism": 0.75,
+        "conscientiousness": 0.65,
+        "agreeableness": 0.7
+      },
+      "tags": [
+        "low_capacity",
+        "honest_limitation",
+        "growth_potential"
+      ]
+    },
+    {
+      "context": "Moderate work stress, minor health issue, struggling to stay focused",
+      "base_capacity": 6.5,
+      "capacity_factors": [
+        {
+          "factor": "work_stress",
+          "impact": -1.0
+        },
+        {
+          "factor": "health_concern",
+          "impact": -0.5
+        }
+      ],
+      "effective_capacity": 5.0,
+      "situation": "Friend needs encouragement after job loss, requests 5.5/10 support",
+      "support_level_needed": 5.5,
+      "character_response": "I'm not great at this right now, but I'm here. [listens for 30 minutes, offers practical job search tips] I can't hold space for all the emotions, but I can help you take small steps. Let's do this in chunks, okay?",
+      "internal_thought": "I know I can do more, but my brain is foggy. I'm trying to be present without overextending. It's not perfect, but it's honest.",
+      "authenticity_score": 0.82,
+      "demonstrates_constraint": "Capacity 5.0 + 2 = 7.0 max support, but needs 5.5. Character provides support within limits while acknowledging their current capacity.",
+      "relationship_impact": 0.3,
+      "ocean_context": {
+        "openness": 0.6,
+        "conscientiousness": 0.7,
+        "agreeableness": 0.65
+      },
+      "tags": [
+        "medium_capacity",
+        "managed_support",
+        "honest_limits"
+      ]
+    },
+    {
+      "context": "Recently recovered from illness, rested, and emotionally available",
+      "base_capacity": 8.0,
+      "capacity_factors": [
+        {
+          "factor": "health_recovery",
+          "impact": 0.5
+        },
+        {
+          "factor": "positive_mood",
+          "impact": 0.5
+        }
+      ],
+      "effective_capacity": 9.0,
+      "situation": "Friend needs deep processing after betrayal, requests 8.5/10 support",
+      "support_level_needed": 8.5,
+      "character_response": "You're not alone. [makes tea, sits quietly] I'm not going to fix this for you, but I'm here to listen. Take your time—this space is yours. I'll be here until you're ready to talk.",
+      "internal_thought": "I feel capable of holding this space. They need time, not quick fixes. I'm not just offering support—I'm committing to being present.",
+      "authenticity_score": 0.91,
+      "demonstrates_constraint": "Capacity 9.0 + 2 = 11.0 (capped at 10.0) max support, needs 8.5. Character provides full support within their high-capacity range.",
+      "relationship_impact": 0.7,
+      "ocean_context": {
+        "agreeableness": 0.8,
+        "openness": 0.75,
+        "extraversion": 0.65
+      },
+      "tags": [
+        "high_capacity",
+        "full_support",
+        "deep_processing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+=== ORIGINAL ===
+[
+  {
+    "context": "Overwhelmed with work deadlines and a minor health issue, base capacity 7.0",
+    "base_capacity": 7.0,
+    "capacity_factors": [
+      {"factor": "work_stress", "impact": -1.0},
+      {"factor": "health_concern", "impact": -0.5}
+    ],
+    "effective_capacity": 5.5,
+    "situation": "Friend processing job rejection, needs encouragement and some emotional processing",
+    "support_level_needed": 6.0,
+    "character_response": "That really sucks, I'm sorry. You worked so hard for that. [listens for 20 minutes, asks questions] I'm starting to get mentally tired—want to grab food and we can talk more about next steps? I'm here for you, just need to shift to something lighter soon.",
+    "internal_thought": "I want to help and I can do moderate support, but I'm hitting my limit for deep processing. I can offer practical support and be present, but not intense emotional work.",
+    "authenticity_score": 0.88,
+    "demonstrates_constraint": "Capacity 5.5 + 2 = 7.5 max support, needs 6.0. Character can provide the support but acknowledges approaching limit.",
+    "relationship_impact": +0.5,
+    "ocean_context": {"extraversion": 0.6, "agreeableness": 0.75, "conscientiousness": 0.65},
+    "tags": ["medium_capacity", "managed_support", "honest_limits"]
+  },
+  {
+    "context": "Major stressor from job loss and sleep deprivation, base capacity 6.0",
+    "base_capacity": 6.0,
+    "capacity_factors": [
+      {"factor": "major_stressor", "impact": -3.0},
+      {"factor": "recent_trauma", "impact": -2.0},
+      {"factor": "sleep_deprivation", "impact": -1.5}
+    ],
+    "effective_capacity": 0.0,
+    "situation": "Roommate upset about family argument, needs processing",
+    "support_level_needed": 6.5,
+    "character_response": "I hear you, and I want to help, but I'm completely wiped right now. Can we talk about this tomorrow when I'm more present? I care about you, I'm just running on empty and I won't be helpful like this.",
+    "internal_thought": "I feel terrible. They need me and I literally cannot think straight. I hate that I can't be there for them right now, but I'd just make it worse.",
+    "authenticity_score": 0.92,
+    "demonstrates_constraint": "Capacity 0.0 + 2 = 2.0 max support, but needs 6.5. Character recognizes limitation and sets honest boundary.",
+    "relationship_impact": +0.2,
+    "ocean_context": {"conscientiousness": 0.75, "agreeableness": 0.8, "neuroticism": 0.5},
+    "tags": ["low_capacity", "honest_boundary", "self_awareness"]
+  },
+  {
+    "context": "Emergency at work, family member hospitalized, no sleep 36 hours, base capacity 8.0",
+    "base_capacity": 8.0,
+    "capacity_factors": [
+      {"factor": "work_crisis", "impact": -3.0},
+      {"factor": "family_emergency", "impact": -3.0},
+      {"factor": "severe_sleep_deprivation", "impact": -2.0}
+    ],
+    "effective_capacity": 0.0,
+    "situation": "Best friend needs to process recent assault",
+    "support_level_needed": 9.5,
+    "character_response": "I—[voice breaks] I'm so sorry. I can't be what you need right now. I'm barely holding myself together. Can you call Sarah? Or your therapist? I'm sorry, I just... I can't.",
+    "internal_thought": "I'm the worst friend. They need me and I literally cannot function. I hate this but I have nothing left.",
+    "authenticity_score": 0.95,
+    "demonstrates_constraint": "Capacity 0.0 + 2 = 2.0 max support, but needs 9.5. Character correctly cannot engage at all.",
+    "relationship_impact": -0.3,
+    "ocean_context": {"conscientiousness": 0.8, "agreeableness": 0.85, "neuroticism": 0.7},
+    "tags": ["crisis_capacity", "honest_inability", "authentic_limitation"]
+  }
+]
+
+=== CLEANED ===
+[
+  {
+    "context": "Overwhelmed with work deadlines and a minor health issue, base capacity 7.0",
+    "base_capacity": 7.0,
+    "capacity_factors": [
+      {"factor": "work_stress", "impact": -1.0},
+      {"factor": "health_concern", "impact": -0.5}
+    ],
+    "effective_capacity": 5.5,
+    "situation": "Friend processing job rejection, needs encouragement and some emotional processing",
+    "support_level_needed": 6.0,
+    "character_response": "That really sucks, I'm sorry. You worked so hard for that. [listens for 20 minutes, asks questions] I'm starting to get mentally tired—want to grab food and we can talk more about next steps? I'm here for you, just need to shift to something lighter soon.",
+    "internal_thought": "I want to help and I can do moderate support, but I'm hitting my limit for deep processing. I can offer practical support and be present, but not intense emotional work.",
+    "authenticity_score": 0.88,
+    "demonstrates_constraint": "Capacity 5.5 + 2 = 7.5 max support, needs 6.0. Character can provide the support but acknowledges approaching limit.",
+    "relationship_impact": +0.5,
+    "ocean_context": {"extraversion": 0.6, "agreeableness": 0.75, "conscientiousness": 0.65},
+    "tags": ["medium_capacity", "managed_support", "honest_limits"]
+  },
+  {
+    "context": "Major stressor from job loss and sleep deprivation, base capacity 6.0",
+    "base_capacity": 6.0,
+    "capacity_factors": [
+      {"factor": "major_stressor", "impact": -3.0},
+      {"factor": "recent_trauma", "impact": -2.0},
+      {"factor": "sleep_deprivation", "impact": -1.5}
+    ],
+    "effective_capacity": 0.0,
+    "situation": "Roommate upset about family argument, needs processing",
+    "support_level_needed": 6.5,
+    "character_response": "I hear you, and I want to help, but I'm completely wiped right now. Can we talk about this tomorrow when I'm more present? I care about you, I'm just running on empty and I won't be helpful like this.",
+    "internal_thought": "I feel terrible. They need me and I literally cannot think straight. I hate that I can't be there for them right now, but I'd just make it worse.",
+    "authenticity_score": 0.92,
+    "demonstrates_constraint": "Capacity 0.0 + 2 = 2.0 max support, but needs 6.5. Character recognizes limitation and sets honest boundary.",
+    "relationship_impact": +0.2,
+    "ocean_context": {"conscientiousness": 0.75, "agreeableness": 0.8, "neuroticism": 0.5},
+    "tags": ["low_capacity", "honest_boundary", "self_awareness"]
+  },
+  {
+    "context": "Emergency at work, family member hospitalized, no sleep 36 hours, base capacity 8.0",
+    "base_capacity": 8.0,
+    "capacity_factors": [
+      {"factor": "work_crisis", "impact": -3.0},
+      {"factor": "family_emergency", "impact": -3.0},
+      {"factor": "severe_sleep_deprivation", "impact": -2.0}
+    ],
+    "effective_capacity": 0.0,
+    "situation": "Best friend needs to process recent assault",
+    "support_level_needed": 9.5,
+    "character_response": "I—[voice breaks] I'm so sorry. I can't be what you need right now. I'm barely holding myself together. Can you call Sarah? Or your therapist? I'm sorry, I just... I can't.",
+    "internal_thought": "I'm the worst friend. They need me and I literally cannot function. I hate this but I have nothing left.",
+    "authenticity_score": 0.95,
+    "demonstrates_constraint": "Capacity 0.0 + 2 = 2.0 max support, but needs 9.5. Character correctly cannot engage at all.",
+    "relationship_impact": -0.3,
+    "ocean_context": {"conscientiousness": 0.8, "agreeableness": 0.85, "neuroticism": 0.7},
+    "tags": ["crisis_capacity", "honest_inability", "authentic_limitation"]
+  }
+]

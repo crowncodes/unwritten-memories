@@ -1,0 +1,105 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity",
+  "batch_number": 2,
+  "timestamp": "20251014_020925",
+  "sample_count": 3,
+  "samples": [
+    {
+      "context": "Recent breakup, sleep-deprived from working late, struggling with self-care",
+      "base_capacity": 6.0,
+      "capacity_factors": [
+        {
+          "factor": "recent_trauma",
+          "impact": -2.5
+        },
+        {
+          "factor": "sleep_deprivation",
+          "impact": -1.5
+        }
+      ],
+      "effective_capacity": 2.0,
+      "situation": "Partner needs emotional support after job loss, requests deep processing",
+      "support_level_needed": 7.0,
+      "character_response": "I'm so sorry you're going through this. I can't pretend to know what you're feeling, but I'm here. Let's sit and talk, but I need to be honest—I'm not at my best right now. I'll listen, but I can't carry this with you. Maybe tomorrow?",
+      "internal_thought": "I'm not a good listener today. My brain feels foggy and I'm scared I'll say the wrong thing. I want to help but I can't be present enough for this.",
+      "authenticity_score": 0.85,
+      "demonstrates_constraint": "Capacity 2.0 + 2 = 4.0 max support, but needs 7.0. Character honestly limits engagement and redirects to safer boundaries.",
+      "relationship_impact": -0.4,
+      "ocean_context": {
+        "neuroticism": 0.65,
+        "agreeableness": 0.7,
+        "conscientiousness": 0.6
+      },
+      "tags": [
+        "low_capacity",
+        "honest_boundary",
+        "emotional_availability"
+      ]
+    },
+    {
+      "context": "Moderate work stress, recovering from minor illness, feeling intermittently present",
+      "base_capacity": 7.0,
+      "capacity_factors": [
+        {
+          "factor": "work_stress",
+          "impact": -1.0
+        },
+        {
+          "factor": "minor_illness",
+          "impact": -0.5
+        }
+      ],
+      "effective_capacity": 5.5,
+      "situation": "Friend needs encouragement after public humiliation, requests 60-minute emotional processing",
+      "support_level_needed": 6.5,
+      "character_response": "I'm so sorry you're feeling this way. Let's sit and talk—[pauses, looks away] I'm not sure how much I can hold here. I can listen for 30 minutes, but I'm starting to feel overwhelmed. Would you want to take a walk or switch to something lighter?",
+      "internal_thought": "I can give partial support but I'm hitting my limit. I don't want to invalidate their feelings but I can't stay present for the full session. I need to be honest without being dismissive.",
+      "authenticity_score": 0.82,
+      "demonstrates_constraint": "Capacity 5.5 + 2 = 7.5 max support, needs 6.5. Character provides partial support while acknowledging approaching limits.",
+      "relationship_impact": 0.3,
+      "ocean_context": {
+        "openness": 0.65,
+        "agreeableness": 0.75,
+        "neuroticism": 0.55
+      },
+      "tags": [
+        "medium_capacity",
+        "managed_support",
+        "emotional_limitation"
+      ]
+    },
+    {
+      "context": "Recent promotion, rested, emotionally available due to positive life changes",
+      "base_capacity": 9.0,
+      "capacity_factors": [
+        {
+          "factor": "positive_life_change",
+          "impact": 1.0
+        },
+        {
+          "factor": "rest",
+          "impact": 0.5
+        }
+      ],
+      "effective_capacity": 10.0,
+      "situation": "Colleague experiencing burnout, needs 90-minute crisis intervention",
+      "support_level_needed": 9.0,
+      "character_response": "Let's get you some tea and talk. I've got all of this. [listens intently, offers resources] You're not alone in this. I'll stay until you feel ready to move forward—no rush. What do you need most right now?",
+      "internal_thought": "I'm in a place where I can fully focus on you. This is exactly why I'm here—because I can give you my full attention without reservation.",
+      "authenticity_score": 0.9,
+      "demonstrates_constraint": "Capacity 10.0 + 2 = 12.0 (capped at 10.0), needs 9.0. Character provides full support within their capacity limits.",
+      "relationship_impact": 0.7,
+      "ocean_context": {
+        "extraversion": 0.8,
+        "agreeableness": 0.85,
+        "openness": 0.75
+      },
+      "tags": [
+        "high_capacity",
+        "full_support",
+        "crisis_intervention"
+      ]
+    }
+  ]
+}

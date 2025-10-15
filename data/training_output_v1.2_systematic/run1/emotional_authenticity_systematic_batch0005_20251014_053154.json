@@ -1,0 +1,107 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 5,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 6.0,
+        "description": "A friend urgently needs help organizing a surprise birthday party, but the character is exhausted from a 14-hour shift"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "Im so sorry, Jess I cant do this. My hands are shaking, I cant even hold a cup of coffee without dropping it. I tried to stay up late to help, but my brain feels like its melting. You deserve better than this. Im not the person you need right now. Im sorry. I just I cant. Please dont take it personally. Id rather be honest than pretend I can handle this. Youll find someone who can. Ill help with the grocery list, but thats it. Im not the hero you think I am. Im just broken.",
+        "behavioral_cues": [
+          "tired smile",
+          "shaky hands",
+          "looks down at a crumpled receipt"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.0,
+        "capacity_factors": [
+          {
+            "factor": "chronic_illness",
+            "impact": -1.0
+          }
+        ],
+        "effective_capacity": 2.0
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 2.9,
+        "description": "A coworker asks for help with a project, but the character is physically drained from a recent hospital visit"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I I cant. Not really. My chest hurts when I talk too much. Im not even sure I can type this without coughing. I tried to say yes, but my voice is like sandpaper. Youll have to find someone else. Im not being rude Im just Im not capable. Im sorry. I know you need help, but Im not the person to give it. Im sorry. Ill send you the files I have, but thats all. Im not Im not the hero you think I am. Im just a ghost.",
+        "behavioral_cues": [
+          "clenched jaw",
+          "coughing fit",
+          "frequent pauses"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

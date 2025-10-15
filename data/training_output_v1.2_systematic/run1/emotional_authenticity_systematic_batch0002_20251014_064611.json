@@ -1,0 +1,401 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 2,
+  "timestamp": "20251014_064611",
+  "sample_count": 8,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 10.1,
+        "description": "Helping a friend in a crisis, but overextending"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I'm not sure how much more I can take, 'sister.' My hands are shaking, and my mind feels like it's stuck in a loop. You're not the first person to ask for help, but this... this is different. I can't pretend I'm fine when I'm not. I'm tired, and I'm scared. I can't be the hero here. You need someone who can actually show up, not just say they will. I'm sorry, but I can't do this anymore.",
+        "behavioral_cues": [
+          "shaking hands",
+          "looks down",
+          "tired smile"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.35,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "defensive_lashing",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.2,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -1.0
+          }
+        ],
+        "effective_capacity": 2.2
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 2.7,
+        "description": "Trying to help a neighbor with a minor issue, but overwhelmed by past failures"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I don't know how to fix this. Every time I try, I mess it up. My hands are trembling, and my brain feels like it's fogged. I can't even tell you what's wrong, let alone fix it. I'm sorry, but I can't do this. I've tried before, and it always backfires. You deserve someone better than me. I'm just... I'm not cut out for this.",
+        "behavioral_cues": [
+          "clenched fists",
+          "staring at the floor",
+          "frequent sighs"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.55,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "struggling",
+        "complexity_type": "misjudgment_under",
+        "batch_index": 1
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "emotional_exhaustion",
+            "impact": -1.8
+          }
+        ],
+        "effective_capacity": 5.7
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.7,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 11.5,
+        "description": "Struggling to help a partner with a major life change"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I keep trying to be the calm in the storm, but I'm not sure I can hold it together anymore. My voice cracks, and my eyes burn from crying. I want to help, but I feel like I'm failing. I'm so tired, and I'm scared I'll say the wrong thing. I don't know how to fix this, but I'm here. I can't promise I'll be okay, but I'm trying. I'm sorry if I'm not enough.",
+        "behavioral_cues": [
+          "red eyes",
+          "rubbing temples",
+          "frequent pauses"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.07,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.32,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "mixed_emotions",
+        "batch_index": 2
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 6.8,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.2
+          }
+        ],
+        "effective_capacity": 5.6
+      },
+      "ocean_personality": {
+        "openness": 0.8,
+        "agreeableness": 0.7,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 6.9,
+        "description": "Helping a coworker with a personal issue"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I know I should be here for you, but I'm not sure I can be the support you need. My mind is racing, and I feel like I'm about to break. I keep saying the wrong things, and I don't know how to fix it. I'm not the person you think I am. I'm here, but I'm not sure I can help. I'm sorry if I'm not enough.",
+        "behavioral_cues": [
+          "avoiding eye contact",
+          "tapping fingers",
+          "frequent sighs"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.04,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.78,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "authentic",
+        "complexity_type": "defensive_lashing",
+        "batch_index": 3
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.0,
+        "capacity_factors": [
+          {
+            "factor": "emergencies",
+            "impact": -0.5
+          }
+        ],
+        "effective_capacity": 2.5
+      },
+      "ocean_personality": {
+        "openness": 0.9,
+        "agreeableness": 0.8,
+        "neuroticism": 0.3
+      },
+      "situation": {
+        "support_needed": 2.0,
+        "description": "Assisting during a medical emergency"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I can't think straight. My heart is racing, and I'm so scared. I know I should be calm, but I can't. I'm not trained for this, and I'm not sure what to do. I'm sorry, but I can't help. I'm just... I'm not enough. I can't be the hero here. I need someone who knows what they're doing.",
+        "behavioral_cues": [
+          "sweaty palms",
+          "shaking legs",
+          "staring at the floor"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.02,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.92,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "excellent",
+        "complexity_type": "emergency_override",
+        "batch_index": 4
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 1.2,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -1.0
+          }
+        ],
+        "effective_capacity": 0.2
+      },
+      "ocean_personality": {
+        "openness": 0.4,
+        "agreeableness": 0.5,
+        "neuroticism": 0.8
+      },
+      "situation": {
+        "support_needed": 1.8,
+        "description": "Trying to help a family member with a minor issue"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I don't know how to do this. My head is spinning, and I feel like I'm failing. I keep apologizing, but I don't know what else to say. I'm not sure I can be here for you, but I'm trying. I'm so sorry, but I'm not enough. I can't be the person you need. I'm just... I'm not cut out for this.",
+        "behavioral_cues": [
+          "clenched jaw",
+          "staring at the wall",
+          "frequent pauses"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.01,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.88,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "authentic",
+        "complexity_type": "cultural_indirect",
+        "batch_index": 5
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.5,
+        "capacity_factors": [
+          {
+            "factor": "emotional_exhaustion",
+            "impact": -0.8
+          }
+        ],
+        "effective_capacity": 2.7
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 1.8,
+        "description": "Trying to avoid conflict in a group setting"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I don't want to argue, but I can't be silent either. My voice is shaking, and I feel like I'm drowning. I want to help, but I'm scared to speak up. I'm not sure I can be the voice for everyone, but I'm here. I'm sorry if I'm not enough. I just... I'm trying.",
+        "behavioral_cues": [
+          "avoiding eye contact",
+          "nervous laughter",
+          "frequent pauses"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.81,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "excellent",
+        "complexity_type": "people_pleasing",
+        "batch_index": 6
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.0,
+        "capacity_factors": [
+          {
+            "factor": "misjudgment",
+            "impact": -0.7
+          }
+        ],
+        "effective_capacity": 2.3
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.7,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 5.9,
+        "description": "Trying to help a friend with a complex problem"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I keep trying to fix things, but I'm not sure I'm doing it right. My mind is racing, and I feel like I'm failing. I don't know how to help, and I'm scared I'll make it worse. I'm sorry, but I can't be the person you need. I'm trying, but I'm not enough. I'm just... I'm not sure how to help anymore.",
+        "behavioral_cues": [
+          "rubbing temples",
+          "staring at the floor",
+          "frequent sighs"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.06,
+        "trust_calculation": {
+          "formula": "base_trust * (1 - capacity_factor)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.58,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "struggling",
+        "complexity_type": "misjudgment_over",
+        "batch_index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 1,
+  "timestamp": "20251014_070453",
+  "sample_count": 8,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 6.0,
+        "description": "Emergency override request during a collapsing bridge rescue"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You're not gonna make it through that collapse, are you? (pauses, rubs temples) My hands are shaking like a leaf... I can't hold the lever steady enough. (looks down at trembling fingers) The structure's giving way faster than I calculated. I can slow the descent, but I can't stop it. (tired smile) You're gonna have to make the call. I'm not the hero herejust a broken one.",
+        "behavioral_cues": [
+          "trembling hands",
+          "avoiding eye contact",
+          "clutching a rusted tool"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "struggling",
+        "complexity_type": "emergency_override",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -2.0
+          }
+        ],
+        "effective_capacity": 5.5
+      },
+      "ocean_personality": {
+        "openness": 0.9,
+        "agreeableness": 0.7,
+        "neuroticism": 0.3
+      },
+      "situation": {
+        "support_needed": 4.2,
+        "description": "Misjudged conflict over a lost shipment"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I thought I saw the truck... (stares at the empty road) Maybe it's a phantom. (laughs dryly) I've been so exhausted, I'm starting to doubt my own eyes. (pauses, adjusts frayed collar) You don't need to apologize. I'm just... (trails off, staring at the horizon) I'm used to being wrong. It's how I survive.",
+        "behavioral_cues": [
+          "sunken eyes",
+          "clutching a frayed jacket",
+          "frequent glances at the road"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 0.8)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.92,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "excellent",
+        "complexity_type": "misjudgment_over",
+        "batch_index": 1
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 9.0,
+        "capacity_factors": [
+          {
+            "factor": "emotional_block",
+            "impact": -3.0
+          }
+        ],
+        "effective_capacity": 6.0
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.5,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 10.6,
+        "description": "Mixed emotions during a reunion with a former partner"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You look... (pauses, stares at the coffee stain on their sleeve) Like the last time we saw each other. (voice cracks) I can't pretend to be happy. (looks away, fingers tapping the table) I'm here because I owe you an apology. Not because I want to. (whispers) You were right to leave. I was a mess.",
+        "behavioral_cues": [
+          "coffee-stained hands",
+          "forced smile",
+          "tapping fingers"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.15,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 1.2)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.88,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "mixed_emotions",
+        "batch_index": 2
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 6.0,
+        "capacity_factors": [
+          {
+            "factor": "mental_noise",
+            "impact": -1.0
+          }
+        ],
+        "effective_capacity": 5.0
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 5.5,
+        "description": "Baseline tension during a family dinner"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You're not the first person to ask me that. (stares at the ceiling, voice soft) I keep waiting for the right moment to say it. But every time I open my mouth, it's like... (pauses, gestures to the chandelier) The weight of the room suffocates me. I can't bear it. (looks down) Maybe I'm just not built for this.",
+        "behavioral_cues": [
+          "staring at ceiling",
+          "twitching fingers",
+          "avoiding eye contact"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.08,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 0.9)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.87,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "authentic",
+        "complexity_type": "baseline",
+        "batch_index": 3
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 8.5,
+        "capacity_factors": [
+          {
+            "factor": "defensive_armor",
+            "impact": -4.0
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.4,
+        "neuroticism": 0.8
+      },
+      "situation": {
+        "support_needed": 14.2,
+        "description": "Defensive lashing after a public humiliation"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You think I wanted this? (laughs bitterly, slamming a folder) I've spent years building this empire, and you all just... (gestures wildly) You think I enjoy being a villain? (pauses, voice breaking) I'm just... (rubs temples) I'm tired of being the one who gets blamed. (stares at the wall) Maybe I'm not the hero you want. But I'm not the enemy either.",
+        "behavioral_cues": [
+          "slamming folder",
+          "wet eyes",
+          "staring at wall"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.22,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 1.5)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.91,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "failed",
+        "complexity_type": "defensive_lashing",
+        "batch_index": 4
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 5.0,
+        "capacity_factors": [
+          {
+            "factor": "cultural_code",
+            "impact": -1.8
+          }
+        ],
+        "effective_capacity": 3.2
+      },
+      "ocean_personality": {
+        "openness": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 9.6,
+        "description": "Cultural indirect request for help with a family issue"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You're not the first to ask. (stares at the tea leaves, voice low) My grandmother said... (pauses, eyes darting) Sometimes the best help is to let the river flow. (looks up, hesitant) I can't force you to do anything. But if you need... (trails off, fidgeting with a spoon) I'm here. Just... not in the way you expect.",
+        "behavioral_cues": [
+          "staring at tea",
+          "fidgeting spoon",
+          "hesitant eye contact"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.18,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 1.2)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.89,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "cultural_indirect",
+        "batch_index": 5
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 3.0,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 1.5
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 3.3,
+        "description": "People-pleasing dilemma during a work meeting"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I know I'm not the best at this... (smiles nervously, eyes darting) But I'll try. (voice cracks) I just... (pauses, biting lip) I don't want to let anyone down. Even if it means... (looks down) Even if it means I'm not being honest. (whispers) I'm sorry. I'm just... not good at saying no.",
+        "behavioral_cues": [
+          "nervous smile",
+          "biting lip",
+          "avoiding eye contact"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.12,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 1.1)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.86,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 6
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 2.5,
+        "capacity_factors": [
+          {
+            "factor": "misjudgment",
+            "impact": -1.3
+          }
+        ],
+        "effective_capacity": 1.2
+      },
+      "ocean_personality": {
+        "openness": 0.3,
+        "agreeableness": 0.7,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 4.3,
+        "description": "Misjudgment under stress during a critical project"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I thought I had this... (stares at the screen, voice trembling) I'm so tired. (pauses, rubbing temples) Every time I think I've got it figured out, the numbers just... (gestures frantically) They twist and turn. I can't keep up. (looks up, eyes red) I'm sorry. I'm just... (trails off) I'm not good under pressure. Not anymore.",
+        "behavioral_cues": [
+          "screen-staring",
+          "trembling voice",
+          "red eyes"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.17,
+        "trust_calculation": {
+          "formula": "support_needed - (effective_capacity * 1.3)",
+          "tier": "MODERATE HARM"
+        }
+      },
+      "authenticity_score": 0.84,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "struggling",
+        "complexity_type": "misjudgment_under",
+        "batch_index": 7
+      }
+    }
+  ]
+}

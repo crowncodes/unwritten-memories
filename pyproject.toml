@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unwritten"
+version = "0.1.0"
+description = "A Python project for [your description]"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["python", "ml", "data-science"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "pydantic>=2.12.0",
+    "pydantic-settings>=2.0.0",
+    "datasets>=2.16.0",
+    "pyarrow>=21.0.0",
+    "huggingface-hub>=0.35.0",
+    "wandb>=0.22.0",
+    "sentry-sdk>=2.41.0",
+    "click>=8.3.0",
+    "tqdm>=4.67.0",
+    "pyyaml>=6.0.0",
+    "python-dateutil>=2.9.0",
+    "requests>=2.32.0",
+    "aiohttp>=3.13.0",
+    "gitpython>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+    "isort>=5.0",
+]
+
+[project.scripts]
+unwritten = "unwritten.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+

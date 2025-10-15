@@ -1,0 +1,22 @@
+ERROR: Expecting ',' delimiter: line 3 column 247 (char 365)
+Location: line 3, column 247
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+{
+    "setting_context": "The town square buzzes with midday chatter as sunlight glints off Elara’s silver pendant.",
+    "dialogue_prose": "Elara adjusted her frayed sleeve, eyes flickering to the scar on her wrist. 'I’ve helped before, but this... it’s different.' Her voice wavered, a habit she couldn’t break. 'That time in Vareth, when the pact went wrong—'" She cut herself off, gripping the hem of her cloak. 'I can’t risk repeating history. But if you’re certain, I’ll do what I can. Just... be careful. Some shadows don’t stay buried.'",
+    "primary_action": "Adjusting frayed sleeve and touching the scar on her wrist",
+    "word_count": 110
+}
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[{
+    "setting_context": "The town square buzzes with midday chatter as sunlight glints off Elara's silver pendant.",
+    "dialogue_prose": "Elara adjusted her frayed sleeve, eyes flickering to the scar on her wrist. 'I've helped before, but this... it's different.' Her voice wavered, a habit she couldn't break. 'That time in Vareth, when the pact went wrong-'" She cut herself off, gripping the hem of her cloak. 'I can't risk repeating history. But if you're certain, I'll do what I can. Just... be careful. Some shadows don't stay buried.'",
+    "primary_action": "Adjusting frayed sleeve and touching the scar on her wrist",
+    "word_count": 110
+}]

@@ -1,0 +1,39 @@
+ERROR: Expecting ',' delimiter: line 7 column 10 (char 336)
+Location: line 7, column 10
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+[{
+    "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+            {"factor": "exhausting schedule", "impact": -4.0, "description": "Unbroken work cycle for 36 hours"},
+            {"factor": "family responsibility", "impact": -1.5, "description": "Helping my mother with medical appointment"}
+        ],
+        "effective_capacity": 2.0,
+        "can_support_up_to": 4.0,
+        "capacity_tier": "LOW"
+    },
+    "ocean_personality": {
+        "openness": 0.7,
+        "conscientiousness": 0.6,
+        "extraversion": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+    },
+    "situation": {
+        "support_needed": 5.5,
+        "support_type": "emotional_processing",
+        "urgency_level": "
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[{
+    "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+            {"factor": "exhausting schedule", "impact": -4.0, "description": "Unbroken work cycle for 36 hours"},
+            {"factor": "family responsibility", "impact": -1.5, "description": "Helping my mother with medical appointment"}
+        ]

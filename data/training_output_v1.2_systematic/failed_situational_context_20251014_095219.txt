@@ -1,0 +1,18 @@
+ERROR: Unterminated string starting at: line 4 column 75 (char 112)
+Location: line 4, column 75
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+[
+    {
+        "capacity_factors": [
+            {"factor": "financial_stress", "impact": -2.5, "description": "Debt collector
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[
+    {
+        "capacity_factors": [
+            {"factor": "financial_stress", "impact": -2.5, "description": "Debt collector

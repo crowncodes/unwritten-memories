@@ -1,0 +1,156 @@
+ERROR: Extra data: line 4 column 10 (char 259)
+Location: line 4, column 10
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+{
+    "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+            {"factor": "12-hour clinic shift", "impact": -1.5, "description": "Physical exhaustion from emergency triage"},
+            {"factor": "unpaid medical bill", "impact": -1.0, "description": "Financial stress compounding emotional load"}
+        ],
+        "effective_capacity": 4.5,
+        "can_support_up_to": 6.5,
+        "capacity_tier": "MEDIUM"
+    },
+    "ocean_personality": {
+        "openness": 0.7,
+        "conscientiousness": 0.6,
+        "extraversion": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+    },
+    "situation": {
+        "support_needed": 6.7,
+        "support_type": "emotional_processing",
+        "urgency_level": "important",
+        "urgency_multiplier": 2.0,
+        "player_relationship_trust": 0.5,
+        "description": "Player shares anxiety over a workplace conflict requiring immediate emotional validation"
+    },
+    "capacity_analysis": {
+        "can_character_support": false,
+        "capacity_gap": 2.0,
+        "recognizes_limitation": true
+    },
+    "character_response": {
+        "setting": "Empty break room at 3am after closing shift",
+        "dialogue": "I’m not supposed to say no, but my head’s pounding from that double shift and I’m drowning in medical bills. I care, really—I do—but I’m barely holding it together myself. Don’t need my emotional baggage right now. Just... not today.",
+        "behavioral_detail": "Rubbing her temple while speaking, fingers pressing into the ache beneath her earlobe",
+        "subtext": "I want to help you but I’d only make things worse if I tried",
+        "tension_hook": {
+            "type": "partial_reveal",
+            "detail": "Mentioning medical bills without explaining why she can’t pay them"
+        },
+        "word_count": 87
+    },
+    "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+            "base_action": -0.5,
+            "personality_mod": 0.7,
+            "urgency_multiplier": 2.0,
+            "trust_modifier": 1.0,
+            "honesty_bonus": 0.05,
+            "formula": "-0.5 × 0.7 × 2.0 × 1.0 + 0.05",
+            "tier": "MINOR HARM",
+            "narrative": "Honesty mitigates harshness but the defensive tone still creates distance"
+        },
+        "player_emotional_change": 0,
+        "npc_capacity_change": -0.2
+    },
+    "complexity_type": "defensive_lashing",
+    "authenticity_score": 0.70,
+    "demonstrates": [
+        "Honest boundary-setting without false promises",
+        "Exhaustion woven into physical detail",
+        "Defensiveness rooted in authentic limitation",
+        "Respectful tone within self-imposed limits"
+    ],
+    "avoids": [
+        "Melodramatic escalation",
+        "Screenplay-style cues",
+        "Over-explaining limitations",
+        "Passive-aggressive phrasing"
+    ],
+    "quality_metrics": {
+        "emotional_authenticity": 0.85,
+        "dialogue_naturalness": 0.90,
+        "subtext_present": true,
+        "overall_quality": 0.88
+    }
+}
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[
+            {"factor": "12-hour clinic shift", "impact": -1.5, "description": "Physical exhaustion from emergency triage"},
+            {"factor": "unpaid medical bill", "impact": -1.0, "description": "Financial stress compounding emotional load"}
+        ],
+        "effective_capacity": 4.5,
+        "can_support_up_to": 6.5,
+        "capacity_tier": "MEDIUM"
+    },
+    "ocean_personality": {
+        "openness": 0.7,
+        "conscientiousness": 0.6,
+        "extraversion": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+    },
+    "situation": {
+        "support_needed": 6.7,
+        "support_type": "emotional_processing",
+        "urgency_level": "important",
+        "urgency_multiplier": 2.0,
+        "player_relationship_trust": 0.5,
+        "description": "Player shares anxiety over a workplace conflict requiring immediate emotional validation"
+    },
+    "capacity_analysis": {
+        "can_character_support": false,
+        "capacity_gap": 2.0,
+        "recognizes_limitation": true
+    },
+    "character_response": {
+        "setting": "Empty break room at 3am after closing shift",
+        "dialogue": "Im not supposed to say no, but my heads pounding from that double shift and Im drowning in medical bills. I care, reallyI dobut Im barely holding it together myself. Dont need my emotional baggage right now. Just... not today.",
+        "behavioral_detail": "Rubbing her temple while speaking, fingers pressing into the ache beneath her earlobe",
+        "subtext": "I want to help you but Id only make things worse if I tried",
+        "tension_hook": {
+            "type": "partial_reveal",
+            "detail": "Mentioning medical bills without explaining why she cant pay them"
+        },
+        "word_count": 87
+    },
+    "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+            "base_action": -0.5,
+            "personality_mod": 0.7,
+            "urgency_multiplier": 2.0,
+            "trust_modifier": 1.0,
+            "honesty_bonus": 0.05,
+            "formula": "-0.5  0.7  2.0  1.0 + 0.05",
+            "tier": "MINOR HARM",
+            "narrative": "Honesty mitigates harshness but the defensive tone still creates distance"
+        },
+        "player_emotional_change": 0,
+        "npc_capacity_change": -0.2
+    },
+    "complexity_type": "defensive_lashing",
+    "authenticity_score": 0.70,
+    "demonstrates": [
+        "Honest boundary-setting without false promises",
+        "Exhaustion woven into physical detail",
+        "Defensiveness rooted in authentic limitation",
+        "Respectful tone within self-imposed limits"
+    ],
+    "avoids": [
+        "Melodramatic escalation",
+        "Screenplay-style cues",
+        "Over-explaining limitations",
+        "Passive-aggressive phrasing"
+    ]

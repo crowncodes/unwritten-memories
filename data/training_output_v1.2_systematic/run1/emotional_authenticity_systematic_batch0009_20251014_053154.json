@@ -1,0 +1,107 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 9,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 1.6,
+        "description": "Overwhelmed colleague asks for help with a critical project, but the character is already exhausted from a 14-hour shift"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I'm so sorry, I know you're counting on me... but I'm not myself right now. My hands are shaking, and I can barely focus. I tried to stay late last night, but my brain feels like it's melting. I'll do what I can, but I can't promise miracles. I'm not the same person who helped you last week. I'm... I'm a ghost of myself. If you need something specific, just tell me. I'll try not to let my exhaustion ruin this. I hate letting you down, but I can't pretend I'm capable of more than this. Please don't take it personally... I'm just not up for it.",
+        "behavioral_cues": [
+          "trembling hands",
+          "stares at floor",
+          "voice cracks mid-sentence"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "excellent",
+        "complexity_type": "people_pleasing",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 9.2,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -2.8
+          }
+        ],
+        "effective_capacity": 6.4
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.5,
+        "neuroticism": 0.7
+      },
+      "situation": {
+        "support_needed": 10.2,
+        "description": "A desperate client pleads for help with a high-stakes legal case, but the character is already at their breaking point from overcommitting"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I can't do this. I'm so tired, I can't even think straight. I've been working 16 hours a day for weeks, and I'm still not where I need to be. You're not the first person to ask me this, and I've already said no twice. But you're paying me, so I'm trying. I'm not sure I can deliver what you need. My brain feels like it's on fire. I'll try to pull an all-nighter, but I'm not promising anything. If I fail, I'll take the blame. Just... don't expect me to be my usual self. I'm not even sure I can show up tomorrow.",
+        "behavioral_cues": [
+          "slumped posture",
+          "clenched jaw",
+          "frequent sighs"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.15,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.55,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

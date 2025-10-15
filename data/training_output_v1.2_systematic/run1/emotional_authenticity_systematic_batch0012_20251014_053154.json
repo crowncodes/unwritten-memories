@@ -1,0 +1,105 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 12,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 9.3,
+        "description": "Friend in crisis needs emotional support after a breakup"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You look like you're about to collapse. I mean, I really want to help, but my hands are shaking so bad I can't even hold a coffee cup. I tried to stay up late last night to process this... but my brain just short-circuited. I'm sorry, I know I promised to listen, but I can't do this right now. My capacity is like a broken compasspoints everywhere but nowhere. Maybe we can talk tomorrow? I'll bring tea. I just... need to sit down first.",
+        "behavioral_cues": [
+          "shaking hands",
+          "slumping in chair"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "baseline",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -1.2
+          }
+        ],
+        "effective_capacity": 5.5
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 8.4,
+        "description": "Trying to comfort a friend during a family conflict"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I really wish I could fix this for you. My voice is cracking, and my eyes are burning, but I can't just... I can't just zone out like I did last time. I'm so scared I'll say the wrong thing. You deserve someone who can hold your hand through this, not someone who's already halfway to the bathroom. I'll stay as long as I can, but I need to take a break soon. Maybe we can talk about something else? I'm here, I promise. Just... not right now.",
+        "behavioral_cues": [
+          "forced smile",
+          "fidgeting with sleeves"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.03,
+        "trust_calculation": {
+          "formula": "support_needed - effective_capacity",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "struggling",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

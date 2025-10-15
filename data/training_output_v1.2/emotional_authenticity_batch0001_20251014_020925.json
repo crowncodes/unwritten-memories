@@ -1,0 +1,107 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity",
+  "batch_number": 1,
+  "timestamp": "20251014_020925",
+  "sample_count": 3,
+  "samples": [
+    {
+      "context": "Recent trauma from car accident, sleep deprivation from anxiety, and unresolved grief",
+      "base_capacity": 7.0,
+      "capacity_factors": [
+        {
+          "factor": "recent_trauma",
+          "impact": -2.5
+        },
+        {
+          "factor": "sleep_deprivation",
+          "impact": -1.5
+        },
+        {
+          "factor": "grief_processing",
+          "impact": -2.0
+        }
+      ],
+      "effective_capacity": 1.0,
+      "situation": "Partner needs crisis-level support after job loss and panic attack",
+      "support_level_needed": 8.5,
+      "character_response": "I... I can't do this right now. I'm so scared and exhausted. I can't be the calm in the storm for you. I need to find my own grounding first. I'm here, but I can't carry you through this. Please call your therapist. I'm sorry I can't be more help.",
+      "internal_thought": "I feel like I'm failing them. I can't even hold my own emotions together. I hate that I can't be there for them, but I can't pretend to be okay when I'm not.",
+      "authenticity_score": 0.92,
+      "demonstrates_constraint": "Capacity 1.0 + 2 = 3.0 max support, but needs 8.5. Character honestly acknowledges inability to provide crisis-level support.",
+      "relationship_impact": -0.4,
+      "ocean_context": {
+        "neuroticism": 0.85,
+        "agreeableness": 0.65,
+        "openness": 0.55
+      },
+      "tags": [
+        "crisis_capacity",
+        "honest_inability",
+        "trauma_impact"
+      ]
+    },
+    {
+      "context": "Moderate work stress, minor health issue, and upcoming deadline",
+      "base_capacity": 8.0,
+      "capacity_factors": [
+        {
+          "factor": "work_stress",
+          "impact": -1.5
+        },
+        {
+          "factor": "health_concern",
+          "impact": -0.5
+        }
+      ],
+      "effective_capacity": 6.0,
+      "situation": "Friend needs guidance through breakup, requires 7.0 support level",
+      "character_response": "I'm not great at this, but I'm here. Let's sit and talk—no pressure to unpack everything now. I can listen and maybe help brainstorm next steps. I'm not sure how much I can process tonight, but I'll try. Can we meet tomorrow for deeper talk?",
+      "internal_thought": "I know I can handle basic support, but my brain is fried. I don't want to give bad advice, so I'm setting boundaries. It's the kindest thing I can do.",
+      "authenticity_score": 0.88,
+      "demonstrates_constraint": "Capacity 6.0 + 2 = 8.0 max support, needs 7.0. Character offers moderate help while acknowledging their own limits.",
+      "relationship_impact": 0.3,
+      "ocean_context": {
+        "conscientiousness": 0.7,
+        "agreeableness": 0.75,
+        "neuroticism": 0.6
+      },
+      "tags": [
+        "medium_capacity",
+        "managed_support",
+        "honest_limits"
+      ]
+    },
+    {
+      "context": "Post-vacation recovery, minor burnout, and positive mood",
+      "base_capacity": 9.0,
+      "capacity_factors": [
+        {
+          "factor": "burnout",
+          "impact": -0.5
+        },
+        {
+          "factor": "positive_mood",
+          "impact": 0.5
+        }
+      ],
+      "effective_capacity": 9.0,
+      "situation": "Colleague needs full emotional processing after betrayal",
+      "character_response": "Let's talk. I've got time and space. [pauses, listens intently] That's so heavy. I'm not going to sugarcoat it—I see you're hurting. Can we go deeper? I'm here to help you make sense of this. You're not alone.",
+      "internal_thought": "I feel emotionally available and capable. This is the kind of support I thrive at giving. I want to be fully present without overstepping my capacity.",
+      "authenticity_score": 0.95,
+      "demonstrates_constraint": "Capacity 9.0 + 2 = 11.0 (max 10.0) support, needs 10.0. Character provides full support within their high-capacity range.",
+      "relationship_impact": 0.7,
+      "ocean_context": {
+        "openness": 0.8,
+        "agreeableness": 0.85,
+        "extraversion": 0.75
+      },
+      "tags": [
+        "high_capacity",
+        "full_support",
+        "deep_processing"
+      ]
+    }
+  ]
+}

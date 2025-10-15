@@ -1,0 +1,193 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 23,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 8.0,
+        "capacity_factors": [
+          {
+            "factor": "work_deadline",
+            "impact": -1.5,
+            "description": "Client meeting at 3 PM"
+          },
+          {
+            "factor": "personal_commitment",
+            "impact": -0.5,
+            "description": "Sister's wedding planning"
+          }
+        ],
+        "effective_capacity": 6.0,
+        "can_support_up_to": 8.0,
+        "capacity_tier": "HIGH"
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "conscientiousness": 0.7,
+        "extraversion": 0.4,
+        "agreeableness": 0.7,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 12.0,
+        "support_type": "emotional_processing",
+        "urgency_level": "important",
+        "urgency_multiplier": 2.0,
+        "player_relationship_trust": 0.7,
+        "description": "Friend needs guidance through career crossroads"
+      },
+      "capacity_analysis": {
+        "can_character_support": false,
+        "capacity_gap": 2.0,
+        "recognizes_limitation": true
+      },
+      "character_response": {
+        "setting": "Park bench, early evening",
+        "dialogue": "He stared at his watch, then at you. 'I want to help, seriously. But I've got a meeting in 20 minutes. I'm already stretched thin.' His hand absently adjusted his collar. 'I'll listen, reallyI promise. But I can't give you the clarity you need right now. I'm so sorry, this feels awful for you.' His eyes darted to the clock again. 'Maybe tomorrow? I'll be free then.'",
+        "behavioral_detail": "adjusts collar, checks clock repeatedly",
+        "subtext": "Wants to be present but feels physically constrained by obligations. Offers partial support despite guilt.",
+        "tension_hook": {
+          "type": "mystery_hook",
+          "detail": "What's more urgent than the meeting? He doesn't explain, just shows the pressure."
+        },
+        "word_count": 76
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.04,
+        "trust_calculation": {
+          "base_action": -0.15,
+          "personality_mod": "Conscientiousness 0.7  0.7 = more rigid",
+          "urgency_multiplier": 2.0,
+          "trust_modifier": 1.2,
+          "honesty_bonus": 0.05,
+          "formula": "(-0.15  0.7  2.0  1.2) + honesty +0.05 = -0.04",
+          "tier": "MINOR HARM (-0.1 to 0.0)",
+          "narrative": "Important context (2x) but high trust cushions the blow"
+        },
+        "player_emotional_change": 0,
+        "npc_capacity_change": -0.3
+      },
+      "complexity_type": "baseline",
+      "authenticity_score": 0.52,
+      "demonstrates": [
+        "Capacity constraint",
+        "Natural prose",
+        "Integrated details",
+        "Mystery hook"
+      ],
+      "avoids": [
+        "Melodrama",
+        "Exposition",
+        "Screenplay cues",
+        "Metaphors"
+      ],
+      "quality_metrics": {
+        "emotional_authenticity": 0.87,
+        "dialogue_naturalness": 0.91,
+        "subtext_present": true,
+        "overall_quality": 0.89
+      },
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "baseline",
+        "scenario_id": "high_struggling_baseline"
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 8.0,
+        "capacity_factors": [
+          {
+            "factor": "wedding_planning",
+            "impact": -2.0,
+            "description": "Sister's wedding in 2 days"
+          },
+          {
+            "factor": "health_issue",
+            "impact": -1.5,
+            "description": "Doctor's appointment pending"
+          }
+        ],
+        "effective_capacity": 0.5,
+        "can_support_up_to": 2.5,
+        "capacity_tier": "CRISIS"
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "conscientiousness": 0.7,
+        "extraversion": 0.4,
+        "agreeableness": 0.8,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 1.0,
+        "support_type": "emotional_processing",
+        "urgency_level": "important",
+        "urgency_multiplier": 2.0,
+        "player_relationship_trust": 0.7,
+        "description": "Friend experiencing panic attacks, needs reassurance"
+      },
+      "capacity_analysis": {
+        "can_character_support": false,
+        "capacity_gap": 2.0,
+        "recognizes_limitation": true
+      },
+      "character_response": {
+        "setting": "Park bench, late evening",
+        "dialogue": "He forced a smile, eyes darting to his phone. 'Id love to, but Im swamped. Can we reschedule?' His thumb hovered over 'reply' to a message he couldnt answer. 'Ill be there... just not now. Youll understand. Ive got a meeting in ten minutes.'",
+        "behavioral_detail": "thumb hovered over 'reply' to unread message",
+        "subtext": "Overcommitting despite overwhelming obligations, masking true capacity limits",
+        "tension_hook": {
+          "type": "mystery_hook",
+          "detail": "What's in the unread message? He doesn't explain, just shows the effect."
+        },
+        "word_count": 65
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.08,
+        "trust_calculation": {
+          "base_action": -0.2,
+          "personality_mod": "Agreeableness 0.8  0.7 = softer",
+          "urgency_multiplier": 2.0,
+          "trust_modifier": 1.2,
+          "honesty_bonus": 0.05,
+          "formula": "(-0.2  0.7  2.0  1.2) + honesty +0.05 = -0.08",
+          "tier": "MINOR HARM (-0.1 to 0.0)",
+          "narrative": "Important context (2x) but high trust cushions the blow"
+        },
+        "player_emotional_change": 0,
+        "npc_capacity_change": -0.3
+      },
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.92,
+      "demonstrates": [
+        "Capacity constraint",
+        "Natural prose",
+        "Integrated details",
+        "Mystery hook"
+      ],
+      "avoids": [
+        "Melodrama",
+        "Exposition",
+        "Screenplay cues",
+        "Metaphors"
+      ],
+      "quality_metrics": {
+        "emotional_authenticity": 0.89,
+        "dialogue_naturalness": 0.91,
+        "subtext_present": true,
+        "overall_quality": 0.9
+      },
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "excellent",
+        "complexity_type": "people_pleasing",
+        "scenario_id": "crisis_excellent_people_pleasing"
+      }
+    }
+  ]
+}

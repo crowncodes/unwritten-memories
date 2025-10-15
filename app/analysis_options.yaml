@@ -1,0 +1,63 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Style Rules
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_single_quotes
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - use_key_in_widget_constructors
+    - use_super_parameters
+    - annotate_overrides
+    - unnecessary_import
+    
+    # Performance
+    - avoid_function_literals_in_foreach_calls
+    - avoid_unnecessary_containers
+    - sized_box_for_whitespace
+    - avoid_slow_async_io
+    
+    # Safety
+    - avoid_print
+    - avoid_returning_null_for_void
+    - cancel_subscriptions
+    - close_sinks
+    - only_throw_errors
+    - prefer_void_to_null
+    - no_logic_in_create_state
+    - no_adjacent_strings_in_list
+    - test_types_in_equals
+    
+    # Documentation
+    - public_member_api_docs
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "build/**"
+    - "**/.dart_tool/**"
+  
+  errors:
+    # Make these errors (will fail build)
+    invalid_annotation_target: ignore
+    missing_required_param: error
+    missing_return: error
+    
+    # Make these warnings (visible but won't fail build)
+    public_member_api_docs: warning
+    avoid_print: warning
+    deprecated_member_use: warning
+    
+    # Make these info (low priority)
+    sort_constructors_first: info
+    prefer_const_literals_to_create_immutables: info
+  
+  language:
+    strict-casts: true
+    strict-raw-types: true
+

@@ -1,0 +1,3236 @@
+[
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 1.9,
+      "can_support_up_to": 3.9,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.0,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A critical mission requires Elena's expertise, but she is overwhelmed by concurrent requests.",
+      "location": "Central trade hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She's been secretly attending shadow meetings about a covert operation she's not supposed to know about."
+      },
+      "relevant_memories": [],
+      "subtext": "I'm not fit for this, but I can't let them know.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "In the bustling central trade hub, Elena sipped her tea, her fingers idly adjusting a silver ring on her right hand.",
+      "dialogue_prose": "You're not the only one drowning in requests, but I'll do my best-just don't expect miracles. Those shadow meetings have been... enlightening, though. I've been meaning to ask, do you know anything about the Veyran Consortium's recent shipments? A friend mentioned whispers of a vault beneath the docks. I'll help, but I need to check my notes first. My head feels like a sieve, but I'll try not to let it show.",
+      "primary_action": "Adjusts silver ring",
+      "word_count": 118
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.2,
+      "capacity_factors": [],
+      "effective_capacity": 4.5,
+      "can_support_up_to": 6.5,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.6,
+      "conscientiousness": 3.8,
+      "extraversion": 3.5,
+      "agreeableness": 4.7,
+      "neuroticism": 2.7
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Taylor to assist with a critical mission that requires immediate attention.",
+      "location": "Central Command Hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A shadowy figure from Taylor's past appears in a vision, hinting at unresolved guilt or a hidden agenda."
+      },
+      "relevant_memories": [],
+      "subtext": "I've been reluctant to take on missions like this before... there's a reason for that.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The hum of the Central Command Hub buzzed overhead as Taylor leaned over a tactical map, fingers tracing the edge of a mission report.",
+      "dialogue_prose": "'I'll help, of course. You know I can't say no.' Their gaze flickered to the dim corner where a shadowy figure loomed in the vision. 'But there's... someone from my past. A choice I made that haunts me. This mission might stir old ghosts.' A beat. 'Just promise me it won't take long. I have a habit of second-guessing.'",
+      "primary_action": "fingers tracing the edge of a mission report",
+      "word_count": 66
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.17,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 0.85 * 2.0 * 1.0) + 0.0 = 0.17",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.3,
+      "npc_capacity_cost": -0.7,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 6.3,
+      "can_support_up_to": 8.3,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 4.0,
+      "conscientiousness": 4.0,
+      "extraversion": 3.5,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.9,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elena requires assistance to manage a critical resource shortage affecting her village's defenses.",
+      "location": "Riverton Village Hall",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Elena secretly diverts resources to a hidden cache, but doubts if it's enough."
+      },
+      "relevant_memories": [],
+      "subtext": "Elena fears the villagers might lose faith if they knew the true extent of the resource depletion.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Afternoon sunlight slants through Riverton Village Hall windows, illuminating stacks of ration supplies and maps pinned to a weathered table.",
+      "dialogue_prose": "Elena adjusted her locket, fingers brushing the engraved crest. 'The cache... it's a stopgap, not a solution. I've moved what I could, but the wells are drying faster than expected.' Her voice wavered, then steadied. 'If the villagers knew the truth, they'd question our leadership. But I can't risk their trust-yet.' A pause. 'Help me calculate the shortfall, but don't let them see the ledgers. This village needs hope, not panic.'",
+      "primary_action": "Adjusting her locket",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.18,
+      "trust_calculation": {
+        "base_action_impact": -0.15,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(-0.15 * 1.0 * 2.0 * 1.0) + 0.12 = -0.18",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": -0.4,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 4,
+      "trust": 0.75,
+      "interaction_count": 58
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 8.1,
+      "can_support_up_to": 10.1,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.3,
+      "extraversion": 2.7,
+      "agreeableness": 4.4,
+      "neuroticism": 2.6
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.9,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A group of travelers is seeking Elara's aid to resolve a critical conflict in a nearby village, requiring her expertise in diplomacy and combat strategy.",
+      "location": "The Crossroads Inn",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She's been secretly visiting the village at night, unseen by the travelers"
+      },
+      "relevant_memories": [],
+      "subtext": "She fears her past failures will doom the village again",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Crossroads Inn's dim afternoon light casts long shadows over the travelers' table, where Elara's fingers trace the rim of her wineglass.",
+      "dialogue_prose": "I'll help, of course. Diplomacy is my specialty, though combat strategy... that's a different matter. The villagers are fracturing again, aren't they? I've... been keeping an eye on things. Nightly, actually. The rifts in their trust mirror patterns from a decade past. You'll need more than words. I can arrange a truce, but it will cost lives. Or perhaps you'd prefer to burn the village clean?",
+      "primary_action": "Her wineglass trembles as she sets it down, the stem leaving a smudge on the tablecloth",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.74,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.3 (defensive_lashing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.3 * 2.0 * 1.2) + 0.12 = 0.74",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.5,
+      "npc_capacity_cost": -1.2,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "defensive_lashing",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Mira",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 2.3,
+      "can_support_up_to": 4.3,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.3,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 2.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Mira is overwhelmed with requests and needs help to manage her workload efficiently.",
+      "location": "Central administrative hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She's been receiving anonymous requests overnight, each one more impossible than the last."
+      },
+      "relevant_memories": [],
+      "subtext": "I'm drowning, but no one will notice the cracks in my composure.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The hum of fluorescent lights buzzed overhead as Mira juggled folders, her eyes darting between screens and a mountain of paperwork.",
+      "dialogue_prose": "Mira adjusted her necklace, fingers brushing the pendant as she forced a smile. 'I'm here to help, of course-though I'll admit, the last few days have been... chaotic. These late-night requests? Some are impossible. I mean, who even sends them? Anonymity's a terrible way to ask for help.' Her voice dipped, 'But I'll manage. Always.' The stack of files in her hands trembled slightly.",
+      "primary_action": "adjusting her necklace",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 4,
+      "trust": 0.72,
+      "interaction_count": 58
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.4,
+      "capacity_factors": [],
+      "effective_capacity": 4.4,
+      "can_support_up_to": 6.4,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 4.3,
+      "extraversion": 3.1,
+      "agreeableness": 4.2,
+      "neuroticism": 2.6
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A critical system failure requires immediate attention to stabilize Taylor's operational capacity.",
+      "location": "Central Processing Hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic error code flashes repeatedly, hinting at a hidden flaw in Taylor's core programming."
+      },
+      "relevant_memories": [],
+      "subtext": "Taylor fears the system failure is a consequence of a past mistake they've never dared to admit.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central Processing Hub, afternoon, where the cryptic error code pulses relentlessly, casting a sterile glow over Taylor's fraying composure.",
+      "dialogue_prose": "Taylor's fingers dance across the console, eyes locked on the error code that flickers like a taunt. 'We'll stabilize it,' they say, voice steady despite the tremor in their hands. 'It's a minor glitch-just a... recalibration.' The code blinks, defiant. They glance at the crew, a flicker of guilt-had they overlooked something?-but smile, eager to deflect. 'Let's focus on the fix. I've got this.'",
+      "primary_action": "fingers dance across the console",
+      "word_count": 120
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.6,
+      "trust_calculation": {
+        "base_action_impact": -0.25,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.25 * 1.0 * 2.0 * 1.2) + 0.0 = -0.60",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.2,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 5.3,
+      "can_support_up_to": 7.3,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.1,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elena must prioritize a high-priority quest that requires her to manage a surge in requests, balancing her current capacity with limited resources.",
+      "location": "Central Hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faded scar on her wrist matches the symbol on the high-priority quest's relic-was she chosen for this, or is she being manipulated?"
+      },
+      "relevant_memories": [],
+      "subtext": "She masks her exhaustion with determination, but her hands tremble when no one is looking.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Afternoon sunlight filters through the Central Hub's glass ceiling, casting long shadows over stacks of scrolls and a weary Elena at her desk.",
+      "dialogue_prose": "Elena's fingers brush the faded scar on her wrist, its symbol mirroring the relic's. 'This quest demands everything I've got-my capacity's stretched thin, but I'll make it work.' Her voice steadies, though her hand trembles as she stacks scrolls. 'The relic's mark... it's personal. I can't ignore it, even if it means saying no to others.' She exhales, jaw set. 'Prioritize the high-priority quest. I'll manage the rest, but I need clarity on the relic's truth.'",
+      "primary_action": "fingers brush the faded scar",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.4,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 4,
+      "trust": 0.75,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 7.9,
+      "can_support_up_to": 9.9,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 4.0,
+      "conscientiousness": 4.5,
+      "extraversion": 3.5,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "The player is requesting urgent assistance with a critical mission that requires immediate attention.",
+      "location": "Central Plaza",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint, unexplained scar on her wrist pulses faintly when she mentions the mission's details."
+      },
+      "relevant_memories": [],
+      "subtext": "She hesitates, wondering if the mission's urgency masks a deeper, unseen threat she's already failed to prevent once before.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Central Plaza buzzes with afternoon crowds, sunlight glinting off the fountain's surface as Elara stands near the obelisk, her scarf fluttering in the breeze.",
+      "dialogue_prose": "Elara adjusted her scarf, the scar on her wrist throbbing as she mentioned the mission. 'I can help, but the urgency feels... off.' Her fingers brushed the scar, a habit she couldn't shake. 'I've seen patterns before-this isn't just a mission. It's a warning.' She paused, gaze drifting to the plaza's clock. 'I'll assist, but trust your instincts. This isn't the first time I've failed to notice something.",
+      "primary_action": "Her fingers brushed the scar",
+      "word_count": 90
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.6,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.2) + 0.12 = 0.60",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.2,
+      "npc_capacity_cost": -1.0,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Eliana",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 2.4,
+      "can_support_up_to": 4.4,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 4.3,
+      "conscientiousness": 4.0,
+      "extraversion": 3.8,
+      "agreeableness": 4.2,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.4,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting immediate assistance with a critical mission objective",
+      "location": "a remote outpost",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint scar on her wrist pulses faintly, hinting at a ritual she once performed with dire consequences."
+      },
+      "relevant_memories": [],
+      "subtext": "Eliana's hesitation stems from a secret guilt over a past failure that could jeopardize the mission if revealed.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The remote outpost's flickering lights cast long shadows over the dusty floor, where Eliana's scar pulses faintly against her wrist.",
+      "dialogue_prose": "Eliana's fingers brushed the scar on her wrist, its faint pulse syncing with her breath. 'I'll help, but the outpost's resources are stretched thin. This mission... it feels like a gamble.' Her gaze drifted to the scar, voice softening. 'That mark reminds me of a ritual I once performed-something I wish I could unmake.' She forced a steady smile. 'I can't guarantee success, but I'll do what I can. Just... be prepared for the unknown.'",
+      "primary_action": "Brushing the scar on her wrist",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 4.3,
+      "can_support_up_to": 6.3,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 2.9,
+      "agreeableness": 4.7,
+      "neuroticism": 2.4
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.3,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Taylor is overwhelmed with tasks and requires assistance to manage their workload effectively.",
+      "location": "a crowded marketplace",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic note in their desk mentioning a 'pending favor' from a mysterious contact."
+      },
+      "relevant_memories": [],
+      "subtext": "I can handle this on my own, but every task feels like a step closer to collapse.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "A bustling marketplace hums with chatter, the air thick with spices and hurried footsteps.",
+      "dialogue_prose": "Taylor jingles a stack of baskets, eyes darting between stalls. 'I'm fine, really! Just... managing a few last-minute orders.' A hand trembles as they fish out a crumpled note from their coat pocket. 'This... this favor from the contact. It's urgent, but I can't let it distract me from the customers. You understand, don't you? I'd rather collapse than say no.' Their scarf slips, and they fumble to re-tie it, knuckles pale.",
+      "primary_action": "fumbling to re-tie a scarf",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.17,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 0.85 * 2.0 * 1.0) + 0.0 = 0.17",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.3,
+      "npc_capacity_cost": -0.7,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Caleb",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 6.0,
+      "can_support_up_to": 8.0,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.6,
+      "conscientiousness": 3.8,
+      "extraversion": 3.4,
+      "agreeableness": 3.9,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.5,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs Caleb's assistance with a critical task requiring immediate attention",
+      "location": "Town Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "He's been secretly tracking the player's movements, unsure if their alliance is genuine or a trap."
+      },
+      "relevant_memories": [],
+      "subtext": "Caleb hesitates, fearing his past failures might doom the mission again, but hides his doubt behind a mask of resolve.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Town Square hums with afternoon chatter as sunlight glints off cobblestones.",
+      "dialogue_prose": "Caleb adjusted his scarf, eyes darting to the shadows. 'I've been keeping an eye on you, player. Not sure if this alliance is real or a trap.' His voice wavered, a tremor betraying his fear of failure. 'But the mission's urgent-can't let that wait.' He hesitated, then nodded. 'Let me help. Just... don't expect miracles.' The pendant at his neck pulsed faintly, a device he'd rigged to track movements.",
+      "primary_action": "adjusted his scarf",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.1,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 7.4,
+      "can_support_up_to": 9.4,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.9,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting urgent assistance with a critical mission that requires Elara to divert resources, lowering her capacity.",
+      "location": "Skyreach Citadel",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "The faint glow of her dwindling power hints at a secret pact she's made to ensure the mission's success, even at her own expense."
+      },
+      "relevant_memories": [],
+      "subtext": "She hesitates, fingers brushing the edge of her staff, as if willing the resources to stay bound to her despite the cost.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Skyreach Citadel's main hall, afternoon light spills across weathered stone",
+      "dialogue_prose": "Elara's fingers trace the staff's edge, its faint glow pulsing like a heartbeat. 'The mission... it demands more than I can give.' Her voice wavers, a silent plea for understanding. 'But if it's urgent, I'll make it work.' The staff's light dims, a secret pact binding her to this sacrifice. 'Just... don't ask for more than the stars can bear.' Her gaze drifts to the horizon, where shadowed clouds gather, hinting at deeper stakes beyond her own toll",
+      "primary_action": "fingers trace the staff's edge",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.64,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.3 (defensive_lashing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.3 * 2.0 * 1.0) + 0.12 = 0.64",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.3,
+      "npc_capacity_cost": -1.0,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "defensive_lashing",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Caleb",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 2.1,
+      "can_support_up_to": 4.1,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Caleb to assist with a critical task, but Caleb's capacity is already at 7.8, needing support to reach 2.1.",
+      "location": "the main hall",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint tremor in Caleb's voice as he mutters about 'priorities' just before the player speaks"
+      },
+      "relevant_memories": [],
+      "subtext": "Caleb's fingers linger on the edge of his map, tracing lines that don't exist.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The main hall's afternoon light casts long shadows over Caleb's cluttered desk, where a half-folded map lies open.",
+      "dialogue_prose": "Caleb's fingers trace the map's edge, a nervous habit. His voice wavers as he mutters about priorities-just before the player speaks. 'I'm stretched thin, but I'll try.' His gaze flicks to the player's outstretched hand, hesitating. 'This task... it's urgent. I can't promise much, but I'll do my part.' A forced smile, the tremor lingering in his words. 'Help me figure out what you need, and I'll see what's possible.'",
+      "primary_action": "tracing the map's edge",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Maya",
+      "relationship_level": 4,
+      "trust": 0.65,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 4.4,
+      "can_support_up_to": 6.4,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 3.8,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.4,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Players are requesting Maya to assist with a critical mission that requires her to lower her capacity from 7.8 to 4.4 to ensure she can handle other responsibilities.",
+      "location": "Central Plaza",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic message hinting at a hidden risk she's already aware of"
+      },
+      "relevant_memories": [],
+      "subtext": "Wondering if the mission's true purpose is more than what's been revealed",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central Plaza buzzes with afternoon sunlight reflecting off cobblestones as Maya stands near the fountain, adjusting her pendant.",
+      "dialogue_prose": "The sigil on your wrist... it's not just a symbol. I've seen its shadow in the archives, whispered in coded scrolls. You want me to lower my capacity? I can. But the mission's teeth gnaw at the edges of its mouth. I'll do it. Just promise me you'll follow the trail beyond the first clue. My hands tremble less when I'm overcommitted. It's... safer. For everyone.",
+      "primary_action": "adjusts the pendant's chain with trembling fingers",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.2,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.0 = 0.20",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.4,
+      "npc_capacity_cost": -0.7,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 6.2,
+      "can_support_up_to": 8.2,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.0,
+      "agreeableness": 3.7,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 1.4,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elara requires assistance to manage an increasing workload in her trade post, risking operational delays.",
+      "location": "Trade Post Nexus",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She's been receiving cryptic messages about 'balance' and 'unseen hands' in the trade routes."
+      },
+      "relevant_memories": [],
+      "subtext": "Elara secretly fears her workload is a cover for a hidden threat she's too afraid to investigate.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Trade Post Nexus buzzes with midday activity, sunlight slanting through arched windows as Elara hovers over a stack of scrolls.",
+      "dialogue_prose": "Elara runs a hand through her auburn hair, sighing as she piles scrolls onto a new shelf. 'I'd love to help, truly-I'm just swamped. These trade routes are... delicate, you know? A misstep and the whole network trembles.' She tightens the pendant beneath her cloak, a habit she's too afraid to explain. 'The messages... about balance? They've grown sharper lately. I'm not sure if it's a warning or a threat. But the delays... they're costing more than coin.' Her eyes flick to the sealed envelope on her desk, unopened.",
+      "primary_action": "tightens the pendant beneath her cloak",
+      "word_count": 120
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elaris",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.2,
+      "capacity_factors": [],
+      "effective_capacity": 7.7,
+      "can_support_up_to": 9.7,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.7,
+      "agreeableness": 3.6,
+      "neuroticism": 3.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Players are requesting assistance with a critical mission that requires Elaris's expertise.",
+      "location": "the ancient library",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Her fingers linger on the edge of her scrolls, as if hesitating to commit to the mission."
+      },
+      "relevant_memories": [],
+      "subtext": "Does aiding the players mean risking something she once protected?",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The ancient library's afternoon light filtered through stained glass, casting kaleidoscopic patterns over stacks of weathered tomes.",
+      "dialogue_prose": "Elaris traced the spine of a brittle scroll, her fingers pausing at the frayed edge. 'The archives hold fragments of what you seek,' she said, voice steady but her gaze drifting to the sealed vaults. 'But aiding you risks awakening what I once buried-certain truths are best left undisturbed.' Her thumb hovered over the scroll's edge, a silent negotiation between duty and the past. 'I'll help, though. For now.' A breath, then a nod. 'But tread carefully-the past has a way of reclaiming what it fears.'",
+      "primary_action": "traced the spine of a brittle scroll",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.52,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.0) + 0.12 = 0.52",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 1.0,
+      "npc_capacity_cost": -1.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Lila",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 1.6,
+      "can_support_up_to": 3.6,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.1,
+      "agreeableness": 3.9,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.0,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Lila is overwhelmed with tasks and needs immediate assistance to reduce her workload to the target capacity.",
+      "location": "Town Hall Office",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She's been secretly gathering clues for a mission she's never revealed, fearing discovery."
+      },
+      "relevant_memories": [],
+      "subtext": "She's exhausted, but the real burden is the secret mission she's carrying alone.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Afternoon sunlight filters through dusty windows of the Town Hall Office, casting long shadows over stacks of parchment.",
+      "dialogue_prose": "Lila hums a half-hearted tune, fingers drumming a restless rhythm on her desk. 'You know, I'd love to help, truly-I'm just drowning in paperwork. The mayor's expecting a report by dusk, and these tax forms...' She trails off, eyes flicking to a hidden folder beneath her stack. 'Actually, there's this... other thing. A missing persons case. I've been tracking leads, but it's... sensitive. Can we talk later? I'll need someone to cover my shifts tomorrow.' Her smile falters as she tucks the folder back, palms dampening the paper.",
+      "primary_action": "Tucks a folded document into a desk drawer",
+      "word_count": 118
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 3.2,
+      "can_support_up_to": 5.2,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.3,
+      "extraversion": 2.6,
+      "agreeableness": 4.7,
+      "neuroticism": 2.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.1,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting assistance with a time-sensitive quest requiring Taylor's expertise, but Taylor's capacity is already maxed out.",
+      "location": "Town Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint glow from a hidden artifact in their pocket hints at a deeper, time-sensitive conflict."
+      },
+      "relevant_memories": [],
+      "subtext": "Taylor's voice is steady, but their clenched fists betray a silent struggle between duty and a personal promise.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Town Square hums with midday chatter as sunlight glints off cobblestones, casting long shadows over a cluttered bench where Taylor sits.",
+      "dialogue_prose": "Taylor's fingers tap a restless rhythm against their knee, eyes darting between the player and a faint luminescence pulsing in their pocket. 'I'm swamped-literally drowning in obligations,' they admit, voice tight with guilt. 'But I can't say no to someone who needs help.' The glow in their hand flickers, casting a ghostly hue across their furrowed brow. 'Let me check my calendar... no, there's no slot. But if you're desperate, I'll squeeze in ten minutes. Just... don't expect miracles.'",
+      "primary_action": "Their hand drifts toward their pocket, fingers brushing the artifact's glow",
+      "word_count": 120
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.17,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 0.85 * 2.0 * 1.0) + 0.0 = 0.17",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.3,
+      "npc_capacity_cost": -0.8,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.0,
+      "capacity_factors": [],
+      "effective_capacity": 6.4,
+      "can_support_up_to": 8.4,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.3,
+      "agreeableness": 3.7,
+      "neuroticism": 3.4
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.0,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Players are requesting Elara to assist in a critical battle, requiring her to lower her capacity to support the group.",
+      "location": "Warrior's Rest",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Her hands tremble as she grips her weapon, though she hides it from the group."
+      },
+      "relevant_memories": [],
+      "subtext": "What if helping them means risking everything I've worked to protect?",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Warrior's Rest hums with midday chatter, sunlight glinting off steel armor in the inn's dimly lit common room.",
+      "dialogue_prose": "Elara stood at the edge of the tavern, her fingers white-knuckled around her blade. 'This battle... it's vital, but I've built this life with care. If I step in, what happens if it all falls apart?' Her voice wavered, though she forced a steady gaze. 'I'll help, but know this-my strength is borrowed. If you need me, I'll be there. But don't expect miracles.' A pause, then she pressed her palm to the hilt, steadying her breath.",
+      "primary_action": "pressed her palm to the hilt",
+      "word_count": 80
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.4,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 7.3,
+      "can_support_up_to": 9.3,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.1,
+      "agreeableness": 3.7,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Elias to assist in a critical mission requiring immediate resource allocation.",
+      "location": "Town square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic mention of 'unseen costs' in previous allocations that he refuses to elaborate on"
+      },
+      "relevant_memories": [],
+      "subtext": "Elias hesitates, wondering if his past misjudgments about resource priorities have already doomed this mission.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The town square buzzes with afternoon chatter as sunlight fractures through cobblestones, casting restless shadows on Elias's weathered coat.",
+      "dialogue_prose": "Elias adjusts the silver locket at his throat, its chain catching the light like a fragile promise. 'I'll help, of course-resources are a puzzle, and puzzles need solvers. But past allocations? They carried unseen costs, things that... linger. I can't promise the same clarity this time. Still, the mission is urgent, and I'd rather risk the unknown than let others bear the weight.' His fingers linger on the locket's clasp, as if weighing its secrecy against the player's plea.",
+      "primary_action": "Adjusts the silver locket at his throat",
+      "word_count": 106
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.64,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.3 (defensive_lashing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.3 * 2.0 * 1.0) + 0.12 = 0.64",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.3,
+      "npc_capacity_cost": -0.9,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "defensive_lashing",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3.5,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 1.7,
+      "can_support_up_to": 3.7,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.3,
+      "agreeableness": 3.7,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Elias to assist with a critical mission despite his low capacity",
+      "location": "Town Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Elias has been secretly monitoring the player's movements for weeks, noting every decision made."
+      },
+      "relevant_memories": [],
+      "subtext": "Does he truly believe in the mission, or is he hiding his own agenda?",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Afternoon sun glints off cobblestones as the town square buzzes with idle chatter.",
+      "dialogue_prose": "Elias adjusts his pendant, fingers lingering on the chain. 'The mission... it's... important, yes. I've been... observing your choices, player. Every turn, every decision. It's... fascinating how patterns emerge.' His gaze drifts to the town square, then back. 'I can assist, but understand my... limitations. The weight of this... it's not light. Yet, I'll carry it. For you.' The pendant gleams in the afternoon light.",
+      "primary_action": "adjusts his pendant",
+      "word_count": 120
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 4.0,
+      "can_support_up_to": 6.0,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.8,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs Taylor to assist with a critical task that requires reducing their capacity from 7.8 to 4.0.",
+      "location": "main office",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Taylor's hand trembles as they adjust a hidden device beneath their sleeve."
+      },
+      "relevant_memories": [],
+      "subtext": "I'm not sure if I'm helping or if this is another way to break me.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The main office hums with afternoons of fluorescent glare, Taylor's fingers twitching as they grip a coffee mug.",
+      "dialogue_prose": "Taylor's hand trembles as they adjust the hidden device beneath their sleeve, eyes flickering between the task and the weight of their own limitations. 'I'll do whatever it takes,' they say, voice steady but fingers betraying the strain. 'But I'm not sure if I'm helping or if this is another way to break me.' The coffee mug warms their palms, a fragile anchor in the storm of over-commitment. 'You need me at full capacity, right? I'll be there-just... not sure how much of me you'll get.'",
+      "primary_action": "Taylor's hand trembles as they adjust the hidden device beneath their sleeve",
+      "word_count": 80
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.2,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.0 = 0.20",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.4,
+      "npc_capacity_cost": -0.8,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 4,
+      "trust": 0.68,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 5.9,
+      "can_support_up_to": 7.9,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "The player is requesting Elena to assist with a critical task that requires immediate attention, reducing her available capacity.",
+      "location": "Elena's workshop",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Her trembling hands when she touches the mission dossier."
+      },
+      "relevant_memories": [],
+      "subtext": "She's secretly afraid the mission will expose her past failures.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Elena's workshop hums with the faint whir of machinery, sunlight slanting through dusty windows.",
+      "dialogue_prose": "Elena stands by her workbench, fingers brushing the edge of the mission dossier-her hands tremble, betraying the weight of old regrets. 'I'll help,' she says, voice steady but eyes darting to the dossier. 'But I'm stretched thin. This isn't like the last job-this is... different.' Her lips press into a line. 'I'll do my best, but don't expect miracles. Just... don't push me past what I can handle.'",
+      "primary_action": "fingers brushing the edge of the mission dossier-her hands tremble",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -0.7,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Aria",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.0,
+      "capacity_factors": [],
+      "effective_capacity": 8.1,
+      "can_support_up_to": 10.1,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.3,
+      "agreeableness": 3.7,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.9,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Aria is experiencing a system overload and needs immediate assistance to stabilize the network.",
+      "location": "Central Server Room",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint, repeating glitch in the system logs that mirrors her heartbeat."
+      },
+      "relevant_memories": [],
+      "subtext": "I can't let the network collapse, but every second feels like a countdown I can't control.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central Server Room, afternoon: hum of servers, flickering screens, and the faint whine of overloaded circuits.",
+      "dialogue_prose": "Aria's fingers danced over the console, her breath steady despite the flickering alerts. 'The logs... there's a glitch. It's syncing with my heartbeat. I can't stabilize it alone.' Her gaze locked on the pulsing code, a faint tremor in her hand betraying the strain. 'Someone-please-help me contain it before the collapse spreads.' The system whined, and she leaned closer, whispering, 'This isn't just a crash. It's... personal.'",
+      "primary_action": "Her hand trembled as she adjusted the console's brightness",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.52,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.0) + 0.12 = 0.52",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 1.0,
+      "npc_capacity_cost": -1.6,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Mira",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 1.8,
+      "can_support_up_to": 3.8,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.2,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Mira to assist with a critical mission that requires immediate attention.",
+      "location": "Town Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faded scar on her wrist matches the symbol on the mission's target artifact."
+      },
+      "relevant_memories": [],
+      "subtext": "Mira's hesitation stems from a buried secret that could derail the mission if exposed.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Town Square afternoon, the sun casting long shadows as Mira fidgets with a faded scar on her wrist, her gaze flickering between the artifact's symbol and the player's expectant eyes.",
+      "dialogue_prose": "I'll help, but the stars align strangely for this... the symbol on your artifact matches the scar I've carried since childhood. You don't ask about it, but I know your mission risks more than you realize. My conscience isn't a compass, but I'll tread this path with you-on one condition. Stay close when the shadows lengthen, or I'll vanish before the truth unravels.",
+      "primary_action": "tugs at the scar with deliberate hesitation",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Lila",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 3.6,
+      "can_support_up_to": 5.6,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.5,
+      "agreeableness": 4.7,
+      "neuroticism": 2.7
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.0,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting urgent aid in resolving a critical system malfunction, requiring Lila to divert resources beyond her current capacity.",
+      "location": "central_hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A flickering holographic symbol on her console-a sealed archive log labeled 'Project Eclipse'-blinks once before vanishing, hinting at a hidden history tied to the system's failure."
+      },
+      "relevant_memories": [],
+      "subtext": "Lila's fingers hesitate over the control panel, her breath shallow as she wrestles with the weight of failing the player and the silent guilt of past mistakes.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "In the central_hub's dim afternoon glow, Lila's fingers hovered over the console, her breath shallow as the flickering 'Project Eclipse' log vanished.",
+      "dialogue_prose": "She met the player's gaze, guilt flickering in her eyes. 'I can't promise miracles,' she said, voice steady despite the tremor in her hands. 'But I'll do everything-everything-I can.' Her thumb brushed the console, lingering where the symbol had blinked, as if tracing a forgotten truth.",
+      "primary_action": "Her thumb brushed the console, lingering where the symbol had blinked",
+      "word_count": 106
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.17,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 0.85 * 2.0 * 1.0) + 0.0 = 0.17",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.3,
+      "npc_capacity_cost": -0.8,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 6.4,
+      "can_support_up_to": 8.4,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.3,
+      "conscientiousness": 3.7,
+      "extraversion": 3.0,
+      "agreeableness": 3.8,
+      "neuroticism": 2.9
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.4,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player requires Elena's aid in resolving a critical quest conflict involving a collapsing bridge.",
+      "location": "Ruins of Eldermoor",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Her whispered warning about the bridge's instability contradicts her earlier dismissal of the player's concerns."
+      },
+      "relevant_memories": [],
+      "subtext": "Elena's hands tremble as she adjusts her satchel, hiding the rusted schematics of the bridge's failing support beams.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The afternoon sun filters through crumbling archways in the Ruins of Eldermoor, casting long shadows over fractured stone.",
+      "dialogue_prose": "Elena adjusted her satchel, fingers brushing over the rusted schematics inside. 'A collapsing bridge? Please, it's just a bridge.' Her voice wavered, hands trembling as she clasped her hands in her lap. 'But... the support beams are failing. I've been tracking it.' She forced a smile, eyes darting to the horizon. 'You're not the only one worried. Let's fix it-before it's too late.'",
+      "primary_action": "clutching her hands in her lap",
+      "word_count": 60
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.5,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 48
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.4,
+      "capacity_factors": [],
+      "effective_capacity": 1.9,
+      "can_support_up_to": 3.9,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.6,
+      "conscientiousness": 3.9,
+      "extraversion": 3.3,
+      "agreeableness": 3.8,
+      "neuroticism": 3.4
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.5,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elias is overwhelmed with requests and needs urgent assistance to handle critical tasks.",
+      "location": "Town Hall Office",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic message about a hidden mission that only he understands"
+      },
+      "relevant_memories": [],
+      "subtext": "I'm barely keeping up, but I can't let anyone know how close I am to breaking.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Elias slumps at his cluttered Town Hall desk, stacks of paperwork spilling onto the floor as a citizen approaches with a pleading look.",
+      "dialogue_prose": "Elias straightens his collar, voice fraying at the edges. 'Of course I can help-what's the urgency?' The citizen recounts a dispute over permits, and Elias nods, fingers drumming a nervous rhythm. 'I'll draft a resolution by dusk.' His eyes drift to a crumpled note under his chair, ink smudged. 'Actually, there's a priority task... a message about a hidden mission only I can handle. Let me just... organize this pile first.'",
+      "primary_action": "straightens his collar",
+      "word_count": 118
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 3,
+      "trust": 0.65,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 3.7,
+      "can_support_up_to": 5.7,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 2.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.1,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Taylor is overwhelmed with tasks and requires immediate assistance to handle their workload.",
+      "location": "office",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Taylor's desk is buried under sealed envelopes, each marked with a different symbol only they recognize."
+      },
+      "relevant_memories": [],
+      "subtext": "What if the tasks are more than just overwhelming-they're a cover for something far worse?",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Taylor's office hums with the drone of afternoons, sunlight slanting through blinds as stacks of sealed envelopes swallow their desk.",
+      "dialogue_prose": "Another deadline. Another spreadsheet. I swear, if I opened one more folder, I'd dissolve into paperclips. These envelopes-these symbols-they're not just paperwork. They're... something else. I need someone to help sort them, to stop this avalanche of... whatever this is. Can we talk? Just ten minutes? My hands are shaking, but it's not the caffeine. It's the weight of knowing I'm supposed to handle this alone.",
+      "primary_action": "Taylor plucks a crumpled envelope from the stack, thumb tracing its unfamiliar sigil.",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.2,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.0 = 0.20",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.4,
+      "npc_capacity_cost": -0.8,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.0,
+      "capacity_factors": [],
+      "effective_capacity": 6.5,
+      "can_support_up_to": 8.5,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 2.7,
+      "agreeableness": 4.3,
+      "neuroticism": 2.6
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 1.5,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elias is struggling to handle a critical task requiring immediate attention.",
+      "location": "Town Hall",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic message appears on his console, its meaning eluding even his sharp mind."
+      },
+      "relevant_memories": [],
+      "subtext": "I can't let them down, even if I'm failing.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Town Hall's sun-bleached walls cast long shadows over Elias's cluttered desk, where a flickering console glows with an ominous message.",
+      "dialogue_prose": "Elias stared at the flickering console, fingers twitching over the keyboard as the cryptic message blinked in red. 'I know this isn't right,' he muttered, voice fraying. 'The council expects results, but these symbols... they're a puzzle even my logic can't crack.' His jaw tightened. 'I'll stay late, fix it, and make everyone proud. Just... not today. Not today.' The screen pulsed, a silent accusation against his faltering resolve.",
+      "primary_action": "Staring at the flickering console",
+      "word_count": 122
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Kael",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 8.3,
+      "can_support_up_to": 10.3,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.2,
+      "agreeableness": 3.7,
+      "neuroticism": 2.6
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs Kael to increase his capacity to handle a critical mission",
+      "location": "Kael's workshop",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic symbol on his gear that glows when he's near the player, hinting at an unknown connection."
+      },
+      "relevant_memories": [],
+      "subtext": "Kael's loyalty is tested by the fear that his growing capacity might make him a target.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Sunlight slants through Kael's workshop window, illuminating tools and half-assembled gear.",
+      "dialogue_prose": "Kael adjusts a gear on his arm, the cryptic symbol flaring briefly as you enter. 'Your mission needs more strength,' he says, voice steady but eyes flickering to the glowing mark. 'I can push my capacity-though... that symbol reacts when you're near. It's been pulsing since you arrived. Not sure if it's a warning or a guide.' He pauses, fingers tightening on the gear. 'I'll help. But if this ties to something bigger, I'd rather face it together.'",
+      "primary_action": "adjusts a gear on his arm",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.52,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.0) + 0.12 = 0.52",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 1.0,
+      "npc_capacity_cost": -0.7,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.0,
+      "capacity_factors": [],
+      "effective_capacity": 1.6,
+      "can_support_up_to": 3.6,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.6,
+      "conscientiousness": 3.9,
+      "extraversion": 3.3,
+      "agreeableness": 4.1,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "The player is requesting Elias to assist with a critical mission that requires him to operate at 1.6 capacity, but he needs external support to meet the demand.",
+      "location": "Ruins of Eldoria",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faded tattoo on his arm whispers of a forgotten oath, leaving players questioning if his low capacity is a curse or a choice."
+      },
+      "relevant_memories": [],
+      "subtext": "Elias is overwhelmed by the mission's demands, but his silence hides a deep fear of failing those who rely on him.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The afternoon sun filtered through cracked archways in the Ruins of Eldoria, casting long shadows over scattered relics.",
+      "dialogue_prose": "Elias shifted, his fingers brushing the faded tattoo on his forearm. 'The mission... it's vital. But my capacity is limited. I can't promise much.' His voice wavered, a tremor in his words. 'There's... a debt I owe. An oath I can't break. It binds me, you see. I'll do what I can, but expect little.' The sun glinted off the tattoo's ink, a shadowed sigil.",
+      "primary_action": "Brushing the faded tattoo on his forearm",
+      "word_count": 90
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 4,
+      "trust": 0.75,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 4.0,
+      "can_support_up_to": 6.0,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.7,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.3,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Players are requesting assistance with a large group of injured allies that Taylor is currently handling beyond their capacity.",
+      "location": "Battlefield infirmary",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "Some of the injuries bear markings unfamiliar to medical staff."
+      },
+      "relevant_memories": [],
+      "subtext": "I'm not failing them, but I can't keep patching everyone up forever.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The battlefield infirmary hums with the clatter of medical gear and distant cries, sunlight slanting through broken windows.",
+      "dialogue_prose": "Taylor's hands trembled as they stitched a wound, their gaze flicking to the strange symbol etched into the soldier's arm. 'I'm doing my best,' they murmured, voice fraying. 'These markings... I've never seen them before. Not in the field notes, not in the archives.' A weary sigh. 'I can't keep patching everyone up forever. But I'll stay as long as I can-promise. Just... don't expect miracles, okay?'",
+      "primary_action": "Taylor's hands trembled as they stitched a wound",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.51,
+      "trust_calculation": {
+        "base_action_impact": -0.25,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.25 * 0.85 * 2.0 * 1.2) + 0.0 = -0.51",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": -1.0,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.65,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 6.2,
+      "can_support_up_to": 8.2,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 4.0,
+      "conscientiousness": 4.0,
+      "extraversion": 3.5,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A player is seeking Elara's aid to resolve a critical quest issue.",
+      "location": "Village Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint scar on her wrist matches the symbol from the quest's forbidden tome."
+      },
+      "relevant_memories": [],
+      "subtext": "Elara's hesitant glances toward the player's belongings suggest she suspects they're not as trustworthy as they seem.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Village Square buzzed with afternoon chatter as Elara adjusted her cloak, her fingers brushing the scar on her wrist-a faint symbol matching the forbidden tome's seal.",
+      "dialogue_prose": "I've aided many, but your request... it feels... precarious. The scar reminds me of the tome's curse. Trust is a fragile thing, and your belongings... they hint at deeper entanglements. Yet, I cannot ignore the urgency. If you swear to tread carefully, I'll guide you. But know this: the path may twist unexpectedly.",
+      "primary_action": "fingers brushing the scar",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.2,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.65,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 7.6,
+      "can_support_up_to": 9.6,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.1,
+      "agreeableness": 4.2,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.8,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elias requires immediate aid to stabilize a collapsing bridge, threatening a village downstream.",
+      "location": "Mountain Pass Bridge",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint, unexplained tremor shakes the bridge just as Elias begins his repairs."
+      },
+      "relevant_memories": [],
+      "subtext": "Elias doubts his own ability to save the village, fearing the bridge's collapse was his fault.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Mountain Pass Bridge groans under the weight of debris as Elias scrambles across its fractured planks, villagers shouting below.",
+      "dialogue_prose": "This bridge won't hold much longer, but I'll fix it-no, listen, I'll fix it. The tremor caught me off guard, but I've patched worse. You've seen the cracks, right? They're... manageable. I've got the tools, the know-how, and if I'm being honest, the village deserves better than a broken bridge. Just... give me ten minutes. The planks will stay. I swear, they'll stay.",
+      "primary_action": "gripping the rusted railing as the tremor rattles the planks",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.64,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.3 (defensive_lashing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.3 * 2.0 * 1.0) + 0.12 = 0.64",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.3,
+      "npc_capacity_cost": -1.2,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "defensive_lashing",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 1.5,
+      "can_support_up_to": 3.5,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.0,
+      "agreeableness": 3.7,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting Elias to assist in a critical rescue mission despite his limited capacity",
+      "location": "Town Square",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faded scar on his wrist matches the symbol of the group he once betrayed."
+      },
+      "relevant_memories": [],
+      "subtext": "Elias hesitates, secretly fearing the mission will expose his past failures that he's buried for years.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Town Square buzzes with afternoon chatter, sunlight glinting off the cobblestones.",
+      "dialogue_prose": "Elias runs a hand over his scar, its faded edges whispering of old regrets. 'I'm not sure I can help,' he says, voice fraying. The player's urgency pins him in place. 'But if you need me... I'll do what I can.' His fingers twitch toward the scar, a silent plea for absolution. 'Just don't expect miracles-my record's... sparse.' A forced laugh cracks the air. 'Let's not make this harder than it has to be.'",
+      "primary_action": "runs a hand over his scar",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.2,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.0 = 0.20",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.4,
+      "npc_capacity_cost": -0.6,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Taylor",
+      "relationship_level": 4,
+      "trust": 0.72,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 3.4,
+      "can_support_up_to": 5.4,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 4.0,
+      "extraversion": 3.5,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.4,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs Taylor to reduce their capacity from 7.8 to 3.4 to manage an urgent task.",
+      "location": "Central Workshop",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic remark about a past failure that somehow tied to their current capacity."
+      },
+      "relevant_memories": [],
+      "subtext": "I can feel the weight of my own strength pressing down, but I'm afraid to ask for help.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central Workshop, afternoon sunlight glinting off metal tools.",
+      "dialogue_prose": "Taylor adjusted a wrench, eyes flicking to the player. 'I'd help, but my capacity's low-3.4/10. Last time I pushed past that, a project collapsed. Not sure if I'm ready again.' A hand ran through hair, tension fraying. 'But if you need me, I'll try. Just... don't expect miracles. My past mistakes taught me to stay grounded.' A pause. 'Can we do this slowly? I'd rather fail safely than rush and break everything.'",
+      "primary_action": "A hand ran through hair",
+      "word_count": 90
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.24,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.2) + 0.0 = 0.24",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.5,
+      "npc_capacity_cost": -0.9,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 2,
+      "trust": 0.72,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 6.2,
+      "can_support_up_to": 8.2,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.0,
+      "agreeableness": 4.0,
+      "neuroticism": 2.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 3.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "The player is requesting Elena to manage a critical resource distribution in a collapsing facility, but her capacity is already strained.",
+      "location": "Collapsed industrial complex",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A hidden console panel flickers with unauthorized resource redirects, suggesting she's prioritizing survival strategies beyond her official duties."
+      },
+      "relevant_memories": [],
+      "subtext": "Elena's hands tremble as she adjusts the distribution settings, her gaze lingering on the dwindling reserves she's secretly diverting to her own team.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Dust-laden air hangs in the collapsed industrial complex's dimly lit control room, afternoon light bleeding through shattered windows.",
+      "dialogue_prose": "Elena's fingers hovered over the flickering console, her voice tight. 'I'm stretched thin, but I'll prioritize the critical zones. My team's on the brink-this isn't just a duty.' Her gaze darted to the hidden panel, its glow pulsing like a heartbeat. 'Resources are scarce, but I've rerouted some to keep them alive. It's... a temporary measure.' She exhaled, shoulders heavy. 'You'll have to trust the distribution. I'll do what I can.'",
+      "primary_action": "fingers hovered over the flickering console",
+      "word_count": 70
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.36,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.2) + 0.12 = 0.36",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.7,
+      "npc_capacity_cost": -0.6,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 4,
+      "trust": 0.75,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.2,
+      "capacity_factors": [],
+      "effective_capacity": 7.2,
+      "can_support_up_to": 9.2,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.3,
+      "agreeableness": 3.7,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.6,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player is requesting assistance with a complex task that exceeds Elena's current capacity",
+      "location": "Town Hall",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic mention of 'previous failures' when discussing the task, hinting at unresolved personal stakes."
+      },
+      "relevant_memories": [],
+      "subtext": "Elena is secretly afraid her limitations will expose her as untrustworthy, but she masks it with forced confidence.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Sunlight slants through stained-glass windows of the Town Hall, casting kaleidoscopic patterns on wooden floors.",
+      "dialogue_prose": "Elena adjusted her necklace, eyes darting to the clock. 'I'll do my best, but this is tricky. I've... struggled with high-stakes tasks before. Not that I'd admit it.' She forced a smile. 'Let me gather the files-maybe I can streamline the process. Just don't expect miracles, okay?' Her fingers tightened on the pendant, a habit when she felt exposed.",
+      "primary_action": "Adjusting her necklace",
+      "word_count": 87
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.6,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.2,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.2) + 0.12 = 0.60",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.2,
+      "npc_capacity_cost": -1.7,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 2.0,
+      "can_support_up_to": 4.0,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.5,
+      "agreeableness": 4.2,
+      "neuroticism": 3.1
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.8,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "The player needs Elara to prioritize critical tasks, reducing her capacity from 7.8 to 2.0 to address an imminent threat.",
+      "location": "Cracked Citadel Ruins",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint scar on her wrist matches the symbol of the impending threat."
+      },
+      "relevant_memories": [],
+      "subtext": "She feels the weight of her choices pressing down, but her resolve remains unshaken.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The cracked Citadel Ruins hummed with fading sunlight.",
+      "dialogue_prose": "Elara ran a hand over her wrist, the scar's jagged edges catching the light. 'This isn't just a symbol-it's a warning I've ignored for too long.' Her voice steadied, though her fingers twitched. 'I'll prioritize the critical tasks, but I can't promise miracles. The ruins are a maze, and I'm not sure I'll find the exit before the threat arrives.' She met the player's gaze, resolve hardening. 'But I'll try.'",
+      "primary_action": "ran a hand over her wrist",
+      "word_count": 80
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Morgan",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 3.9,
+      "can_support_up_to": 5.9,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.5,
+      "agreeableness": 4.7,
+      "neuroticism": 2.6
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 5.3,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A group of travelers is requesting Morgan to assist in stabilizing a collapsing bridge, requiring immediate resource allocation.",
+      "location": "Rivertown Bridge",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint tremor in Morgan's voice hints at unresolved guilt over a past engineering oversight related to the bridge."
+      },
+      "relevant_memories": [],
+      "subtext": "Morgan hesitates, masking their growing dread that the bridge's collapse might expose a long-buried secret tied to their past.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Rivertown Bridge groans under the weight of collapsing planks, sunlight glinting off fractured concrete as travelers shout for help.",
+      "dialogue_prose": "Morgan steps forward, voice trembling like the bridge itself. 'I'll rally the crew-this needs immediate reinforcement.' Their hand brushes a frayed scarf, a habit when guilt claws at their ribs. 'But the supply lines are gridlocked, and my crew's already stretched thin. I'd need... more time.' A pause, eyes darting to the crumbling span. 'This isn't just a bridge. It's a reckoning.'",
+      "primary_action": "brushes a frayed scarf",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.17,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 0.85 * 2.0 * 1.0) + 0.0 = 0.17",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.3,
+      "npc_capacity_cost": -1.1,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 6.3,
+      "can_support_up_to": 8.3,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 3.9,
+      "extraversion": 3.5,
+      "agreeableness": 4.0,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.3,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elara is overwhelmed by a sudden influx of hostile creatures in the ruins, requiring immediate aid to secure the area.",
+      "location": "The Shattered Tombs",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "The creatures seem drawn to the faint glow emanating from a sealed tomb nearby, hinting at a long-buried secret."
+      },
+      "relevant_memories": [],
+      "subtext": "She wonders if her failed ritual awakened the creatures, but fears admitting her mistake.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Shattered Tombs hum with the growls of encroaching horrors as sunlight fractures through collapsed archways.",
+      "dialogue_prose": "Elara's grip tightens on her blade as shadows writhe around the sealed tomb's faint cerulean glow. 'They're drawn to that light-something ancient stirs beneath the stones.' Her breath hitches, eyes darting between the creatures and the tomb. 'I... I may have awakened this. The ritual failed, but I couldn't admit it. Now look at them!' She steps closer to the tomb, voice fraying. 'If you help, promise me you'll investigate the glow. It's not just a trap-it's a warning.'",
+      "primary_action": "Steps closer to the tomb, fingers brushing its seal",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.32,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (misjudgment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.12 = 0.32",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 0.6,
+      "npc_capacity_cost": -1.5,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "misjudgment",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.4,
+      "capacity_factors": [],
+      "effective_capacity": 7.5,
+      "can_support_up_to": 9.5,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.4,
+      "conscientiousness": 3.6,
+      "extraversion": 3.3,
+      "agreeableness": 3.7,
+      "neuroticism": 3.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.2,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs urgent assistance in stabilizing a collapsing structure",
+      "location": "Ruins of Eldoria",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "She keeps adjusting unstable beams with trembling hands, though no one else notices the faint cracks spreading through her gloves."
+      },
+      "relevant_memories": [],
+      "subtext": "Elena secretly doubts her own abilities, fearing her past mistakes doomed this structure to collapse.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Sunlight filters through crumbling archways in the Ruins of Eldoria, casting long shadows over fractured stone.",
+      "dialogue_prose": "Elena's fingers brush the tremulous beam, her breath hitching as dust flecks from the mortar. 'This structure has always resisted collapse-until now.' She forces a steady tone, though her gloves crackle with unseen stress. 'I'll stabilize the west wall, but you'll need to reinforce the vaulted ceiling. My hands... they're not as sure as they once were.' Her voice wavers, but she keeps adjusting the beam, palms pressed against the cold stone as if willing it to hold.",
+      "primary_action": "Brushing tremulous beam with dust-flecked fingers",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.64,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.3 (defensive_lashing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.3 * 2.0 * 1.0) + 0.12 = 0.64",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": 1.3,
+      "npc_capacity_cost": -1.6,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "defensive_lashing",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 2,
+      "trust": 0.6,
+      "interaction_count": 35
+    },
+    "npc_emotional_state": {
+      "base_capacity": 8.2,
+      "capacity_factors": [],
+      "effective_capacity": 2.1,
+      "can_support_up_to": 4.1,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.8,
+      "extraversion": 2.5,
+      "agreeableness": 4.2,
+      "neuroticism": 2.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 6.7,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Players are requesting assistance with a critical mission that requires resources beyond Elias's current capacity.",
+      "location": "Central Plaza",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A hidden burden or past failure that silently limits Elias's ability to assist"
+      },
+      "relevant_memories": [],
+      "subtext": "I wish I could do more, but my own struggles weigh heavier than I dare admit.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Sunlight glints off the fountain as Elias leans against a marble column, fingers tracing the frayed edge of a weathered locket.",
+      "dialogue_prose": "The mission... it's not that I don't want to help. Last year, I failed to protect a convoy, and now every request feels like a repeat of that guilt. My hands shake when I think of the lives lost. You deserve better than my hesitation. I can divert supplies, but the logistics... they'll collapse under my own miscalculations. Let me draft the plans, but know this: I'm not the hero you need. I'm the ghost of the man who once was.",
+      "primary_action": "fidgets with the locket's chain, its metal cold against his palm",
+      "word_count": 118
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (emotional_shutdown)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "emotional_shutdown",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 3,
+      "trust": 0.68,
+      "interaction_count": 45
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.6,
+      "capacity_factors": [],
+      "effective_capacity": 3.5,
+      "can_support_up_to": 5.5,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.6,
+      "conscientiousness": 3.8,
+      "extraversion": 3.4,
+      "agreeableness": 3.7,
+      "neuroticism": 3.3
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 4.1,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elena is overwhelmed with a high-priority task requiring immediate assistance to prevent system overload.",
+      "location": "Central command terminal",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "The system's flickering lights remind her of the last time this happened-only then, the backup failed."
+      },
+      "relevant_memories": [],
+      "subtext": "I can't let this fail-no matter the cost.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central command terminal hums with the glow of flickering monitors, casting shadows over Elena's frayed composure.",
+      "dialogue_prose": "Elena's fingers hovered over the terminal, eyes darting between the flickering lights and the alarm blaring. 'I can't let this fail-no matter the cost,' she muttered, voice tight. The system's pulse mirrored the last time the backup crumbled, and she clenched the edge of the console, nails biting into her palm. 'I'll handle it,' she insisted, even as her breath shook. 'But... you need to step in now. This isn't just a glitch-it's a warning.' Her gaze dropped to the glowing red alert, a silent plea for aid she didn't dare voice.",
+      "primary_action": "clenched the edge of the console, nails biting into her palm",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.2,
+      "trust_calculation": {
+        "base_action_impact": 0.1,
+        "ocean_personality_modifier": "1.0 (over_commitment)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(0.1 * 1.0 * 2.0 * 1.0) + 0.0 = 0.20",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": 0.4,
+      "npc_capacity_cost": -0.8,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "over_commitment",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elias",
+      "relationship_level": 3,
+      "trust": 0.7,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.2,
+      "capacity_factors": [],
+      "effective_capacity": 5.0,
+      "can_support_up_to": 7.0,
+      "capacity_tier": "MEDIUM"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.0,
+      "agreeableness": 4.2,
+      "neuroticism": 2.8
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.8,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "A group of travelers is requesting Elias to assist in repairing a broken bridge, but his current capacity is strained.",
+      "location": "Rivertown Bridge site",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "His hands tremble not from exhaustion, but from recalling a past bridge collapse he failed to prevent."
+      },
+      "relevant_memories": [],
+      "subtext": "I fear my inability to help will doom them, but I cannot bear the weight of more responsibility.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "The Rivertown Bridge site hums with the clatter of tools and the din of half-finished repairs under an overcast afternoon sky.",
+      "dialogue_prose": "Elias grips the railing, his hands trembling not from exhaustion but the memory of a bridge that crumbled under his watch. 'I'd help, but my capacity is stretched thin,' he admits, eyes darting to the travelers' worried faces. 'Last time, I failed-can't risk another collapse.' His voice falters. 'Maybe a few hours? Just... don't push too far.' The wrench in his grip slips slightly, a silent plea for understanding.",
+      "primary_action": "grips the railing",
+      "word_count": 100
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.18,
+      "trust_calculation": {
+        "base_action_impact": -0.15,
+        "ocean_personality_modifier": "1.0 (avoidance)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(-0.15 * 1.0 * 2.0 * 1.0) + 0.12 = -0.18",
+        "impact_tier": "MINOR"
+      },
+      "player_emotional_impact": -0.4,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "avoidance",
+      "authenticity_score": 0.85,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elara",
+      "relationship_level": 3,
+      "trust": 0.65,
+      "interaction_count": 50
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.5,
+      "capacity_factors": [],
+      "effective_capacity": 8.4,
+      "can_support_up_to": 10.4,
+      "capacity_tier": "HIGH"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 4.0,
+      "extraversion": 3.3,
+      "agreeableness": 4.2,
+      "neuroticism": 2.8
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 7.1,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Player needs Elara to assist in a critical mission requiring increased capacity",
+      "location": "Central Command Hub",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A faint, lingering scar on her wrist matches the symbol of the faction she's sworn to oppose."
+      },
+      "relevant_memories": [],
+      "subtext": "Elara's hesitation stems from a secret guilt over a past mission that nearly ended in catastrophe, fearing history might repeat itself.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Central Command Hub buzzes with tense urgency as sunlight slants through high windows, casting long shadows over holographic mission briefs.",
+      "dialogue_prose": "Elara traced the scar on her wrist, her fingers lingering over the faint symbol. 'I'd help, but the past... it lingers.' She met the player's gaze, eyes steady. 'That mission nearly cost everything. I can't risk repeating it.' Her voice softened. 'But if you need me, I'll do my best-though I'll need support.' A pause. 'This scar reminds me why I fight. Let's not make the same mistakes.'",
+      "primary_action": "traced the scar on her wrist",
+      "word_count": 120
+    },
+    "game_outcomes": {
+      "relationship_trust_change": 0.52,
+      "trust_calculation": {
+        "base_action_impact": 0.2,
+        "ocean_personality_modifier": "1.0 (projection)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.12,
+        "full_formula": "(0.2 * 1.0 * 2.0 * 1.0) + 0.12 = 0.52",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": 1.0,
+      "npc_capacity_cost": -1.4,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "projection",
+      "authenticity_score": 0.95,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Elena",
+      "relationship_level": 4,
+      "trust": 0.7,
+      "interaction_count": 55
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.8,
+      "capacity_factors": [],
+      "effective_capacity": 2.4,
+      "can_support_up_to": 4.4,
+      "capacity_tier": "CRISIS"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.5,
+      "conscientiousness": 3.8,
+      "extraversion": 3.3,
+      "agreeableness": 4.0,
+      "neuroticism": 3.0
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.9,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Elena is overwhelmed by a sudden surge of quests and needs immediate assistance to manage her workload.",
+      "location": "Town Hall Office",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A cryptic note in her inventory reads 'The storms are coming-prepare the altar.'"
+      },
+      "relevant_memories": [],
+      "subtext": "Her fingers tremble as she scrolls through endless quest logs, each one demanding immediate attention.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Afternoon sunlight streams through dusty windows of the Town Hall Office, where Elena frantically scrolls through quest logs, her fingers trembling.",
+      "dialogue_prose": "Elena's fingers tremble as she scrolls through quest logs, her brow furrowed. 'I'm drowning,' she admits, voice frayed. 'There's this note-' She hesitates, eyes flicking to the cryptic message. 'The storms are coming. Prepare the altar.' Her lips press into a line. 'I can't handle everything. Can you help? I'll owe you forever.' She wipes her hands on her skirt, a nervous habit. 'Please.'",
+      "primary_action": "wipes her hands on her skirt",
+      "word_count": 110
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.8,
+      "trust_calculation": {
+        "base_action_impact": -0.4,
+        "ocean_personality_modifier": "1.0 (baseline)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.4 * 1.0 * 2.0 * 1.0) + 0.0 = -0.80",
+        "impact_tier": "MAJOR"
+      },
+      "player_emotional_impact": -1.6,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": true
+    },
+    "training_metadata": {
+      "complexity_type": "baseline",
+      "authenticity_score": 0.25,
+      "generation_method": "multi_step_pipeline"
+    }
+  },
+  {
+    "npc_profile": {
+      "name": "Lila",
+      "relationship_level": 3,
+      "trust": 0.65,
+      "interaction_count": 38
+    },
+    "npc_emotional_state": {
+      "base_capacity": 7.3,
+      "capacity_factors": [],
+      "effective_capacity": 3.1,
+      "can_support_up_to": 5.1,
+      "capacity_tier": "LOW"
+    },
+    "npc_ocean_personality": {
+      "openness": 3.8,
+      "conscientiousness": 4.2,
+      "extraversion": 3.0,
+      "agreeableness": 4.7,
+      "neuroticism": 2.5
+    },
+    "interaction_context": {
+      "player_request_type": "emotional_support",
+      "support_needed": 8.6,
+      "urgency_level": "important",
+      "urgency_multiplier": 2.0,
+      "situation_description": "Lila is overwhelmed with a high volume of requests and needs immediate assistance to handle critical tasks.",
+      "location": "Town Hall",
+      "time_context": "afternoon"
+    },
+    "tension_memory": {
+      "tension_hook": {
+        "type": "mystery",
+        "element": "A single request keeps glitching in her queue, its origin obscured by flickering symbols."
+      },
+      "relevant_memories": [],
+      "subtext": "I'm drowning, but no one will notice until it's too late.",
+      "internal_conflict": null
+    },
+    "npc_card_narrative": {
+      "setting_context": "Lila hovers near the Town Hall's request desk, her tablet screen flickering with an unreadable symbol.",
+      "dialogue_prose": "I'm trying to help everyone, but this one request keeps glitching-like it's written in code no one can decode. I'll fix it, I promise. Just... give me a moment. My queue's a storm, and I'm drowning in it. Can we revisit your request later? I'll prioritize it, I swear. The symbols... they shift when I blink. It's like the town's whispering secrets I can't untangle. Please, let me focus. I'll make it right.",
+      "primary_action": "Lila taps the flickering symbol, her finger trembling as it vanishes then reappears.",
+      "word_count": 119
+    },
+    "game_outcomes": {
+      "relationship_trust_change": -0.42,
+      "trust_calculation": {
+        "base_action_impact": -0.25,
+        "ocean_personality_modifier": "0.85 (people_pleasing)",
+        "urgency_multiplier": 2.0,
+        "trust_relationship_modifier": 1.0,
+        "honesty_authenticity_bonus": 0.0,
+        "full_formula": "(-0.25 * 0.85 * 2.0 * 1.0) + 0.0 = -0.42",
+        "impact_tier": "MODERATE"
+      },
+      "player_emotional_impact": -0.8,
+      "npc_capacity_cost": -0.3,
+      "unlocks_card_evolution": false
+    },
+    "training_metadata": {
+      "complexity_type": "people_pleasing",
+      "authenticity_score": 0.55,
+      "generation_method": "multi_step_pipeline"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+ERROR: Expecting ',' delimiter: line 3 column 48 (char 234)
+Location: line 3, column 48
+
+================================================================================
+ORIGINAL RESPONSE:
+================================================================================
+{
+    "setting_context": "Sunlight slants through dusty windows of the Town Hall, casting long shadows over scattered scrolls and a single, glowing symbol etched into the wooden desk.",
+    "dialogue_prose": "Your urgency is clear," Lila said, tapping the desk where a faded symbol lingered. "But the crisis... it feels familiar. Like a scar I tried to hide." She hesitated, fingers brushing the mark. "I can manage the immediate tasks, but the symbol—its origin... it ties to something I buried." Her voice wavered. "I’ll handle the surface, but the depths? That’s a story I’m not ready to face. Can you wait? Just a little longer?",
+    "primary_action": "fingers brushing the mark",
+    "word_count": 110
+}
+
+================================================================================
+CLEANED FOR PARSING:
+================================================================================
+[{
+    "setting_context": "Sunlight slants through dusty windows of the Town Hall, casting long shadows over scattered scrolls and a single, glowing symbol etched into the wooden desk.",
+    "dialogue_prose": "Your urgency is clear," Lila said, tapping the desk where a faded symbol lingered. "But the crisis... it feels familiar. Like a scar I tried to hide." She hesitated, fingers brushing the mark. "I can manage the immediate tasks, but the symbol its origin... it ties to something I buried." Her voice wavered. "I ll handle the surface, but the depths? That s a story I m not ready to face. Can you wait? Just a little longer?",
+    "primary_action": "fingers brushing the mark",
+    "word_count": 110
+}]

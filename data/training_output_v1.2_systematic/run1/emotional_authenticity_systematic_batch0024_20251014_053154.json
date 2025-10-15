@@ -1,0 +1,107 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 24,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 1.0,
+        "description": "A friend asks for help organizing a charity event, but the character is already overwhelmed with their own responsibilities."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I... I can try, but you know how this goes. Ive been juggling three projects at once, and my brain feels like its been stuffed with wet sand. Im not saying I cant help, but Im not sure I can give you the full attention you need. Youre asking me to be the glue in this mess, but Im more like a broken glue stick. Ill do what I can, but it might not be enough. Im sorry, I just Im so tired. My hands are shaking, and I cant even tell if Im smiling or just pretending. You deserve better than this. Maybe someone else can handle it. Or maybe youre the one who should take a step back. Im not sure anymore.",
+        "behavioral_cues": [
+          "tired smile",
+          "looks down",
+          "shakes hands"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "trust = (support_provided / support_needed) * (1 - neuroticism)",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "crisis",
+        "authenticity_target": "excellent",
+        "complexity_type": "people_pleasing",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 9.0,
+        "capacity_factors": [
+          {
+            "factor": "burnout",
+            "impact": -2.5
+          }
+        ],
+        "effective_capacity": 6.5
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 10.1,
+        "description": "A colleague demands the character take on an extra task, despite the character already being at their limit."
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "I Im not sure how to say this without sounding selfish. I know youre counting on me, and I hate letting you down. But Im not a machine, you know. Ive been working nonstop for weeks, and my brain is screaming for a break. I cant just switch to superhero mode and handle everything. Im not asking you to stop asking, but I need you to understand that I cant keep doing this. Im not a bad person for needing to say no. Im just Im human. If I push myself harder, Ill crash, and then Ill be no help at all. Please, let me breathe. Let me be honest for once.",
+        "behavioral_cues": [
+          "forced smile",
+          "stares at the floor",
+          "rubbing temples"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.15,
+        "trust_calculation": {
+          "formula": "trust = (capacity / support_needed) * (agreeableness - neuroticism)",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.55,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "struggling",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

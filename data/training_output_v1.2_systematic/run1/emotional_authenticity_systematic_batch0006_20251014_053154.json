@@ -1,0 +1,105 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 6,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 3.4,
+        "description": "Friend asks for help organizing a charity event, but character is already overwhelmed with work"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "'I wish I could say yes, really I do,' they sigh, rubbing their temples. 'But you know how this week has beenthree meetings, a client meltdown, and my dog threw up on the couch. Im basically a zombie with a caffeine addiction. Id love to help, but Im not sure I can commit to anything else. I mean, Im here, but my brain feels like its been run over by a truck. Maybe I could help with the logistics? Just... not the actual event planning? Im not trying to be a burden, I swear. Its just... Im so tired, I might cry if I have to smile one more time.' They pause, staring at their hands which tremble slightly. 'I know its not fair to ask, but Id really appreciate it if you could understand. Im trying, I really am.'",
+        "behavioral_cues": [
+          "tired smile",
+          "looks down"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "(support_needed - effective_capacity) * 0.1",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.85,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 7.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          }
+        ],
+        "effective_capacity": 4.5
+      },
+      "ocean_personality": {
+        "openness": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      },
+      "situation": {
+        "support_needed": 4.4,
+        "description": "Colleague demands late-night work session to meet a deadline, but character is exhausted from previous obligations"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "'Im so sorry, I know this is urgent, but Im not sure I can pull an all-nighter anymore,' they say, slumping into their chair. 'Ive been up since 4 a.m. trying to finish the report, and my eyes are basically two tiny holes in my skull. Im not saying I cant helpId rather die than let you downbut Im not sure my brain can handle another hour of this. I mean, I could maybe stay for an hour, but after that, Im going to collapse into a pile of emotional garbage. Im not trying to be a burden, but Im not a machine. Im human, and Im tired. Im sorry if this is inconvenient.' They gesture to their throbbing temples. 'I know its not fair, but Im not sure I can be the person you need right now.'",
+        "behavioral_cues": [
+          "shaking hands",
+          "slumped posture"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.07,
+        "trust_calculation": {
+          "formula": "(support_needed - effective_capacity) * 0.15",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.82,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "low",
+        "authenticity_target": "authentic",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}

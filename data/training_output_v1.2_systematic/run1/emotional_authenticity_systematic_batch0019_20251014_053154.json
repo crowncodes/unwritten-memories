@@ -1,0 +1,115 @@
+{
+  "master_truths_version": "v1.2",
+  "data_type": "emotional_authenticity_systematic",
+  "batch_number": 19,
+  "timestamp": "20251014_053154",
+  "sample_count": 2,
+  "samples": [
+    {
+      "character_state": {
+        "base_capacity": 8.5,
+        "capacity_factors": [
+          {
+            "factor": "work_stress",
+            "impact": -1.5
+          },
+          {
+            "factor": "burnout",
+            "impact": -2.0
+          }
+        ],
+        "effective_capacity": 5.0
+      },
+      "ocean_personality": {
+        "openness": 0.7,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      },
+      "situation": {
+        "support_needed": 8.9,
+        "description": "A friend pleads for help with a critical project, but Maya is visibly exhausted from weeks of overwork"
+      },
+      "response_type": "authentic_limitation",
+      "character_response": {
+        "dialogue": "You look like you haven't slept in days. (Pauses, rubs temples) I... I can't promise anything. My brain feels like it's been stuffed with sand. (Shakes hands, forcing a tired smile) Maybe I can review the draft once? Just... just not today. (Looks down at trembling fingers) I'm sorry, I know I said I'd be here. (Voice cracks) It's not that I don't careit's that I'm drowning. (Leans forward, eyes glassy) Can we split this? I'll do the numbers, you handle the narrative?",
+        "behavioral_cues": [
+          "trembling fingers",
+          "head tilted downward",
+          "frequent blinking"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.05,
+        "trust_calculation": {
+          "formula": "effective_capacity * support_needed - 10",
+          "tier": "VERY MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.82,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "high",
+        "authenticity_target": "authentic",
+        "complexity_type": "baseline",
+        "batch_index": 0
+      }
+    },
+    {
+      "character_state": {
+        "base_capacity": 5.2,
+        "capacity_factors": [
+          {
+            "factor": "people_pleasing",
+            "impact": -1.8
+          },
+          {
+            "factor": "self_neglect",
+            "impact": -2.3
+          }
+        ],
+        "effective_capacity": 1.1
+      },
+      "ocean_personality": {
+        "openness": 0.5,
+        "agreeableness": 0.9,
+        "neuroticism": 0.6
+      },
+      "situation": {
+        "support_needed": 11.0,
+        "description": "Jordan is asked to mentor a team, but his own deadlines are collapsing under the weight of others' expectations"
+      },
+      "response_type": "failed_authenticity",
+      "character_response": {
+        "dialogue": "I... I can do this. (Stares at coffee stain, voice quivering) I've done worse. (Forcefully smirks) Let me just... just get you a coffee first. (Stumbles toward kitchen, shoulders hunched) No, wait(turns back, eyes wide) I can handle the presentation, the data, the... the logistics. (Voice breaks) I just need... (pauses, clutching chest) Need five minutes. (Falls into chair, slumped forward) I'm not a failure. I'm just... (trails off, staring at hands) I'm not ready. (Whispers) Please don't make me do this.",
+        "behavioral_cues": [
+          "slumped posture",
+          "clenched fists",
+          "unsteady gait"
+        ]
+      },
+      "outcomes": {
+        "relationship_trust_change": -0.12,
+        "trust_calculation": {
+          "formula": "effective_capacity * support_needed - 20",
+          "tier": "MINOR HARM"
+        }
+      },
+      "authenticity_score": 0.34,
+      "demonstrates": [
+        "capacity rule",
+        "behavioral cues",
+        "rich dialogue"
+      ],
+      "_systematic_metadata": {
+        "capacity_level": "medium",
+        "authenticity_target": "failed",
+        "complexity_type": "people_pleasing",
+        "batch_index": 1
+      }
+    }
+  ]
+}
