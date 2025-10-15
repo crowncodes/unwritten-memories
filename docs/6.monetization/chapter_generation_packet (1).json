@@ -1,0 +1,1334 @@
+{
+  "chapter_metadata": {
+    "chapter_number": 8,
+    "title": "The Business Plan",
+    "weeks_covered": [
+      28
+    ],
+    "primary_pov": "player",
+    "secondary_povs": [
+      "sarah"
+    ],
+    "act_placement": {
+      "act": 2,
+      "position_in_act": "early",
+      "narrative_function": "Escalate tension - Sarah reveals dream but also doubts"
+    },
+    "chapter_purpose": "Show Sarah's vulnerability and player's role as believer",
+    "emotional_arc": "Nervous anticipation → Vulnerability → Tentative hope",
+    "target_word_count": 2800,
+    "pacing": "moderate"
+  },
+  "master_context": {
+    "story_metadata": {
+      "title": "Season One: Small Brave Things",
+      "themes": [
+        "courage",
+        "becoming",
+        "belief"
+      ],
+      "tone": "hopeful_introspective_authentic",
+      "pov_style": "close_third",
+      "time_span": {
+        "start": "Week 1",
+        "end": "Week 28",
+        "total_duration": "28 weeks"
+      }
+    },
+    "established_facts": [
+      {
+        "fact": "Sarah has worked at Café Luna for 6 years.",
+        "week": -312,
+        "importance": "critical"
+      },
+      {
+        "fact": "Player and Sarah met at Café Luna in Week 8.",
+        "week": 8,
+        "importance": "significant"
+      },
+      {
+        "fact": "Sarah’s grandmother died two years ago; last advice: 'take up space.'",
+        "week": -104,
+        "importance": "critical"
+      },
+      {
+        "fact": "Sarah has been saving for a bookshop for 4 years.",
+        "week": -208,
+        "importance": "significant"
+      }
+    ],
+    "character_registry": [
+      {
+        "id": "player",
+        "name": "You",
+        "voice_profile": {
+          "speech_patterns": [
+            "Direct but gentle",
+            "Asks questions"
+          ],
+          "vocabulary_level": "Moderate",
+          "typical_sentence_length": "Varied",
+          "internal_monologue_style": "Observant, pragmatic optimism",
+          "metaphor_preference": "Practical, spare",
+          "how_they_express_emotion": "Through actions and tone",
+          "what_they_suppress": "Own doubts",
+          "tells_when_lying": [
+            "Breaks eye contact"
+          ],
+          "verbal_tics": [
+            "Says 'okay' when thinking"
+          ],
+          "behavioral_tics": [
+            "Leans forward when listening"
+          ],
+          "distinct_from_other_povs": "More external focus; reads people"
+        }
+      },
+      {
+        "id": "sarah",
+        "name": "Sarah",
+        "voice_profile": {
+          "speech_patterns": [
+            "Apologizes reflexively",
+            "Says 'I mean' when backtracking"
+          ],
+          "vocabulary_level": "Simple but precise",
+          "typical_sentence_length": "Short when nervous, longer when passionate",
+          "internal_monologue_style": "Self-critical, numbers for comfort",
+          "metaphor_preference": "Book/reading metaphors",
+          "how_they_express_emotion": "Indirectly, via behavior",
+          "what_they_suppress": "Desire and ambition",
+          "tells_when_lying": [
+            "Over-explains",
+            "Avoids eye contact"
+          ],
+          "verbal_tics": [
+            "'I'm sorry' before vulnerable thoughts"
+          ],
+          "behavioral_tics": [
+            "Touches grandmother's bracelet",
+            "Traces cup rim"
+          ],
+          "distinct_from_other_povs": "Ultra self-critical; analytical spirals"
+        }
+      }
+    ],
+    "story_arcs": [
+      {
+        "arc_id": "dream_reveal",
+        "name": "Dream Revealed",
+        "status": "rising",
+        "last_change_week": 28
+      },
+      {
+        "arc_id": "friendship_to_trust",
+        "name": "Friendship → Trust",
+        "status": "deepening",
+        "last_change_week": 27
+      }
+    ],
+    "previous_chapters": [
+      {
+        "chapter_number": 7,
+        "title": "The Photograph",
+        "summary": "Player encourages Sarah’s hobby; they share a quiet walk home.",
+        "key_changes": [
+          "Trust +0.05",
+          "Openness +0.1 (Sarah)"
+        ]
+      }
+    ]
+  },
+  "chapter_narrative": {
+    "scenes": [
+      {
+        "scene_id": "cafe_invitation",
+        "order": 1,
+        "location": {
+          "name": "Café Luna",
+          "evolution_state": "Week 28 - Regular spot, comfortable routine established",
+          "sensory_palette": {
+            "visual": [
+              "Afternoon light through tall windows",
+              "Steam rising from cups",
+              "A worn notebook on the table"
+            ],
+            "auditory": [
+              "Espresso machine hum",
+              "Low murmur of conversations"
+            ],
+            "olfactory": [
+              "Fresh coffee",
+              "Vanilla from pastries"
+            ],
+            "tactile": [
+              "Warm ceramic mug",
+              "Smooth, worn tabletop"
+            ],
+            "atmospheric": "Familiar safety with a charge of anticipation"
+          },
+          "emotional_association": "Safe space where important conversations happen",
+          "significance": "Where their friendship deepened"
+        },
+        "time": {
+          "week": 28,
+          "day": "Tuesday",
+          "time_of_day": "afternoon",
+          "season": "Early autumn",
+          "weather": "Clear, crisp",
+          "time_pressure": null
+        },
+        "present_characters": [
+          "player",
+          "sarah"
+        ],
+        "summary": "Sarah texts to meet. She arrives early with a closed notebook and three times nearly speaks, then stops.",
+        "narrative_beats": [
+          "Player arrives; Sarah already seated, notebook closed.",
+          "Small talk is stilted; she avoids eye contact.",
+          "She starts to speak, aborts; does this three times.",
+          "She gathers her things to leave.",
+          "Player says, 'Whatever it is, I'm listening.'",
+          "Sarah sits again, breathes, and opens the notebook."
+        ],
+        "information_state": {
+          "player": {
+            "what_they_know": [
+              "Sarah loves books",
+              "She’s been distant this week"
+            ],
+            "what_they_dont_know": [
+              "How long she’s planned this",
+              "Her exact savings"
+            ],
+            "what_they_suspect": [
+              "This is important",
+              "She fears judgment"
+            ]
+          },
+          "sarah": {
+            "what_they_know": [
+              "Player listens well",
+              "They have encouraged her before"
+            ],
+            "what_they_dont_know": [
+              "Whether player believes in her",
+              "Whether this changes the friendship"
+            ],
+            "what_they_suspect": [
+              "Player might think this is unrealistic"
+            ]
+          }
+        },
+        "function": "setup",
+        "tension_level": 7,
+        "emotional_weight": 8,
+        "dominant_sense": "sight",
+        "atmosphere": "Charged anticipation in a familiar place",
+        "callbacks": [
+          "Coffee cup rim tracing from earlier chapters"
+        ],
+        "plants": [
+          "Three false starts — pattern of self-sabotage",
+          "Worn notebook — years of planning",
+          "Brief mention of grandmother’s advice"
+        ]
+      },
+      {
+        "scene_id": "business_plan_reveal",
+        "order": 2,
+        "location": {
+          "name": "Café Luna - back corner table",
+          "evolution_state": "Same afternoon; sun tilts toward golden hour",
+          "sensory_palette": {
+            "visual": [
+              "Dog-eared pages",
+              "Handwritten margins",
+              "A photo of a small storefront"
+            ],
+            "auditory": [
+              "Ceramic clink",
+              "Milk frother hiss"
+            ],
+            "olfactory": [
+              "Coffee oils",
+              "Faint citrus cleanser"
+            ],
+            "tactile": [
+              "Dry fingertips on paper edges"
+            ],
+            "atmospheric": "A bubble of attention around the notebook"
+          },
+          "emotional_association": "Vulnerability and focus",
+          "significance": "First time dream is spoken aloud"
+        },
+        "time": {
+          "week": 28,
+          "day": "Tuesday",
+          "time_of_day": "afternoon"
+        },
+        "present_characters": [
+          "player",
+          "sarah"
+        ],
+        "summary": "Sarah shows the plan; player reads, asks grounded questions.",
+        "narrative_beats": [
+          "Notebook opens; pages of calculations and timelines.",
+          "Player asks about rent assumptions and inventory.",
+          "Sarah admits she’s saved $47,892.46; goal is $50k.",
+          "Player’s excitement grows; they ask, 'How long?'",
+          "'Four years,' Sarah says."
+        ],
+        "information_state": {
+          "player": {
+            "what_they_know": [
+              "Numbers are tight",
+              "Sarah is meticulous"
+            ],
+            "what_they_dont_know": [
+              "Where she saw the storefront",
+              "Her contingency plan"
+            ],
+            "what_they_suspect": [
+              "She needs belief more than fixes"
+            ]
+          },
+          "sarah": {
+            "what_they_know": [
+              "Player is engaged, not patronizing"
+            ],
+            "what_they_dont_know": [
+              "If they think she can actually do it"
+            ],
+            "what_they_suspect": [
+              "Their answer will change her next step"
+            ]
+          }
+        },
+        "function": "revelation",
+        "tension_level": 6,
+        "emotional_weight": 9,
+        "dominant_sense": "touch",
+        "atmosphere": "Quiet courage",
+        "callbacks": [
+          "Earlier mention of grandmother",
+          "Prior encouragement about hobbies"
+        ],
+        "plants": [
+          "Budget is tight; no real cushion"
+        ]
+      },
+      {
+        "scene_id": "sarah_pov_interlude",
+        "order": 3,
+        "location": {
+          "name": "Café Luna - same table",
+          "evolution_state": "Moments later",
+          "sensory_palette": {
+            "visual": [
+              "Light warmer on the floorboards"
+            ],
+            "auditory": [
+              "Something in the espresso bar clicks off"
+            ],
+            "olfactory": [
+              "Caramel note in the air"
+            ],
+            "tactile": [
+              "Bracelet cool against skin"
+            ],
+            "atmospheric": "Breath held between question and answer"
+          },
+          "emotional_association": "Exposure",
+          "significance": "Admits why belief matters"
+        },
+        "time": {
+          "week": 28,
+          "day": "Tuesday",
+          "time_of_day": "afternoon"
+        },
+        "present_characters": [
+          "sarah",
+          "player"
+        ],
+        "summary": "Brief internal monologue — fear, hope, grandmother’s voice.",
+        "narrative_beats": [
+          "She thinks about the storefront photo in the notebook.",
+          "She hears her grandmother: 'Take up space.'",
+          "She asks, 'Do you think I can actually do this?'"
+        ],
+        "information_state": {
+          "sarah": {
+            "what_they_know": [
+              "Numbers work on paper"
+            ],
+            "what_they_dont_know": [
+              "If courage will hold"
+            ],
+            "what_they_suspect": [
+              "Being believed in might be the difference"
+            ]
+          }
+        },
+        "function": "decision",
+        "tension_level": 8,
+        "emotional_weight": 9,
+        "dominant_sense": "sound",
+        "atmosphere": "Vulnerable hope",
+        "plants": [
+          "Beat of silence that feels like a shift"
+        ]
+      }
+    ],
+    "decisive_moments": [
+      {
+        "moment_id": "sarah_decides_to_share",
+        "description": "Sarah decides to show the business plan despite fear",
+        "context_before": {
+          "sarah_state": {
+            "personality": {
+              "openness": 3.5,
+              "conscientiousness": 4.0,
+              "extraversion": 2.8,
+              "agreeableness": 3.9,
+              "neuroticism": 3.8
+            },
+            "emotional_state": {
+              "primary": "ANXIOUS",
+              "secondary": "HOPEFUL",
+              "intensity": 8,
+              "duration": "3 days"
+            },
+            "physical_state": {
+              "energy_level": 4,
+              "health": "Nervous exhaustion",
+              "physical_tells": [
+                "Trembling hands",
+                "Dry mouth"
+              ]
+            },
+            "mental_state": {
+              "focus": "Scattered",
+              "preoccupations": [
+                "Will they laugh?",
+                "What if I fail?"
+              ],
+              "stress_level": 8
+            },
+            "relationship_context": {
+              "player": {
+                "current_feeling": "Trust mixed with terror",
+                "recent_interaction": "They encouraged her last week"
+              }
+            },
+            "life_context": {
+              "career_status": "Barista; feels stuck",
+              "financial_status": "$47,892.46 saved",
+              "living_situation": "Small studio, alone",
+              "active_goals": [
+                "Reach $50k",
+                "Find courage to share"
+              ],
+              "recent_events": [
+                "Grandmother’s birthday",
+                "Saw a promising storefront"
+              ],
+              "time_pressure": [
+                "Storefront might be rented soon"
+              ]
+            }
+          },
+          "player_state": {
+            "personality": {
+              "openness": 4.2,
+              "conscientiousness": 3.8,
+              "extraversion": 3.6,
+              "agreeableness": 4.5,
+              "neuroticism": 3.1
+            },
+            "emotional_state": {
+              "primary": "CURIOUS",
+              "secondary": "CONCERNED",
+              "intensity": 5,
+              "duration": "Since receiving her text"
+            },
+            "physical_state": {
+              "energy_level": 6,
+              "health": "Good",
+              "physical_tells": []
+            },
+            "mental_state": {
+              "focus": "Attentive",
+              "preoccupations": [
+                "Say the right thing"
+              ],
+              "stress_level": 3
+            },
+            "relationship_context": {
+              "sarah": {
+                "current_feeling": "Protective, supportive",
+                "recent_interaction": "Walked home together last week"
+              }
+            },
+            "life_context": {
+              "career_status": "Stable",
+              "financial_status": "Unknown to Sarah",
+              "living_situation": "Alone",
+              "active_goals": [
+                "Be there for her"
+              ],
+              "recent_events": [],
+              "time_pressure": []
+            }
+          },
+          "environmental_pressure": "If this goes badly, their 'safe place' becomes complicated."
+        },
+        "the_choice": {
+          "options_considered": [
+            "Leave without sharing",
+            "Minimize the plan",
+            "Open the notebook and ask for honesty"
+          ],
+          "internal_debate": "Fear of judgment vs. need to be seen. Grandmother’s voice: 'Take up space.'",
+          "deciding_factor": "Player’s steady: 'Whatever it is, I’m listening.'",
+          "choice_made": "She opens the notebook."
+        },
+        "immediate_aftermath": {
+          "sarah_reaction": "Relief and panic braided together.",
+          "player_reaction": "Surprised at scope; then sincerely engaged.",
+          "relationship_shift": 0.15,
+          "emotional_shift": "ANXIOUS → VULNERABLE → TENTATIVELY HOPEFUL"
+        },
+        "symbolic_significance": "First time she speaks the dream aloud."
+      }
+    ],
+    "emotional_beats": [
+      {
+        "beat_id": "sarah_vulnerability_peak",
+        "character": "sarah",
+        "emotion": "vulnerable_fear",
+        "intensity": 9,
+        "build_up": {
+          "baseline": "Weeks of acting 'fine' while planning alone.",
+          "pressure_points": [
+            "Grandmother’s birthday",
+            "Spotted storefront",
+            "Player’s text check-in"
+          ],
+          "stakes": "If dismissed, she loses both dream and safe friendship.",
+          "breaking_point": "Opening the notebook; saying 'bookshop.'"
+        },
+        "physical_manifestation": [
+          "Hands tremble; sets mug down",
+          "Voice catches on 'bookshop'",
+          "Avoids eye contact"
+        ],
+        "behavioral_tells": [
+          "Apologizes before your response",
+          "Touches bracelet"
+        ],
+        "internal_experience": "Exposed; counting seconds until verdict.",
+        "show_dont_tell": {
+          "avoid_stating": "Sarah was nervous",
+          "show_through": [
+            "She gathered her things twice",
+            "The notebook stayed closed for fifteen minutes",
+            "She touched her grandmother’s bracelet again"
+          ]
+        },
+        "resolution": {
+          "how_it_resolves": "Player’s practical questions signal respect, not pity.",
+          "new_emotional_state": "Cautiously hopeful"
+        }
+      }
+    ],
+    "key_dialogues": [
+      {
+        "dialogue_id": "the_reveal",
+        "participants": [
+          "sarah",
+          "player"
+        ],
+        "context": "She is about to reveal her dream",
+        "exchanges": [
+          {
+            "speaker": "sarah",
+            "line": "I want to show you something. But you have to promise to be honest.",
+            "subtext": "Please don’t just be nice.",
+            "delivery": "Quiet; eyes on notebook",
+            "non_verbal": [
+              "Fingers trace spine"
+            ],
+            "listener_reaction": "Player leans in"
+          },
+          {
+            "speaker": "player",
+            "line": "Okay. I promise.",
+            "subtext": "I’m here; fully.",
+            "delivery": "Steady",
+            "non_verbal": [
+              "Open posture"
+            ],
+            "listener_reaction": "Sarah breathes"
+          },
+          {
+            "speaker": "sarah",
+            "line": "I want to open a bookshop.",
+            "subtext": "This is the thing that matters.",
+            "delivery": "Barely above a whisper",
+            "non_verbal": [
+              "Shoulders tense"
+            ],
+            "listener_reaction": "Surprise, then warmth"
+          },
+          {
+            "speaker": "player",
+            "line": "How long have you been working on this?",
+            "subtext": "This is real work. I respect it.",
+            "delivery": "Genuine curiosity",
+            "non_verbal": [
+              "Turns pages"
+            ],
+            "listener_reaction": "Sarah meets their eyes"
+          }
+        ],
+        "surface_conversation": "Business plan details",
+        "actual_conversation": "Do you believe I can be bigger than my fear?",
+        "functions": [
+          "reveal_character",
+          "advance_plot",
+          "build_tension",
+          "show_relationship",
+          "deliver_information"
+        ],
+        "voice_notes": {
+          "sarah": {
+            "speech_patterns": [
+              "Apologizes; uses 'I mean'"
+            ],
+            "word_choice": "Simple, precise",
+            "emotional_state_affects_speech": "Minimizes when anxious"
+          },
+          "player": {
+            "speech_patterns": [
+              "Short, grounding statements",
+              "Questions first"
+            ],
+            "word_choice": "Direct but warm",
+            "emotional_state_affects_speech": "Curiosity steady"
+          }
+        }
+      }
+    ],
+    "tension_arc": {
+      "opening_tension": "Vague, nervous text; off-balance greeting.",
+      "complications": [
+        "Three false starts",
+        "Almost leaves",
+        "Player uncertain what this is about"
+      ],
+      "climax": "Notebook opens; dream spoken aloud",
+      "resolution": "Player’s engaged response eases her panic",
+      "ending_hook": "She asks: 'Do you think I can actually do this?'"
+    }
+  },
+  "pov_perspectives": [
+    {
+      "character_id": "player",
+      "pov_type": "primary",
+      "word_count_allocation": 2200,
+      "scenes_from_their_pov": [
+        "cafe_invitation",
+        "business_plan_reveal"
+      ],
+      "current_state": {
+        "personality": {
+          "openness": 4.2,
+          "conscientiousness": 3.8,
+          "extraversion": 3.6,
+          "agreeableness": 4.5,
+          "neuroticism": 3.1
+        },
+        "emotional_state": {
+          "primary": "CURIOUS",
+          "intensity": 5,
+          "duration": "hours"
+        },
+        "physical_state": {
+          "energy_level": 6,
+          "health": "Good",
+          "physical_tells": []
+        },
+        "mental_state": {
+          "focus": "Attentive",
+          "preoccupations": [
+            "Don’t say the wrong thing"
+          ],
+          "stress_level": 3
+        },
+        "relationship_context": {
+          "sarah": {
+            "current_feeling": "Protective, supportive",
+            "recent_interaction": "Encouraged her last week"
+          }
+        },
+        "life_context": {
+          "career_status": "Stable",
+          "financial_status": "Private",
+          "living_situation": "Alone",
+          "active_goals": [
+            "Be a good friend"
+          ],
+          "recent_events": [],
+          "time_pressure": []
+        }
+      },
+      "knowledge_state": {
+        "known_facts": [
+          "She loves books; meticulous planner",
+          "Their friendship matters to both"
+        ],
+        "unknown_facts": [
+          "Exact savings",
+          "Her timeline for opening"
+        ],
+        "suspicions": [
+          {
+            "suspicion": "She’s been holding something back",
+            "confidence": 0.7,
+            "based_on": "Distant looks; nervous text"
+          }
+        ],
+        "dramatic_irony": null
+      },
+      "internal_narrative": {
+        "thought_style": "Observant; notes tells and details",
+        "internal_voice": "Steady; tries to be kind and useful",
+        "preoccupations": [
+          {
+            "thought": "Don’t minimize, don’t overpromise.",
+            "recurring": true,
+            "emotional_tone": "Measured care"
+          }
+        ],
+        "self_narrative": "I’m someone who shows up.",
+        "narrative_evolution": "Learning that belief can be practical, too.",
+        "active_fear": "Accidentally discouraging her",
+        "active_desire": "Help her see what she has",
+        "internal_conflict": "Protect vs. push"
+      },
+      "observations": [
+        {
+          "observing": "sarah",
+          "observation": "Touches bracelet",
+          "interpretation": "Anxious; this matters",
+          "emotional_response": "Protective",
+          "accuracy": "accurate"
+        },
+        {
+          "observing": "sarah",
+          "observation": "Notebook edges worn",
+          "interpretation": "Long planning period",
+          "emotional_response": "Respect",
+          "accuracy": "accurate"
+        }
+      ],
+      "voice_profile": {
+        "speech_patterns": [
+          "Direct but gentle",
+          "Questions to draw out detail"
+        ],
+        "vocabulary_level": "Moderate",
+        "typical_sentence_length": "Varied",
+        "internal_monologue_style": "External detail → inference",
+        "metaphor_preference": "Practical",
+        "how_they_express_emotion": "Tone and presence",
+        "what_they_suppress": "Own uncertainty",
+        "tells_when_lying": [
+          "Breaks eye contact"
+        ],
+        "verbal_tics": [
+          "'Okay' when thinking"
+        ],
+        "behavioral_tics": [
+          "Leans forward when listening"
+        ],
+        "distinct_from_other_povs": "Outward focus vs. Sarah’s inward spiral"
+      },
+      "relevant_memories": [
+        {
+          "memory_id": "first_conversation",
+          "from_week": 8,
+          "description": "First real chat; Murakami mention.",
+          "emotional_weight": 7,
+          "sensory_details": [
+            "Rain outside",
+            "Coffee too hot"
+          ],
+          "why_relevant": "Origin of trust",
+          "how_character_remembers": "Air shifted that day"
+        }
+      ],
+      "unspoken": [
+        {
+          "what_they_think": "This might change everything.",
+          "why_they_dont_say_it": "Too heavy to name",
+          "alternative_said": "I’m listening.",
+          "subtext_signal": "Steady posture; patient silence"
+        }
+      ]
+    },
+    {
+      "character_id": "sarah",
+      "pov_type": "secondary",
+      "word_count_allocation": 600,
+      "scenes_from_their_pov": [
+        "sarah_pov_interlude"
+      ],
+      "current_state": {
+        "personality": {
+          "openness": 3.5,
+          "conscientiousness": 4.0,
+          "extraversion": 2.8,
+          "agreeableness": 3.9,
+          "neuroticism": 3.8
+        },
+        "emotional_state": {
+          "primary": "ANXIOUS",
+          "secondary": "HOPEFUL",
+          "intensity": 8,
+          "duration": "3 days"
+        },
+        "physical_state": {
+          "energy_level": 4,
+          "health": "Tired",
+          "physical_tells": [
+            "Trembling hands",
+            "Dry mouth"
+          ]
+        },
+        "mental_state": {
+          "focus": "Scattered",
+          "preoccupations": [
+            "The numbers work. Rent ~2400. Utilities ~300.",
+            "$47,892.46 saved; need 50k.",
+            "What if they laugh?"
+          ],
+          "stress_level": 9
+        },
+        "relationship_context": {
+          "player": {
+            "current_feeling": "Trust but terror of losing respect",
+            "recent_interaction": "They encouraged me last week"
+          }
+        },
+        "life_context": {
+          "career_status": "Barista 6 years",
+          "financial_status": "$47,892.46 saved",
+          "living_situation": "Studio apartment",
+          "active_goals": [
+            "Reach $50k",
+            "Find courage to act"
+          ],
+          "recent_events": [
+            "Grandmother’s birthday",
+            "Saw promising storefront"
+          ],
+          "time_pressure": [
+            "Storefront might go soon"
+          ]
+        }
+      },
+      "knowledge_state": {
+        "known_facts": [
+          "Plan is solid on paper",
+          "Player is kind"
+        ],
+        "unknown_facts": [
+          "Player’s finances",
+          "Whether they believe in me"
+        ],
+        "suspicions": [
+          {
+            "suspicion": "They’ll think it’s unrealistic",
+            "confidence": 0.6,
+            "based_on": "Cultural chatter about bookstores"
+          }
+        ],
+        "misconceptions": [
+          {
+            "belief": "They’ll judge me for dreaming",
+            "reality": "They respect it",
+            "when_corrected": 8
+          }
+        ]
+      },
+      "internal_narrative": {
+        "thought_style": "Counts things; catastrophizes; then self-corrects with data",
+        "internal_voice": "Self-critical, trying to be brave",
+        "preoccupations": [
+          {
+            "thought": "Inventory at 15k to start; supplier terms net 30",
+            "recurring": true,
+            "emotional_tone": "Grasping for certainty"
+          },
+          {
+            "thought": "Grandma: 'You apologize for existing.'",
+            "recurring": true,
+            "emotional_tone": "Grief into resolve"
+          }
+        ],
+        "self_narrative": "The careful one who plans and never leaps.",
+        "narrative_evolution": "Maybe one brave thing is possible.",
+        "active_fear": "Exposure without belief",
+        "active_desire": "Permission to try",
+        "internal_conflict": "Desperate to be seen vs. terrified of being seen"
+      },
+      "observations": [
+        {
+          "observing": "player",
+          "observation": "Their hands are still; not checking phone.",
+          "interpretation": "They are actually here.",
+          "emotional_response": "Small hope",
+          "accuracy": "accurate"
+        }
+      ],
+      "voice_profile": {
+        "speech_patterns": [
+          "Apologizes; qualifies with 'probably'/'maybe'"
+        ],
+        "vocabulary_level": "Simple, precise",
+        "typical_sentence_length": "Short under stress",
+        "internal_monologue_style": "Numbers + self-reproach + a borrowed brave voice",
+        "metaphor_preference": "Bookshelves, margins, annotations",
+        "how_they_express_emotion": "Sideways; via rituals",
+        "what_they_suppress": "Anger at herself",
+        "tells_when_lying": [
+          "Over-explains",
+          "Avoids eye contact"
+        ],
+        "verbal_tics": [
+          "'I'm sorry' at the start"
+        ],
+        "behavioral_tics": [
+          "Traces cup rim",
+          "Touches bracelet"
+        ],
+        "distinct_from_other_povs": "Inward spiral vs. player’s outward read"
+      },
+      "relevant_memories": [
+        {
+          "memory_id": "grandmother_words",
+          "from_week": -104,
+          "description": "Hospital room: 'Make up your mind to take up space.'",
+          "emotional_weight": 10,
+          "sensory_details": [
+            "Sterile light",
+            "Paper-dry hand"
+          ],
+          "why_relevant": "Core permission to speak today",
+          "how_character_remembers": "As a promise not yet kept"
+        }
+      ],
+      "unspoken": [
+        {
+          "what_they_think": "If you believe in me, I might believe in me.",
+          "why_they_dont_say_it": "Too naked",
+          "alternative_said": "Do you think I can actually do this?",
+          "subtext_signal": "Breath held; grip on bracelet"
+        }
+      ]
+    }
+  ],
+  "technique_guidance": {
+    "scene_techniques": {
+      "cafe_invitation": {
+        "primary_technique": {
+          "technique": "tension_building",
+          "application": "Use repeated false starts to ratchet tension; show don’t tell.",
+          "examples": [
+            "She opened her mouth. Closed it. Traced the rim.",
+            "Three starts, three silent endings."
+          ],
+          "avoid": [
+            "Naming anxiety directly",
+            "Rushing the beats"
+          ]
+        },
+        "sensory_focus": [
+          "sight",
+          "sound",
+          "touch"
+        ],
+        "pacing": "slow",
+        "sentence_rhythm": "varied",
+        "show_dont_tell_reminders": [
+          {
+            "avoid_telling": "Sarah is very nervous.",
+            "show_through": [
+              "Her hands tremble when she sets the mug down",
+              "She gathers her things twice",
+              "The notebook stays closed for fifteen minutes"
+            ]
+          }
+        ]
+      },
+      "business_plan_reveal": {
+        "primary_technique": {
+          "technique": "showing",
+          "application": "Convey vulnerability through physical detail and specific artifacts.",
+          "examples": [
+            "Cracked spine; dog-eared pages",
+            "Her voice catches on 'bookshop'"
+          ],
+          "avoid": [
+            "Generic emotion labels",
+            "Abstract summaries of the plan"
+          ]
+        },
+        "sensory_focus": [
+          "touch",
+          "sight",
+          "sound"
+        ],
+        "pacing": "moderate",
+        "sentence_rhythm": "varied",
+        "show_dont_tell_reminders": [
+          {
+            "avoid_telling": "The plan is very detailed.",
+            "show_through": [
+              "Margins packed with checked figures",
+              "Vendor contacts and timelines",
+              "A worn storefront photo"
+            ]
+          }
+        ]
+      }
+    },
+    "dialogue_guidance": {
+      "subtext_level": "heavy",
+      "functions_to_accomplish": [
+        "Reveal Sarah's fear of judgment",
+        "Advance plot (plan revealed)",
+        "Deepen relationship",
+        "Establish trust dynamic",
+        "Deliver concrete information"
+      ],
+      "voice_differentiation_critical": true
+    },
+    "emotional_technique": {
+      "build_method": "layered",
+      "release_method": "subtle",
+      "avoid_melodrama": [
+        "No dramatic crying",
+        "No grand declarations",
+        "No instant transformation"
+      ]
+    },
+    "chapter_techniques": {
+      "opening_hook": {
+        "type": "mystery",
+        "approach": "Vague, nervous text + unusual invite",
+        "specific_elements": [
+          "Sarah asked to meet specifically",
+          "Her nervousness palpable in the first exchange"
+        ],
+        "tone": "Intrigued, slightly worried"
+      },
+      "tension_architecture": {
+        "micro_tension": [
+          {
+            "in_scene": "cafe_invitation",
+            "source": "False starts",
+            "escalation": "Almost leaves"
+          },
+          {
+            "in_scene": "business_plan_reveal",
+            "source": "Awaiting reaction",
+            "escalation": "Silence before reply"
+          }
+        ],
+        "macro_tension": {
+          "chapter_stakes": "Dream voiced; response will shape next choice",
+          "unresolved_by_chapter_end": [
+            "Can she do it?",
+            "Will player help?",
+            "What happens next?"
+          ]
+        }
+      },
+      "ending_hook": {
+        "type": "question",
+        "approach": "Direct ask that carries weight",
+        "specific_elements": [
+          "Beat of silence",
+          "Reader feels answer matters"
+        ],
+        "tone": "Vulnerable hope"
+      },
+      "callbacks_to_plant": [
+        {
+          "plant": "Grandmother’s phrase 'Take up space'",
+          "appears_casual_as": "Quiet echo when she’s stuck",
+          "payoff_in_chapter": 15,
+          "emotional_resonance": "Permission reclaimed when she finally speaks"
+        },
+        {
+          "plant": "Storefront photo in notebook",
+          "appears_casual_as": "One artifact among many",
+          "payoff_in_chapter": 12,
+          "emotional_resonance": "Becomes a real location later"
+        },
+        {
+          "plant": "Exact savings: $47,892.46",
+          "appears_casual_as": "Mentioned once",
+          "payoff_in_chapter": 18,
+          "emotional_resonance": "When she risks using it all"
+        }
+      ]
+    },
+    "pov_transition_guidance": {
+      "transition_point": "After reveal from player POV, switch to brief Sarah interlude",
+      "transition_method": "scene_break",
+      "voice_shift_signal": "Immediate switch to analytical, self-critical cadence"
+    }
+  },
+  "continuity_anchors": {
+    "recurring_elements": [
+      {
+        "element": "Sarah's cerulean scarf",
+        "previous_appearances": [
+          2,
+          4,
+          6
+        ],
+        "this_chapter_usage": {
+          "should_appear": true,
+          "context": "Comfort item; she's wearing it",
+          "emotional_weight": 3,
+          "evolution": "Reader learns it was her grandmother’s"
+        },
+        "symbolic_weight": "Connection to past; borrowed courage"
+      },
+      {
+        "element": "Café Luna",
+        "previous_appearances": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "this_chapter_usage": {
+          "should_appear": true,
+          "context": "Primary setting",
+          "emotional_weight": 7,
+          "evolution": "Safe place becomes threshold"
+        },
+        "symbolic_weight": "Sanctuary where hard truths surface"
+      },
+      {
+        "element": "Rim tracing",
+        "previous_appearances": [
+          4,
+          6
+        ],
+        "this_chapter_usage": {
+          "should_appear": true,
+          "context": "Her anxious tell",
+          "emotional_weight": 5
+        },
+        "symbolic_weight": "Looping hesitation"
+      }
+    ],
+    "must_honor_facts": [
+      "Sarah has worked at Café Luna for 6 years",
+      "Grandmother died 2 years ago (Week -104)",
+      "Player and Sarah met in Week 8",
+      "This is the first time she told anyone the dream",
+      "She has saved for 4 years"
+    ],
+    "relationship_continuity": [
+      {
+        "characters": [
+          "player",
+          "sarah"
+        ],
+        "current_state": "Close, undefined; deepening trust",
+        "recent_developments": "Player encouraged her last week (photography)",
+        "trajectory": "improving"
+      }
+    ],
+    "world_state": {
+      "date": "Week 28, Tuesday",
+      "season": "Early autumn",
+      "weather_pattern": "Clear, crisp",
+      "location_states": [
+        {
+          "location": "Café Luna",
+          "current_state": "Moderate afternoon crowd; calm staff"
+        }
+      ]
+    },
+    "personality_continuity": [
+      {
+        "character": "sarah",
+        "current_traits": [
+          3.5,
+          4.0,
+          2.8,
+          3.9,
+          3.8
+        ],
+        "recent_growth": "Openness ticked up over weeks",
+        "cannot_contradict": [
+          "Reserved and anxious baseline",
+          "Highly conscientious planner",
+          "Agreeable; apologizes often",
+          "Anxiety is an active struggle"
+        ]
+      },
+      {
+        "character": "player",
+        "current_traits": [
+          4.2,
+          3.8,
+          3.6,
+          4.5,
+          3.1
+        ],
+        "recent_growth": "Stable; more confident offering support",
+        "cannot_contradict": [
+          "Observant; notices details",
+          "Supportive but pragmatic",
+          "Listens more than speaks",
+          "Values authenticity"
+        ]
+      }
+    ],
+    "timeline_markers": [
+      {
+        "event": "First meeting at Café Luna",
+        "timing": "20 weeks ago (Week 8)",
+        "relation_to_chapter": "before"
+      },
+      {
+        "event": "Grandmother’s birthday",
+        "timing": "2 days ago",
+        "relation_to_chapter": "just before"
+      },
+      {
+        "event": "Spotted storefront",
+        "timing": "2 days ago",
+        "relation_to_chapter": "just before"
+      },
+      {
+        "event": "Investment decision",
+        "timing": "10 weeks from now (Week 38)",
+        "relation_to_chapter": "after"
+      }
+    ],
+    "established_vocabulary": [
+      {
+        "term": "Take up space",
+        "how_its_used": "Internal permission phrase",
+        "by_whom": "Grandmother (echoes in Sarah)"
+      },
+      {
+        "term": "The usual",
+        "how_its_used": "Their standard café order",
+        "by_whom": "Both"
+      }
+    ]
+  },
+  "foreshadowing": [
+    {
+      "future_event": "Sarah will need financial investment beyond her savings",
+      "occurs_in_chapter": 12,
+      "planting_method": {
+        "subtlety_level": "subtle",
+        "where_to_plant": "In player’s quick scan of the numbers",
+        "plant_as": "Brief thought: 'Budget seems tight… is 50k enough?'",
+        "reader_should_feel": "Vague concern"
+      },
+      "signals": [
+        {
+          "type": "internal_thought",
+          "content": "No cushion line item",
+          "delivery": "A passing note while turning a page"
+        },
+        {
+          "type": "dialogue_hint",
+          "content": "Real estate in this area…",
+          "delivery": "She trails off; player reassures"
+        }
+      ],
+      "payoff_context": {
+        "when_revealed": "Chapter 12 (lease requires more than expected)",
+        "callback_method": "Player remembers their fleeting doubt",
+        "emotional_impact": "Guilt + determination"
+      }
+    },
+    {
+      "future_event": "Pre-opening crisis of confidence",
+      "occurs_in_chapter": 16,
+      "planting_method": {
+        "subtlety_level": "barely_noticeable",
+        "where_to_plant": "Sarah’s POV after the reveal",
+        "plant_as": "A small voice she pushes away",
+        "reader_should_feel": "Ordinary self-doubt"
+      },
+      "signals": [
+        {
+          "type": "internal_thought",
+          "content": "What if I fail?",
+          "delivery": "Flash, countered by numbers"
+        },
+        {
+          "type": "behavioral_tell",
+          "content": "Touches bracelet while asking for belief",
+          "delivery": "Subtle; easy to miss"
+        }
+      ],
+      "payoff_context": {
+        "when_revealed": "Chapter 16 when things go wrong",
+        "callback_method": "The small voice returns as a roar",
+        "emotional_impact": "Full crisis"
+      }
+    },
+    {
+      "future_event": "Friendship will complicate into something more",
+      "occurs_in_chapter": 20,
+      "planting_method": {
+        "subtlety_level": "subtle",
+        "where_to_plant": "Beat of silence after her question",
+        "plant_as": "A felt shift, unnamed",
+        "reader_should_feel": "Something changed here"
+      },
+      "signals": [
+        {
+          "type": "environmental_sign",
+          "content": "Light shifts to golden hour",
+          "delivery": "Incidental description"
+        },
+        {
+          "type": "internal_thought",
+          "content": "This answer seems bigger than advice.",
+          "delivery": "Fleeting; moved past"
+        }
+      ],
+      "misdirection": {
+        "false_signal": "Just deepening friendship",
+        "makes_reader_think": "Best friends only",
+        "actual_truth": "Feelings beginning to complicate things"
+      },
+      "payoff_context": {
+        "when_revealed": "Chapter 20",
+        "callback_method": "They name that day as the pivot",
+        "emotional_impact": "Click of recognition"
+      }
+    }
+  ]
+}

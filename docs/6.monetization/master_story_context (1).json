@@ -1,0 +1,120 @@
+{
+  "story_metadata": {
+    "title": "Season One: Small Brave Things",
+    "themes": [
+      "courage",
+      "becoming",
+      "belief"
+    ],
+    "tone": "hopeful_introspective_authentic",
+    "pov_style": "close_third",
+    "time_span": {
+      "start": "Week 1",
+      "end": "Week 28",
+      "total_duration": "28 weeks"
+    }
+  },
+  "established_facts": [
+    {
+      "fact": "Sarah has worked at Café Luna for 6 years.",
+      "week": -312,
+      "importance": "critical"
+    },
+    {
+      "fact": "Player and Sarah met at Café Luna in Week 8.",
+      "week": 8,
+      "importance": "significant"
+    },
+    {
+      "fact": "Sarah’s grandmother died two years ago; last advice: 'take up space.'",
+      "week": -104,
+      "importance": "critical"
+    },
+    {
+      "fact": "Sarah has been saving for a bookshop for 4 years.",
+      "week": -208,
+      "importance": "significant"
+    }
+  ],
+  "character_registry": [
+    {
+      "id": "player",
+      "name": "You",
+      "voice_profile": {
+        "speech_patterns": [
+          "Direct but gentle",
+          "Asks questions"
+        ],
+        "vocabulary_level": "Moderate",
+        "typical_sentence_length": "Varied",
+        "internal_monologue_style": "Observant, pragmatic optimism",
+        "metaphor_preference": "Practical, spare",
+        "how_they_express_emotion": "Through actions and tone",
+        "what_they_suppress": "Own doubts",
+        "tells_when_lying": [
+          "Breaks eye contact"
+        ],
+        "verbal_tics": [
+          "Says 'okay' when thinking"
+        ],
+        "behavioral_tics": [
+          "Leans forward when listening"
+        ],
+        "distinct_from_other_povs": "More external focus; reads people"
+      }
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "voice_profile": {
+        "speech_patterns": [
+          "Apologizes reflexively",
+          "Says 'I mean' when backtracking"
+        ],
+        "vocabulary_level": "Simple but precise",
+        "typical_sentence_length": "Short when nervous, longer when passionate",
+        "internal_monologue_style": "Self-critical, numbers for comfort",
+        "metaphor_preference": "Book/reading metaphors",
+        "how_they_express_emotion": "Indirectly, via behavior",
+        "what_they_suppress": "Desire and ambition",
+        "tells_when_lying": [
+          "Over-explains",
+          "Avoids eye contact"
+        ],
+        "verbal_tics": [
+          "'I'm sorry' before vulnerable thoughts"
+        ],
+        "behavioral_tics": [
+          "Touches grandmother's bracelet",
+          "Traces cup rim"
+        ],
+        "distinct_from_other_povs": "Ultra self-critical; analytical spirals"
+      }
+    }
+  ],
+  "story_arcs": [
+    {
+      "arc_id": "dream_reveal",
+      "name": "Dream Revealed",
+      "status": "rising",
+      "last_change_week": 28
+    },
+    {
+      "arc_id": "friendship_to_trust",
+      "name": "Friendship → Trust",
+      "status": "deepening",
+      "last_change_week": 27
+    }
+  ],
+  "previous_chapters": [
+    {
+      "chapter_number": 7,
+      "title": "The Photograph",
+      "summary": "Player encourages Sarah’s hobby; they share a quiet walk home.",
+      "key_changes": [
+        "Trust +0.05",
+        "Openness +0.1 (Sarah)"
+      ]
+    }
+  ]
+}

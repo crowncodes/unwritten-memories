@@ -356,6 +356,94 @@ open docs/5.architecture/QUICK-START-DEVELOPER-GUIDE.md
 
 **Target**: Playable MVP in 16 weeks, Beta-ready in 20 weeks
 
+## AI Integration Options (NEW!)
+
+Unwritten supports **three AI approaches** for different use cases. Choose the right one for each feature:
+
+### 📚 Complete AI Documentation Suite
+
+- **[AI Approach Comparison](docs/3.ai/ai_approach_comparison.md)** - **START HERE!** Compare TFLite vs Firebase AI Logic vs Genkit
+- **[Firebase AI Logic Guide](docs/3.ai/firebase_ai_logic_integration_guide.md)** - Simple client-side AI (fastest to implement)
+- **[Genkit Documentation Index](docs/3.ai/GENKIT_DOCUMENTATION_INDEX.md)** - Backend AI workflows (full control)
+- **[Genkit Implementation Tutorial](docs/3.ai/genkit_implementation_tutorial.md)** - Step-by-step Genkit guide
+- **[Genkit Integration Guide](docs/3.ai/genkit_integration_guide.md)** - Comprehensive Genkit reference
+- **[Genkit Quick Reference](docs/3.ai/genkit_quick_reference.md)** - Genkit cheat sheet
+- **[Genkit Architecture](docs/5.architecture/genkit_architecture.md)** - Design decisions & scaling
+
+### 🎯 Three AI Approaches
+
+```
+Fast & Fixed (< 20ms)     Simple & Quick (MVP)      Complex Workflows (Production)
+┌───────────────────┐    ┌──────────────────────┐  ┌────────────────────────────┐
+│ TFLite            │    │ Firebase AI Logic    │  │ Genkit Backend             │
+│ (On-Device)       │    │ (Client SDK)         │  │ (Server)                   │
+│                   │    │                      │  │                            │
+│ ✓ Personality     │    │ ✓ Simple dialogue    │  │ ✓ Complex story            │
+│ ✓ Sentiment       │    │ ✓ Image analysis     │  │ ✓ RAG + Tool calling       │
+│ ✓ Quick scoring   │    │ ✓ Quick prototypes   │  │ ✓ Multi-step workflows     │
+└───────────────────┘    └──────────────────────┘  └────────────────────────────┘
+     Always free            $3.50/1K users/mo          $13.50/1K users/mo
+                                                       (better control & caching)
+```
+
+### 🚀 Quick Start
+
+**Option 1: Firebase AI Logic** (Fastest - 1-2 hours)
+```bash
+# Add to Flutter app
+cd app
+flutter pub add firebase_ai
+
+# Use directly in code - no backend needed!
+final model = FirebaseAI.googleAI().generativeModel(model: 'gemini-2.5-flash');
+final response = await model.generateContent([Content.text('Generate dialogue')]);
+```
+📖 [Firebase AI Logic Guide](docs/3.ai/firebase_ai_logic_integration_guide.md)
+
+**Option 2: Genkit Backend** (Full control - 2-3 hours)
+```bash
+# Set up Python backend
+cd unwritten-genkit-backend
+pip install genkit google-genkit-ai
+python main.py
+
+# Integrate with Flutter
+cd app
+flutter pub add http
+```
+📖 [Genkit Implementation Tutorial](docs/3.ai/genkit_implementation_tutorial.md)
+
+**Not Sure Which?** → [AI Approach Comparison](docs/3.ai/ai_approach_comparison.md)
+
+### 💰 Cost-Effective
+
+- 1,000 users × 50 dialogues/month = **~$3.50/month**
+- With optimization: **~$1.50-2.00/month**
+- Scales efficiently with caching and smart routing
+
+### 🔥 Key Benefits
+
+1. **Flexible Architecture**: Choose TFLite, Firebase AI Logic, or Genkit for each feature
+2. **Fast Development**: Firebase AI Logic gets AI working in 1-2 hours
+3. **Battery Efficient**: TFLite for fast operations, cloud for creative
+4. **Offline Support**: TFLite works offline, cloud has graceful fallbacks
+5. **Cost Effective**: $3.50/1K users with Firebase AI, optimizable with Genkit
+6. **Production Ready**: Security (App Check), monitoring, error handling
+
+### 📖 Learning Path
+
+- **Start Here** (15 min): [AI Approach Comparison](docs/3.ai/ai_approach_comparison.md) - Choose the right approach
+- **Quick Start** (1-2 hours): [Firebase AI Logic Guide](docs/3.ai/firebase_ai_logic_integration_guide.md) - Fastest implementation
+- **Intermediate** (2-8 hours): [Genkit Tutorial](docs/3.ai/genkit_implementation_tutorial.md) + [Architecture](docs/5.architecture/genkit_architecture.md)
+- **Advanced** (8+ hours): RAG, tool calling, multi-region deployment
+
+### 🔗 External Resources
+
+- [Firebase AI Logic Docs](https://firebase.google.com/docs/ai-logic)
+- [Genkit Docs](https://genkit.dev/docs/?lang=python)
+- [Google AI Studio](https://aistudio.google.com)
+- [Gemini API](https://ai.google.dev/gemini-api)
+
 ## Roadmap
 
 ### Training Data Pipeline
@@ -363,6 +451,16 @@ open docs/5.architecture/QUICK-START-DEVELOPER-GUIDE.md
 - [x] Qwen3 integration
 - [x] Quality validation system
 - [x] 45,000+ samples generated
+
+### AI Integration
+- [x] Complete AI documentation suite (7 comprehensive guides)
+- [x] Three approaches documented: TFLite, Firebase AI Logic, Genkit
+- [x] Integration architectures designed
+- [x] Comparison guide for choosing approach
+- [ ] Firebase AI Logic implementation (MVP approach)
+- [ ] Genkit Python backend implementation (production approach)
+- [ ] Flutter AI services integration
+- [ ] Cloud Run deployment (for Genkit)
 
 ### Flutter Game (MVP Focus)
 - [x] Master implementation plan

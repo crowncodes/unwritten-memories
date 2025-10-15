@@ -7,10 +7,10 @@ void main() {
   group('ResourcesBar', () {
     testWidgets('should display all resource values', (tester) async {
       const resources = ResourcesModel(
-        energy: 7.5,
-        money: 85.0,
-        timeRemaining: 2.0,
-        socialCapital: 10.0,
+        energy: 2,
+        money: 85,
+        timeThisWeek: 120.0,
+        socialCapital: 10,
       );
 
       await tester.pumpWidget(
@@ -21,18 +21,18 @@ void main() {
         ),
       );
 
-      expect(find.text('7.5/10.0'), findsOneWidget);
+      expect(find.text('2/3'), findsOneWidget);
       expect(find.text('\$85'), findsOneWidget);
-      expect(find.text('2.0'), findsOneWidget);
-      expect(find.text('10'), findsOneWidget);
+      expect(find.text('120.0/168h'), findsOneWidget);
+      expect(find.text('10/15'), findsOneWidget);
     });
 
     testWidgets('should display resource labels', (tester) async {
       const resources = ResourcesModel(
-        energy: 10.0,
-        money: 100.0,
-        timeRemaining: 3.0,
-        socialCapital: 0.0,
+        energy: 3,
+        money: 100,
+        timeThisWeek: 168.0,
+        socialCapital: 0,
       );
 
       await tester.pumpWidget(
@@ -51,10 +51,10 @@ void main() {
 
     testWidgets('should display resource icons', (tester) async {
       const resources = ResourcesModel(
-        energy: 5.0,
-        money: 50.0,
-        timeRemaining: 1.5,
-        socialCapital: 5.0,
+        energy: 2,
+        money: 50,
+        timeThisWeek: 80.0,
+        socialCapital: 5,
       );
 
       await tester.pumpWidget(

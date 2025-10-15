@@ -55,6 +55,46 @@ flutter devices
 flutter run -d <device_id>
 ```
 
+### Firebase Setup
+
+Unwritten uses Firebase for authentication, data storage, and security. Follow these guides to set up Firebase:
+
+#### 📚 Firebase Documentation
+
+| Guide | Purpose |
+|-------|---------|
+| [Firebase Authentication Setup](docs/FIREBASE_AUTH_SETUP.md) | Configure auth methods, emulators, and testing |
+| [Firebase App Check Setup](docs/FIREBASE_APP_CHECK_SETUP.md) | Configure security and abuse prevention |
+| [Firebase Integration Summary](docs/FIREBASE_INTEGRATION_COMPLETE.md) | Overview of all Firebase features |
+
+#### Quick Firebase Setup
+
+1. **Create Firebase Project**
+   - Go to [Firebase Console](https://console.firebase.google.com/)
+   - Create a new project or select existing one
+   - Follow the setup wizard
+
+2. **Configure FlutterFire**
+   ```bash
+   # Install FlutterFire CLI
+   dart pub global activate flutterfire_cli
+   
+   # Configure Firebase for your Flutter app
+   flutterfire configure
+   ```
+
+3. **Enable Services**
+   - **Authentication**: Enable Email/Password and Anonymous
+   - **Firestore**: Create database in your region
+   - **Storage**: Create default bucket
+   - **App Check**: Register your app and get debug tokens
+
+4. **For Local Development**
+   - Install Firebase Emulator Suite
+   - See [Firebase Auth Setup Guide](docs/FIREBASE_AUTH_SETUP.md) for details
+
+**Note**: The app will run without Firebase, but authentication and cloud features won't work. See the guides above for complete setup instructions.
+
 ---
 
 ## Project Structure

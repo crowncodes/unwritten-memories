@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:unwritten/features/game/data/models/turn_phase.dart';
+import 'package:unwritten/features/game/data/models/day_phase.dart';
 import 'package:unwritten/shared/widgets/turn_phase_indicator.dart';
 
 void main() {
@@ -12,7 +12,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 3,
               currentDay: 5,
-              currentTurn: TurnPhase.afternoon,
+              currentPhase: DayPhase.afternoon,
             ),
           ),
         ),
@@ -28,7 +28,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.morning,
+              currentPhase: DayPhase.morning,
             ),
           ),
         ),
@@ -44,7 +44,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.morning,
+              currentPhase: DayPhase.morning,
             ),
           ),
         ),
@@ -60,7 +60,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.morning,
+              currentPhase: DayPhase.morning,
             ),
           ),
         ),
@@ -76,7 +76,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.afternoon,
+              currentPhase: DayPhase.afternoon,
             ),
           ),
         ),
@@ -92,7 +92,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.evening,
+              currentPhase: DayPhase.evening,
             ),
           ),
         ),
@@ -108,7 +108,7 @@ void main() {
             body: TurnPhaseIndicator(
               currentWeek: 1,
               currentDay: 1,
-              currentTurn: TurnPhase.morning,
+              currentPhase: DayPhase.morning,
             ),
           ),
         ),

@@ -43,6 +43,8 @@ dependencies:
 
   # Audio & Haptics
   audioplayers: ^6.1.0
+  just_audio: ^0.9.37
+  audio_session: ^0.1.16
   vibration: ^3.1.4
   
   # Utilities
@@ -57,6 +59,7 @@ dependencies:
   flutter_animate: ^4.5.0
   google_fonts: ^6.2.1
   riverpod: ^3.0.3
+  firebase_app_check: ^0.4.1+1
 
 dev_dependencies:
   flutter_test:
@@ -79,4 +82,8 @@ flutter:
     - assets/data/
     - assets/images/cards/
     - assets/images/ui/
+    # Music system
+    - assets/music/cue_banks/
+    - assets/music/cues/calm_positive/
+    - assets/music/cues/melancholic_private/
 
