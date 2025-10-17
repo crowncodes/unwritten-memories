@@ -79,6 +79,24 @@ This folder contains comprehensive Flame engine documentation specifically tailo
     - Game state synchronization
     - Reactive component updates
 
+11. **[Card Interactions](./11-card-interactions.md)**
+    - Complete card drag system implementation
+    - Tap, hover, and drag gesture handling
+    - State-driven animations
+    - Audio and haptic feedback
+
+12. **[Responsive Design](./12-responsive-design.md)**
+    - Fixed resolution viewport strategy
+    - Breakpoint system for Flutter UI
+    - Mobile peek-from-edges pattern
+    - Tablet/desktop layouts
+
+13. **[Unwritten Architecture](./13-unwritten-architecture.md)** ⭐
+    - Complete game architecture overview
+    - Coordinate system (1920×1080 logical space)
+    - Component hierarchy and positioning
+    - Integration patterns and best practices
+
 ## 🎯 Performance Targets
 
 All Flame implementations must meet these targets:

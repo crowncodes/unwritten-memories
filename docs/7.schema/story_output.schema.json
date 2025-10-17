@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lifebond.dev/schemas/story_output.schema.json",
+  "title": "StoryOutput",
+  "type": "object",
+  "properties": {
+    "world": {
+      "type": "object",
+      "properties": {
+        "starting_location": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string" },
+            "enriched_description": { "type": "string" },
+            "signature_elements": { "type": "array", "items": { "type": "string" } },
+            "image_prompt": { "type": "string" }
+          },
+          "required": ["id", "enriched_description", "image_prompt"]
+        },
+        "starting_career": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string" },
+            "description": { "type": "string" }
+          },
+          "required": ["id", "description"]
+        },
+        "backstory": {
+          "type": "object",
+          "properties": {
+            "summary": { "type": "string" },
+            "motivating_memory": { "type": "string" }
+          },
+          "required": ["summary"]
+        }
+      },
+      "required": ["starting_location", "starting_career", "backstory"]
+    },
+    "arc_plan": {
+      "type": "object",
+      "properties": {
+        "season_length_weeks": { "type": "integer" },
+        "three_act": {
+          "type": "object",
+          "properties": {
+            "act1_weeks": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer" } },
+            "act2_weeks": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer" } },
+            "act3_weeks": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer" } }
+          },
+          "required": ["act1_weeks", "act2_weeks", "act3_weeks"]
+        },
+        "decisive_decisions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "title": { "type": "string" },
+              "window_weeks": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer" } },
+              "foreshadowing_weeks_before": { "type": "array", "items": { "type": "integer" } }
+            },
+            "required": ["id", "title", "window_weeks"]
+          }
+        }
+      },
+      "required": ["season_length_weeks", "three_act", "decisive_decisions"]
+    },
+    "events_plan": {
+      "type": "object",
+      "properties": {
+        "initial_weeks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "week": { "type": "integer" },
+              "event_types": { "type": "array", "items": { "type": "string" } }
+            },
+            "required": ["week", "event_types"]
+          }
+        },
+        "tension_hooks_schedule": { "type": "array", "items": { "type": "integer" } },
+        "mystery_threads": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "type": "string" },
+              "planted_week": { "type": "integer" }
+            },
+            "required": ["id", "type", "planted_week"]
+          }
+        }
+      },
+      "required": ["initial_weeks"]
+    },
+    "memory_seeds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "emotional_weight": { "type": "number" },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["title", "emotional_weight"]
+      }
+    },
+    "model": { "type": "string" },
+    "modelVersion": { "type": "string" },
+    "version": { "type": "string" },
+    "tier": { "type": "string" },
+    "prompt_hash": { "type": "string" },
+    "generation_time_ms": { "type": "integer" }
+  },
+  "required": ["world", "arc_plan", "events_plan", "memory_seeds", "model", "tier", "prompt_hash", "generation_time_ms"]
+}
+
+
+

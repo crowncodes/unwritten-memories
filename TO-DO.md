@@ -22,32 +22,32 @@
 - `@2.gameplay/21-card-evolution-mechanics.md` (Evolution triggers)
 
 **Tasks**:
-- [ ] Create `CardEvolutionResponse` model
+- [x] Create `CardEvolutionResponse` model
   - Fields: `evolvedTitle`, `narrative`, `statsChanged`, `visualDescription`, `emotionalWeight`, `evolvedDescription`, `tensionType`, `tensionDescription`, `payoffTimeline`, `tensionScore`, `hookEffectiveness`, `essenceCost`
   - Location: `app/lib/features/ai/domain/entities/card_evolution_response.dart`
 
-- [ ] Create `NovelResponse` model
+- [x] Create `NovelResponse` model
   - Fields: `title`, `novel`, `wordCount`, `threeActBreakdown`, `qualityScores`, `content`, `overallQuality`, `essenceCost`
   - Location: `app/lib/features/ai/domain/entities/novel_response.dart`
 
-- [ ] Create `AIContextPackage` (7-layer context model)
+- [x] Create `AIContextPackage` (7-layer context model)
   - Layers: Character, Relationship, Interaction, Player, World, DramaticIrony, Meta
   - Method: `toPromptString()` for serialization
   - Location: `app/lib/features/ai/domain/entities/ai_context_package.dart`
 
-- [ ] Create `AIResponse` model
+- [x] Create `AIResponse` model
   - Fields: `dialogue`, `emotion`, `behavioralCues`, `relationshipImpact`, `capacityAfter`, `qualityScore`, `tokenCount`, `generationTimeMs`
   - Location: `app/lib/features/ai/domain/entities/ai_response.dart`
 
-- [ ] Create `SubscriptionTier` enum
+- [x] Create `SubscriptionTier` enum
   - Values: `free`, `plus`, `ultimate`
   - Location: `app/lib/features/monetization/data/models/subscription_tier.dart`
 
-- [ ] Create `GenerationType` enum
+- [x] Create `GenerationType` enum
   - Values: `npc_dialogue`, `card_evolution`, `season_novel`, `narrative_beat`
   - Location: `app/lib/features/ai/domain/entities/generation_type.dart`
 
-- [ ] Fix `FirebaseAIService` missing methods
+- [x] Fix `FirebaseAIService` missing methods
   - `_getModelForTier()` - Returns Gemini model based on subscription tier
   - `_logAIRequest()` - Logs to Firebase Analytics + training data
   - `generateText()` - Wrapper for firebase_ai text generation
@@ -69,24 +69,24 @@
 - `@3.ai/30-ai-architecture-overview.md` (NPC Response Framework: OCEAN → Urgency → Trust → Capacity)
 
 ### Models
-- [ ] Fix `EmotionalCapacityModel` (already exists, needs validation)
+- [x] Fix `EmotionalCapacityModel` (already exists, needs validation)
   - Verify calculation: `(Physical + Mental + Social + Emotional) / 4 - stressorPenalties`
   - Implement capacity tiers: CRISIS (<2.0), VERY_LOW (2.0-4.0), LOW (4.0-6.0), MODERATE (6.0-8.0), HIGH (8.0-10.0)
   - Add "capacity + 2" rule for support availability
   - Location: `app/lib/features/ai/data/models/emotional_capacity.dart`
 
-- [ ] Create `StressorModel`
+- [x] Create `StressorModel`
   - 5 types: `workOverload`, `relationshipTension`, `financialPressure`, `healthConcerns`, `deadlinePressure`
   - Fields: `type`, `severity` (1-10), `penalty` (0.5-3.0), `duration` (weeks)
   - Location: `app/lib/features/game/data/models/stressor_model.dart`
 
-- [ ] Integrate capacity into `GameStateModel`
+- [x] Integrate capacity into `GameStateModel`
   - Add `EmotionalCapacityModel emotionalCapacity` field
   - Auto-calculate from life meters on each turn
   - Store active stressors
 
 ### UI
-- [ ] Create **Character State Cluster** (top-left of screen)
+- [x] Create **Character State Cluster** (top-left of screen)
   - Capacity bar (0-10, color-coded by tier: red <2, orange 2-4, yellow 4-6, green 6-8, blue 8-10)
   - Stressor list (expandable, shows type + severity)
   - Burnout indicator (visual warning when capacity < 3.0)
@@ -284,14 +284,14 @@
 - `@app/docs/packages/flutter_riverpod.md` (State management for resources)
 
 ### Models
-- [ ] Fix `ResourcesModel` to match data contract
+- [x] Fix `ResourcesModel` to match data contract
   - **CRITICAL**: `energy` is 0-3 (NOT 0-10!)
   - Fields: `money` (integer), `energy` (0-3), `timeThisWeek` (hours), `socialCapital` (0-15)
   - Energy regeneration: +8 hours per night (can overflow above 3 if player sleeps well)
   - Location: `app/lib/features/game/data/models/resources_model.dart` (already exists, needs fixing)
 
 ### UI
-- [ ] Create **Resources Cluster** (top-right of screen)
+- [x] Create **Resources Cluster** (top-right of screen)
   - Energy indicator (3 dots: filled/empty)
   - Money display with icon
   - Time remaining this week (hours)

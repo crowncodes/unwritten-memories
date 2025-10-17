@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lifebond.dev/schemas/story_input.schema.json",
+  "title": "StoryInput",
+  "type": "object",
+  "properties": {
+    "schemaVersion": { "type": "string", "default": "1.0" },
+    "seed": {
+      "type": "object",
+      "properties": {
+        "aspiration_id": { "type": "string" },
+        "season_length_weeks": { "type": "integer", "minimum": 12, "maximum": 36 },
+        "start_location_id": { "type": "string" },
+        "start_career": { "type": "string" },
+        "backstory_hint": { "type": "string" },
+        "player_profile": {
+          "type": "object",
+          "properties": {
+            "ocean": {
+              "type": "object",
+              "properties": {
+                "openness": { "type": "number", "minimum": 0, "maximum": 5 },
+                "conscientiousness": { "type": "number", "minimum": 0, "maximum": 5 },
+                "extraversion": { "type": "number", "minimum": 0, "maximum": 5 },
+                "agreeableness": { "type": "number", "minimum": 0, "maximum": 5 },
+                "neuroticism": { "type": "number", "minimum": 0, "maximum": 5 }
+              },
+              "required": ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"]
+            },
+            "capacity": { "type": "number", "minimum": 0, "maximum": 10 },
+            "meters": {
+              "type": "object",
+              "properties": {
+                "physical": { "type": "number", "minimum": 0, "maximum": 10 },
+                "mental": { "type": "number", "minimum": 0, "maximum": 10 },
+                "social": { "type": "number", "minimum": 0, "maximum": 10 },
+                "emotional": { "type": "number", "minimum": 0, "maximum": 10 }
+              }
+            }
+          },
+          "required": ["ocean", "capacity"]
+        }
+      },
+      "required": ["aspiration_id", "season_length_weeks", "start_location_id", "start_career", "player_profile"]
+    }
+  },
+  "required": ["seed"]
+}
+
+
+

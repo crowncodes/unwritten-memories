@@ -241,6 +241,65 @@ pytest tests/
 - **[data/qwen3_strategy_doc.md](data/qwen3_strategy_doc.md)** - Generation strategy
 - **[docs/](docs/)** - Game design documentation
 
+### Managing Prompts with Dotprompt (Genkit)
+
+Use Dotprompt to centralize and version prompts, models, and parameters. This keeps personas, places, and canonical modifiers consistent across generations while allowing per-call inputs.
+
+- Recommended layout:
+  - `functions/prompts/partials/persona.partial.md`
+  - `functions/prompts/partials/place.partial.md`
+  - `functions/prompts/partials/truths_modifiers.partial.md` (distill rules from `docs/master_truths_canonical_spec_v_1_2.md`)
+  - `functions/prompts/image/person_place_image.prompt` (composes partials)
+
+- Minimal prompt example (multi-message + partials):
+  ```yaml
+  model: googleai/gemini-2.5-flash-image-preview
+  input:
+    type: object
+    properties:
+      person_id: { type: string }
+      place_id: { type: string }
+      action: { type: string }
+      style_hint: { type: string, nullable: true }
+  messages:
+  - role: system
+    content: |
+      {{> persona }}
+      {{> place }}
+      {{> truths_modifiers }}
+      {{#if style_hint}}Style hint: {{style_hint}}{{/if}}
+  - role: user
+    content: |
+      Generate a single image of {{person_id}} at {{place_id}} doing: {{action}}.
+      Maintain persona likeness and place continuity; follow canonical modifiers.
+  ```
+
+- Call from a Genkit flow:
+  ```ts
+  import { genkit, z } from 'genkit';
+  import { googleAI } from '@genkit-ai/google-genai';
+  import { loadPrompt } from 'genkit/dotprompt';
+
+  const ai = genkit({ plugins: [googleAI()] });
+
+  export const generateImage = ai.defineFlow(
+    {
+      name: 'generateImage',
+      inputSchema: z.object({ person_id: z.string(), place_id: z.string(), action: z.string(), style_hint: z.string().optional() }),
+      outputSchema: z.object({ imageUri: z.string() })
+    },
+    async (input) => {
+      const prompt = await loadPrompt('functions/prompts/image/person_place_image.prompt');
+      const rendered = await prompt.render(input);
+      const { media } = await ai.generate({ model: googleAI.model('gemini-2.5-flash-image-preview'), prompt: rendered, output: { format: 'media' } });
+      if (!media?.url) throw new Error('No image produced');
+      return { imageUri: media.url };
+    }
+  );
+  ```
+
+Docs: [Managing prompts with Dotprompt](https://genkit.dev/docs/dotprompt/)
+
 ## Troubleshooting
 
 ### Ollama Issues
